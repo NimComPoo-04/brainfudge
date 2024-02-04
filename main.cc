@@ -35,16 +35,12 @@ int main(int argc, char *argv[])
 	Compiler c(&l);
 	assert(c.compile(err) == 0);
 
-	cerr << "Byte Code Dump: " << endl;
-	cerr << c.decompile()  << endl;
-
-	cerr << "Output: " << endl;
 	VM::InstructionMemory rom(c.get_instruction_memory(), c.get_instruction_memory_size());
 	VM::DataMemory ram;
 
 	VM::Cpu cpu(ram, rom);
 
-	while(cpu.fetch_decode_execute());
+	Controller::programRun(cpu, 0);
 
 	return 0;
 }
