@@ -54,10 +54,10 @@ namespace Controller
 					break;
 
 				case vm::INC_M:
-					cerr << "INC *H\t" << (int)instructions[++i];
+					cerr << "INC *H\t" << hex << noshowbase << (int)instructions[++i];
 					break;
 				case vm::DEC_M:
-					cerr << "DEC *H\t" << (int)instructions[++i];
+					cerr << "DEC *H\t" << hex << noshowbase << (int)instructions[++i];
 					break;
 
 				case vm::INC_H:
@@ -69,7 +69,7 @@ namespace Controller
 						value = (value << 8) | instructions[i + 1];
 						i += 4;
 
-						cerr << "INC  H\t" << (int)value;
+						cerr << "INC  H\t" << hex << noshowbase << value;
 					}
 					break;
 				case vm::DEC_H:
@@ -81,7 +81,7 @@ namespace Controller
 						value = (value << 8) | instructions[i + 1];
 						i += 4;
 
-						cerr << "DEC  H\t" << (int)value;
+						cerr << "DEC  H\t" << hex << noshowbase << value;
 					}
 					break;
 				case vm::JZ:
@@ -93,7 +93,7 @@ namespace Controller
 						value = (value << 8) | instructions[i + 1];
 						i += 4;
 
-						cerr << "JZ\t" << (int)value;
+						cerr << "JZ\t" << hex << noshowbase << (int)(value + i + 1);
 					}
 					break;
 				case vm::JNZ:
@@ -105,7 +105,7 @@ namespace Controller
 						value = (value << 8) | instructions[i + 1];
 						i += 4;
 
-						cerr << "JNZ\t" << (int)value;
+						cerr << "JNZ\t" << hex << noshowbase << (int)(value + i + 1);
 					}
 					break;
 
@@ -136,7 +136,7 @@ namespace Controller
 	void programRun(VM::Cpu &cpu, int debug = 0)
 	{
 		using namespace std;
-		if(debug)
+		if(debug == 1)
 		{
 			int k = 1;
 			cerr << "Debugging: " << endl;
@@ -198,6 +198,18 @@ namespace Controller
 			cerr << "Program Stopped." << endl;
 		}
 		else
+		{
 			while(programStep(cpu));
+			if(debug == 2)
+			{
+				cerr << "== Instruction Memory Dump ==" << endl;
+				memoryDump(cpu.ins_memory);
+
+				cerr << "== Data Memory Dump ==" << endl;
+				memoryDump(cpu.data_memory);
+
+				cerr << endl;
+			}
+		}
 	}
 }

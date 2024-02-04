@@ -2,6 +2,7 @@
 #define _VM_HH_
 
 #include <cinttypes>
+#include "controller.hh"
 
 namespace VM
 {
@@ -41,6 +42,9 @@ namespace VM
 		DataMemory();
 		~DataMemory();
 		int8_t &operator[](int32_t);
+
+
+		friend void Controller::memoryDump(VM::DataMemory &mem);
 	};
 
 	// Linear Memory nothing weird
@@ -53,6 +57,8 @@ namespace VM
 	public:
 		InstructionMemory(uint8_t *, size_t);
 		uint8_t operator[](uint32_t) const;
+
+		friend void Controller::memoryDump(VM::InstructionMemory &ins, size_t, size_t);
 	};
 
 	class Cpu
