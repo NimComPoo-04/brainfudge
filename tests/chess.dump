@@ -1,0 +1,4161 @@
+== Instruction Memory Dump ==
+0              INC *H	f
+2              JZ	4b
+7              INC  H	1
+c              INC *H	2
+e              INC  H	1
+13             INC *H	3
+15             INC  H	1
+1a             INC *H	3
+1c             INC  H	1
+21             INC *H	6
+23             INC  H	1
+28             INC *H	2
+2a             INC  H	1
+2f             INC *H	7
+31             INC  H	1
+36             INC *H	4
+38             INC  H	1
+3d             INC *H	1
+3f             DEC  H	8
+44             DEC *H	1
+46             JNZ	7
+4b             INC  H	2
+50             DEC *H	2
+52             OUT
+53             INC  H	1
+58             OUT
+59             OUT
+5a             OUT
+5b             OUT
+5c             OUT
+5d             OUT
+5e             OUT
+5f             DEC  H	1
+64             OUT
+65             INC  H	1
+6a             OUT
+6b             OUT
+6c             OUT
+6d             OUT
+6e             OUT
+6f             OUT
+70             OUT
+71             DEC  H	1
+76             OUT
+77             INC  H	1
+7c             OUT
+7d             OUT
+7e             OUT
+7f             OUT
+80             OUT
+81             OUT
+82             OUT
+83             DEC  H	1
+88             OUT
+89             INC  H	1
+8e             OUT
+8f             OUT
+90             OUT
+91             OUT
+92             OUT
+93             OUT
+94             OUT
+95             DEC  H	1
+9a             OUT
+9b             INC  H	1
+a0             OUT
+a1             OUT
+a2             OUT
+a3             OUT
+a4             OUT
+a5             OUT
+a6             OUT
+a7             DEC  H	1
+ac             OUT
+ad             INC  H	1
+b2             OUT
+b3             OUT
+b4             OUT
+b5             OUT
+b6             OUT
+b7             OUT
+b8             OUT
+b9             DEC  H	1
+be             OUT
+bf             INC  H	1
+c4             OUT
+c5             OUT
+c6             OUT
+c7             OUT
+c8             OUT
+c9             OUT
+ca             OUT
+cb             DEC  H	1
+d0             OUT
+d1             INC  H	1
+d6             OUT
+d7             OUT
+d8             OUT
+d9             OUT
+da             OUT
+db             OUT
+dc             OUT
+dd             DEC  H	1
+e2             OUT
+e3             INC  H	6
+e8             DEC *H	5
+ea             OUT
+eb             DEC  H	2
+f0             INC *H	13
+f2             OUT
+f3             DEC  H	1
+f8             INC *H	2
+fa             OUT
+fb             DEC  H	1
+100            INC *H	1
+102            OUT
+103            INC *H	4
+105            OUT
+106            INC  H	2
+10b            OUT
+10c            DEC  H	2
+111            OUT
+112            DEC *H	2
+114            OUT
+115            INC  H	1
+11a            OUT
+11b            INC  H	1
+120            OUT
+121            INC  H	1
+126            DEC *H	2
+128            OUT
+129            OUT
+12a            DEC  H	3
+12f            INC *H	2
+131            OUT
+132            DEC  H	1
+137            DEC *H	1
+139            OUT
+13a            INC *H	3
+13c            OUT
+13d            INC  H	3
+142            OUT
+143            INC  H	1
+148            OUT
+149            DEC  H	1
+14e            OUT
+14f            DEC  H	1
+154            OUT
+155            OUT
+156            DEC  H	2
+15b            OUT
+15c            INC  H	1
+161            DEC *H	3
+163            OUT
+164            OUT
+165            INC  H	1
+16a            OUT
+16b            OUT
+16c            INC  H	1
+171            OUT
+172            INC  H	1
+177            OUT
+178            OUT
+179            DEC  H	3
+17e            OUT
+17f            INC  H	2
+184            OUT
+185            DEC  H	3
+18a            OUT
+18b            INC  H	4
+190            OUT
+191            OUT
+192            DEC  H	1
+197            OUT
+198            DEC  H	1
+19d            OUT
+19e            OUT
+19f            DEC  H	1
+1a4            OUT
+1a5            DEC  H	2
+1aa            OUT
+1ab            INC  H	1
+1b0            OUT
+1b1            INC  H	2
+1b6            OUT
+1b7            OUT
+1b8            INC  H	1
+1bd            OUT
+1be            INC  H	1
+1c3            OUT
+1c4            OUT
+1c5            DEC  H	4
+1ca            OUT
+1cb            INC  H	1
+1d0            OUT
+1d1            OUT
+1d2            INC  H	3
+1d7            OUT
+1d8            OUT
+1d9            DEC  H	1
+1de            OUT
+1df            DEC  H	1
+1e4            OUT
+1e5            OUT
+1e6            DEC  H	1
+1eb            INC *H	3
+1ed            OUT
+1ee            DEC  H	2
+1f3            INC *H	1
+1f5            OUT
+1f6            INC  H	1
+1fb            OUT
+1fc            INC  H	3
+201            OUT
+202            DEC  H	1
+207            OUT
+208            INC  H	1
+20d            OUT
+20e            INC  H	1
+213            OUT
+214            DEC  H	3
+219            DEC *H	4
+21b            OUT
+21c            INC *H	4
+21e            OUT
+21f            INC  H	2
+224            OUT
+225            DEC  H	2
+22a            OUT
+22b            DEC *H	2
+22d            OUT
+22e            INC  H	3
+233            OUT
+234            DEC  H	1
+239            OUT
+23a            INC  H	2
+23f            OUT
+240            DEC  H	2
+245            OUT
+246            DEC  H	1
+24b            OUT
+24c            OUT
+24d            DEC  H	1
+252            DEC *H	2
+254            OUT
+255            DEC  H	3
+25a            INC *H	5
+25c            OUT
+25d            INC  H	3
+262            INC *H	2
+264            OUT
+265            INC  H	1
+26a            OUT
+26b            OUT
+26c            INC  H	1
+271            OUT
+272            INC  H	1
+277            OUT
+278            DEC  H	4
+27d            OUT
+27e            INC  H	1
+283            INC *H	2
+285            OUT
+286            DEC  H	3
+28b            OUT
+28c            INC  H	1
+291            DEC *H	3
+293            OUT
+294            INC  H	2
+299            DEC *H	3
+29b            OUT
+29c            INC  H	3
+2a1            OUT
+2a2            DEC  H	1
+2a7            OUT
+2a8            DEC  H	1
+2ad            OUT
+2ae            OUT
+2af            DEC  H	1
+2b4            OUT
+2b5            DEC  H	3
+2ba            OUT
+2bb            INC  H	1
+2c0            INC  H	1
+2c5            OUT
+2c6            INC  H	2
+2cb            OUT
+2cc            OUT
+2cd            INC  H	1
+2d2            OUT
+2d3            INC  H	1
+2d8            OUT
+2d9            OUT
+2da            DEC  H	5
+2df            DEC *H	1
+2e1            OUT
+2e2            DEC  H	1
+2e7            OUT
+2e8            INC  H	1
+2ed            INC *H	1
+2ef            OUT
+2f0            INC  H	5
+2f5            OUT
+2f6            OUT
+2f7            DEC  H	1
+2fc            OUT
+2fd            DEC  H	1
+302            OUT
+303            OUT
+304            INC  H	1
+309            DEC *H	1
+30b            OUT
+30c            DEC  H	1
+311            INC *H	3
+313            OUT
+314            INC  H	1
+319            INC *H	2
+31b            OUT
+31c            DEC  H	1
+321            DEC *H	3
+323            OUT
+324            OUT
+325            INC  H	1
+32a            DEC *H	1
+32c            OUT
+32d            INC  H	1
+332            OUT
+333            OUT
+334            DEC  H	3
+339            OUT
+33a            DEC  H	3
+33f            OUT
+340            INC  H	2
+345            OUT
+346            INC  H	2
+34b            INC  H	2
+350            OUT
+351            OUT
+352            DEC  H	1
+357            OUT
+358            DEC  H	1
+35d            OUT
+35e            DEC  H	2
+363            OUT
+364            INC  H	1
+369            INC *H	3
+36b            OUT
+36c            DEC  H	3
+371            OUT
+372            INC  H	1
+377            OUT
+378            INC  H	2
+37d            DEC *H	3
+37f            OUT
+380            INC  H	1
+385            OUT
+386            INC  H	1
+38b            OUT
+38c            INC  H	1
+391            OUT
+392            OUT
+393            DEC  H	3
+398            DEC *H	1
+39a            OUT
+39b            DEC  H	3
+3a0            OUT
+3a1            INC  H	3
+3a6            INC *H	2
+3a8            OUT
+3a9            INC  H	3
+3ae            OUT
+3af            OUT
+3b0            DEC  H	1
+3b5            OUT
+3b6            INC  H	2
+3bb            OUT
+3bc            DEC  H	2
+3c1            OUT
+3c2            DEC  H	1
+3c7            OUT
+3c8            OUT
+3c9            DEC  H	1
+3ce            DEC *H	2
+3d0            OUT
+3d1            DEC  H	2
+3d6            DEC  H	1
+3db            OUT
+3dc            INC  H	3
+3e1            INC *H	2
+3e3            OUT
+3e4            INC  H	1
+3e9            OUT
+3ea            OUT
+3eb            INC  H	1
+3f0            OUT
+3f1            INC  H	1
+3f6            OUT
+3f7            OUT
+3f8            DEC  H	4
+3fd            OUT
+3fe            DEC  H	2
+403            OUT
+404            INC  H	3
+409            DEC *H	1
+40b            OUT
+40c            OUT
+40d            INC  H	3
+412            OUT
+413            DEC  H	1
+418            OUT
+419            DEC  H	1
+41e            OUT
+41f            OUT
+420            DEC  H	3
+425            DEC *H	1
+427            OUT
+428            DEC  H	1
+42d            OUT
+42e            INC  H	1
+433            INC *H	1
+435            OUT
+436            INC  H	3
+43b            OUT
+43c            OUT
+43d            INC  H	1
+442            OUT
+443            INC  H	1
+448            OUT
+449            OUT
+44a            DEC  H	5
+44f            DEC *H	1
+451            OUT
+452            DEC  H	1
+457            OUT
+458            INC  H	1
+45d            INC *H	1
+45f            OUT
+460            INC  H	1
+465            INC  H	4
+46a            OUT
+46b            OUT
+46c            DEC  H	1
+471            OUT
+472            DEC  H	1
+477            OUT
+478            OUT
+479            INC  H	1
+47e            DEC *H	1
+480            OUT
+481            DEC  H	1
+486            INC *H	3
+488            OUT
+489            INC  H	1
+48e            INC *H	2
+490            OUT
+491            DEC  H	1
+496            DEC *H	3
+498            OUT
+499            OUT
+49a            INC  H	1
+49f            DEC *H	1
+4a1            OUT
+4a2            INC  H	1
+4a7            OUT
+4a8            OUT
+4a9            DEC  H	5
+4ae            DEC *H	1
+4b0            OUT
+4b1            DEC  H	1
+4b6            OUT
+4b7            INC  H	1
+4bc            INC *H	1
+4be            OUT
+4bf            INC  H	5
+4c4            OUT
+4c5            OUT
+4c6            DEC  H	1
+4cb            OUT
+4cc            DEC  H	1
+4d1            OUT
+4d2            OUT
+4d3            DEC  H	2
+4d8            OUT
+4d9            DEC  H	2
+4de            OUT
+4df            INC  H	3
+4e4            OUT
+4e5            OUT
+4e6            INC  H	1
+4eb            OUT
+4ec            INC  H	1
+4f1            OUT
+4f2            INC  H	1
+4f7            OUT
+4f8            OUT
+4f9            DEC  H	3
+4fe            DEC *H	1
+500            OUT
+501            DEC  H	3
+506            OUT
+507            INC  H	3
+50c            INC *H	2
+50e            OUT
+50f            INC  H	3
+514            OUT
+515            OUT
+516            DEC  H	1
+51b            OUT
+51c            INC  H	2
+521            OUT
+522            DEC  H	2
+527            OUT
+528            DEC  H	1
+52d            OUT
+52e            DEC  H	3
+533            DEC *H	1
+535            OUT
+536            DEC  H	1
+53b            OUT
+53c            OUT
+53d            OUT
+53e            INC  H	1
+543            INC *H	1
+545            OUT
+546            INC  H	3
+54b            OUT
+54c            INC  H	1
+551            OUT
+552            INC  H	1
+557            OUT
+558            DEC  H	5
+55d            DEC *H	1
+55f            OUT
+560            DEC  H	1
+565            OUT
+566            OUT
+567            OUT
+568            INC  H	1
+56d            INC *H	1
+56f            OUT
+570            INC  H	3
+575            INC  H	2
+57a            OUT
+57b            DEC  H	1
+580            OUT
+581            DEC  H	1
+586            OUT
+587            DEC  H	3
+58c            DEC *H	1
+58e            OUT
+58f            DEC  H	1
+594            OUT
+595            OUT
+596            OUT
+597            INC  H	1
+59c            INC *H	1
+59e            OUT
+59f            INC  H	3
+5a4            OUT
+5a5            INC  H	1
+5aa            OUT
+5ab            INC  H	1
+5b0            OUT
+5b1            DEC  H	5
+5b6            DEC *H	1
+5b8            OUT
+5b9            DEC  H	1
+5be            OUT
+5bf            OUT
+5c0            OUT
+5c1            INC  H	1
+5c6            INC *H	1
+5c8            OUT
+5c9            INC  H	5
+5ce            OUT
+5cf            DEC  H	1
+5d4            OUT
+5d5            DEC  H	1
+5da            OUT
+5db            DEC  H	3
+5e0            DEC *H	1
+5e2            OUT
+5e3            DEC  H	1
+5e8            OUT
+5e9            OUT
+5ea            OUT
+5eb            INC  H	1
+5f0            INC *H	1
+5f2            OUT
+5f3            INC  H	3
+5f8            OUT
+5f9            INC  H	1
+5fe            OUT
+5ff            INC  H	1
+604            OUT
+605            DEC  H	1
+60a            DEC  H	4
+60f            DEC *H	1
+611            OUT
+612            DEC  H	1
+617            OUT
+618            OUT
+619            OUT
+61a            INC  H	1
+61f            INC *H	1
+621            OUT
+622            INC  H	5
+627            OUT
+628            DEC  H	1
+62d            OUT
+62e            DEC  H	1
+633            OUT
+634            DEC  H	3
+639            DEC *H	1
+63b            OUT
+63c            DEC  H	1
+641            OUT
+642            OUT
+643            OUT
+644            INC  H	1
+649            INC *H	1
+64b            OUT
+64c            INC  H	3
+651            OUT
+652            INC  H	1
+657            OUT
+658            INC  H	1
+65d            OUT
+65e            DEC  H	5
+663            DEC *H	1
+665            OUT
+666            DEC  H	1
+66b            OUT
+66c            OUT
+66d            OUT
+66e            INC  H	1
+673            INC *H	1
+675            OUT
+676            INC  H	5
+67b            OUT
+67c            DEC  H	1
+681            OUT
+682            INC  H	2
+687            OUT
+688            DEC  H	4
+68d            DEC  H	2
+692            INC *H	2
+694            OUT
+695            INC  H	1
+69a            DEC *H	2
+69c            OUT
+69d            OUT
+69e            OUT
+69f            OUT
+6a0            OUT
+6a1            OUT
+6a2            OUT
+6a3            DEC  H	1
+6a8            OUT
+6a9            INC  H	1
+6ae            OUT
+6af            OUT
+6b0            OUT
+6b1            OUT
+6b2            OUT
+6b3            OUT
+6b4            OUT
+6b5            DEC  H	1
+6ba            OUT
+6bb            INC  H	1
+6c0            OUT
+6c1            OUT
+6c2            OUT
+6c3            OUT
+6c4            OUT
+6c5            OUT
+6c6            OUT
+6c7            DEC  H	1
+6cc            OUT
+6cd            INC  H	1
+6d2            OUT
+6d3            OUT
+6d4            OUT
+6d5            OUT
+6d6            OUT
+6d7            OUT
+6d8            OUT
+6d9            DEC  H	1
+6de            OUT
+6df            INC  H	1
+6e4            OUT
+6e5            OUT
+6e6            OUT
+6e7            OUT
+6e8            OUT
+6e9            OUT
+6ea            OUT
+6eb            DEC  H	1
+6f0            OUT
+6f1            INC  H	1
+6f6            OUT
+6f7            OUT
+6f8            OUT
+6f9            OUT
+6fa            OUT
+6fb            OUT
+6fc            OUT
+6fd            DEC  H	1
+702            OUT
+703            INC  H	1
+708            OUT
+709            OUT
+70a            OUT
+70b            OUT
+70c            OUT
+70d            OUT
+70e            OUT
+70f            DEC  H	1
+714            OUT
+715            INC  H	1
+71a            OUT
+71b            OUT
+71c            OUT
+71d            OUT
+71e            OUT
+71f            OUT
+720            OUT
+721            DEC  H	1
+726            OUT
+727            INC  H	6
+72c            OUT
+72d            DEC  H	2
+732            OUT
+733            INC  H	1
+738            OUT
+739            OUT
+73a            OUT
+73b            OUT
+73c            OUT
+73d            OUT
+73e            OUT
+73f            DEC  H	1
+744            OUT
+745            DEC  H	1
+74a            OUT
+74b            OUT
+74c            OUT
+74d            DEC  H	1
+752            INC *H	2
+754            OUT
+755            INC  H	1
+75a            OUT
+75b            OUT
+75c            OUT
+75d            INC  H	1
+762            OUT
+763            INC  H	1
+768            OUT
+769            OUT
+76a            OUT
+76b            OUT
+76c            OUT
+76d            OUT
+76e            OUT
+76f            DEC  H	1
+774            OUT
+775            DEC  H	1
+77a            OUT
+77b            OUT
+77c            OUT
+77d            DEC  H	1
+782            OUT
+783            INC  H	1
+788            OUT
+789            OUT
+78a            OUT
+78b            INC  H	1
+790            OUT
+791            INC  H	1
+796            OUT
+797            OUT
+798            OUT
+799            OUT
+79a            OUT
+79b            OUT
+79c            OUT
+79d            DEC  H	1
+7a2            OUT
+7a3            DEC  H	1
+7a8            OUT
+7a9            OUT
+7aa            OUT
+7ab            DEC  H	1
+7b0            OUT
+7b1            INC  H	1
+7b6            OUT
+7b7            OUT
+7b8            OUT
+7b9            INC  H	1
+7be            OUT
+7bf            INC  H	1
+7c4            OUT
+7c5            OUT
+7c6            OUT
+7c7            OUT
+7c8            OUT
+7c9            OUT
+7ca            OUT
+7cb            DEC  H	1
+7d0            OUT
+7d1            DEC  H	1
+7d6            OUT
+7d7            OUT
+7d8            OUT
+7d9            DEC  H	1
+7de            OUT
+7df            INC  H	1
+7e4            OUT
+7e5            OUT
+7e6            OUT
+7e7            INC  H	1
+7ec            OUT
+7ed            INC  H	2
+7f2            OUT
+7f3            DEC  H	2
+7f8            OUT
+7f9            INC  H	1
+7fe            OUT
+7ff            OUT
+800            DEC  H	5
+805            DEC *H	3
+807            OUT
+808            DEC  H	1
+80d            OUT
+80e            INC  H	1
+813            INC *H	1
+815            OUT
+816            INC  H	5
+81b            OUT
+81c            OUT
+81d            DEC  H	1
+822            OUT
+823            DEC  H	1
+828            OUT
+829            OUT
+82a            DEC  H	3
+82f            DEC *H	1
+831            OUT
+832            DEC  H	1
+837            OUT
+838            INC  H	1
+83d            INC *H	1
+83f            OUT
+840            INC  H	3
+845            OUT
+846            OUT
+847            INC  H	1
+84c            OUT
+84d            INC  H	1
+852            OUT
+853            OUT
+854            DEC  H	5
+859            DEC *H	1
+85b            OUT
+85c            DEC  H	1
+861            OUT
+862            INC  H	1
+867            INC *H	1
+869            OUT
+86a            INC  H	5
+86f            OUT
+870            OUT
+871            DEC  H	1
+876            OUT
+877            DEC  H	1
+87c            OUT
+87d            OUT
+87e            DEC  H	3
+883            DEC *H	1
+885            OUT
+886            DEC  H	1
+88b            OUT
+88c            INC  H	1
+891            INC *H	1
+893            OUT
+894            INC  H	3
+899            OUT
+89a            OUT
+89b            INC  H	1
+8a0            OUT
+8a1            INC  H	1
+8a6            OUT
+8a7            OUT
+8a8            DEC  H	2
+8ad            DEC  H	3
+8b2            DEC *H	1
+8b4            OUT
+8b5            DEC  H	1
+8ba            OUT
+8bb            INC  H	1
+8c0            INC *H	1
+8c2            OUT
+8c3            INC  H	5
+8c8            OUT
+8c9            OUT
+8ca            DEC  H	1
+8cf            OUT
+8d0            DEC  H	1
+8d5            OUT
+8d6            OUT
+8d7            DEC  H	3
+8dc            DEC *H	1
+8de            OUT
+8df            DEC  H	1
+8e4            OUT
+8e5            INC  H	1
+8ea            INC *H	1
+8ec            OUT
+8ed            INC  H	3
+8f2            OUT
+8f3            OUT
+8f4            INC  H	1
+8f9            OUT
+8fa            INC  H	1
+8ff            OUT
+900            OUT
+901            DEC  H	5
+906            DEC *H	1
+908            OUT
+909            DEC  H	1
+90e            OUT
+90f            INC  H	1
+914            INC *H	1
+916            OUT
+917            INC  H	5
+91c            OUT
+91d            OUT
+91e            DEC  H	1
+923            OUT
+924            DEC  H	1
+929            OUT
+92a            OUT
+92b            DEC  H	3
+930            DEC *H	1
+932            OUT
+933            DEC  H	1
+938            OUT
+939            INC  H	1
+93e            INC *H	1
+940            OUT
+941            INC  H	3
+946            OUT
+947            OUT
+948            INC  H	1
+94d            OUT
+94e            INC  H	2
+953            OUT
+954            DEC  H	2
+959            OUT
+95a            INC  H	1
+95f            OUT
+960            OUT
+961            DEC  H	4
+966            INC *H	2
+968            OUT
+969            DEC  H	2
+96e            OUT
+96f            INC  H	3
+974            DEC *H	3
+976            OUT
+977            INC  H	3
+97c            OUT
+97d            OUT
+97e            DEC  H	1
+983            OUT
+984            DEC  H	1
+989            OUT
+98a            OUT
+98b            DEC  H	2
+990            OUT
+991            DEC  H	2
+996            OUT
+997            INC  H	3
+99c            OUT
+99d            INC  H	1
+9a2            OUT
+9a3            OUT
+9a4            INC  H	1
+9a9            OUT
+9aa            INC  H	1
+9af            OUT
+9b0            OUT
+9b1            DEC  H	4
+9b6            OUT
+9b7            DEC  H	2
+9bc            OUT
+9bd            INC  H	3
+9c2            OUT
+9c3            INC  H	3
+9c8            OUT
+9c9            OUT
+9ca            DEC  H	1
+9cf            OUT
+9d0            DEC  H	1
+9d5            OUT
+9d6            OUT
+9d7            DEC  H	2
+9dc            OUT
+9dd            DEC  H	2
+9e2            OUT
+9e3            INC  H	3
+9e8            OUT
+9e9            INC  H	1
+9ee            OUT
+9ef            OUT
+9f0            INC  H	1
+9f5            OUT
+9f6            INC  H	1
+9fb            OUT
+9fc            OUT
+9fd            DEC  H	4
+a02            OUT
+a03            DEC  H	2
+a08            OUT
+a09            INC  H	3
+a0e            OUT
+a0f            INC  H	3
+a14            OUT
+a15            OUT
+a16            DEC  H	1
+a1b            OUT
+a1c            DEC  H	1
+a21            OUT
+a22            OUT
+a23            DEC  H	2
+a28            OUT
+a29            DEC  H	2
+a2e            OUT
+a2f            INC  H	3
+a34            OUT
+a35            INC  H	1
+a3a            OUT
+a3b            OUT
+a3c            INC  H	1
+a41            OUT
+a42            INC  H	1
+a47            OUT
+a48            OUT
+a49            DEC  H	4
+a4e            OUT
+a4f            DEC  H	2
+a54            OUT
+a55            INC  H	3
+a5a            OUT
+a5b            INC  H	3
+a60            OUT
+a61            OUT
+a62            DEC  H	1
+a67            OUT
+a68            DEC  H	1
+a6d            OUT
+a6e            OUT
+a6f            DEC  H	2
+a74            OUT
+a75            DEC  H	2
+a7a            OUT
+a7b            INC  H	3
+a80            OUT
+a81            INC  H	1
+a86            OUT
+a87            OUT
+a88            INC  H	1
+a8d            OUT
+a8e            INC  H	2
+a93            OUT
+a94            DEC  H	2
+a99            OUT
+a9a            INC  H	1
+a9f            OUT
+aa0            DEC  H	5
+aa5            DEC *H	1
+aa7            OUT
+aa8            DEC  H	1
+aad            OUT
+aae            OUT
+aaf            OUT
+ab0            INC  H	1
+ab5            INC *H	1
+ab7            OUT
+ab8            INC  H	5
+abd            OUT
+abe            DEC  H	1
+ac3            OUT
+ac4            DEC  H	1
+ac9            OUT
+aca            DEC  H	2
+acf            DEC  H	1
+ad4            DEC *H	1
+ad6            OUT
+ad7            DEC  H	1
+adc            OUT
+add            OUT
+ade            OUT
+adf            INC  H	1
+ae4            INC *H	1
+ae6            OUT
+ae7            INC  H	3
+aec            OUT
+aed            INC  H	1
+af2            OUT
+af3            INC  H	1
+af8            OUT
+af9            DEC  H	5
+afe            DEC *H	1
+b00            OUT
+b01            DEC  H	1
+b06            OUT
+b07            OUT
+b08            OUT
+b09            INC  H	1
+b0e            INC *H	1
+b10            OUT
+b11            INC  H	5
+b16            OUT
+b17            DEC  H	1
+b1c            OUT
+b1d            DEC  H	1
+b22            OUT
+b23            DEC  H	3
+b28            DEC *H	1
+b2a            OUT
+b2b            DEC  H	1
+b30            OUT
+b31            OUT
+b32            OUT
+b33            INC  H	1
+b38            INC *H	1
+b3a            OUT
+b3b            INC  H	3
+b40            OUT
+b41            INC  H	1
+b46            OUT
+b47            INC  H	1
+b4c            OUT
+b4d            DEC  H	5
+b52            DEC *H	1
+b54            OUT
+b55            DEC  H	1
+b5a            OUT
+b5b            OUT
+b5c            OUT
+b5d            INC  H	1
+b62            INC *H	1
+b64            OUT
+b65            INC  H	5
+b6a            OUT
+b6b            DEC  H	1
+b70            OUT
+b71            DEC  H	1
+b76            OUT
+b77            DEC  H	3
+b7c            DEC *H	1
+b7e            OUT
+b7f            DEC  H	1
+b84            OUT
+b85            OUT
+b86            OUT
+b87            INC  H	1
+b8c            INC *H	1
+b8e            OUT
+b8f            INC  H	3
+b94            OUT
+b95            INC  H	1
+b9a            OUT
+b9b            INC  H	1
+ba0            OUT
+ba1            DEC  H	5
+ba6            DEC *H	1
+ba8            OUT
+ba9            DEC  H	1
+bae            OUT
+baf            OUT
+bb0            OUT
+bb1            INC  H	1
+bb6            INC *H	1
+bb8            OUT
+bb9            INC  H	5
+bbe            OUT
+bbf            DEC  H	1
+bc4            OUT
+bc5            DEC  H	1
+bca            OUT
+bcb            DEC  H	3
+bd0            DEC *H	1
+bd2            OUT
+bd3            DEC  H	1
+bd8            OUT
+bd9            OUT
+bda            OUT
+bdb            INC  H	1
+be0            INC *H	1
+be2            OUT
+be3            INC  H	2
+be8            INC  H	1
+bed            OUT
+bee            INC  H	1
+bf3            OUT
+bf4            INC  H	2
+bf9            OUT
+bfa            DEC  H	6
+bff            INC *H	2
+c01            OUT
+c02            INC  H	1
+c07            DEC *H	2
+c09            OUT
+c0a            OUT
+c0b            OUT
+c0c            OUT
+c0d            OUT
+c0e            OUT
+c0f            OUT
+c10            DEC  H	1
+c15            OUT
+c16            INC  H	1
+c1b            OUT
+c1c            OUT
+c1d            OUT
+c1e            OUT
+c1f            OUT
+c20            OUT
+c21            OUT
+c22            DEC  H	1
+c27            OUT
+c28            INC  H	1
+c2d            OUT
+c2e            OUT
+c2f            OUT
+c30            OUT
+c31            OUT
+c32            OUT
+c33            OUT
+c34            DEC  H	1
+c39            OUT
+c3a            INC  H	1
+c3f            OUT
+c40            OUT
+c41            OUT
+c42            OUT
+c43            OUT
+c44            OUT
+c45            OUT
+c46            DEC  H	1
+c4b            OUT
+c4c            INC  H	1
+c51            OUT
+c52            OUT
+c53            OUT
+c54            OUT
+c55            OUT
+c56            OUT
+c57            OUT
+c58            DEC  H	1
+c5d            OUT
+c5e            INC  H	1
+c63            OUT
+c64            OUT
+c65            OUT
+c66            OUT
+c67            OUT
+c68            OUT
+c69            OUT
+c6a            DEC  H	1
+c6f            OUT
+c70            INC  H	1
+c75            OUT
+c76            OUT
+c77            OUT
+c78            OUT
+c79            OUT
+c7a            OUT
+c7b            OUT
+c7c            DEC  H	1
+c81            OUT
+c82            INC  H	1
+c87            OUT
+c88            OUT
+c89            OUT
+c8a            OUT
+c8b            OUT
+c8c            OUT
+c8d            OUT
+c8e            DEC  H	1
+c93            OUT
+c94            INC  H	6
+c99            OUT
+c9a            DEC  H	2
+c9f            OUT
+ca0            DEC  H	1
+ca5            OUT
+ca6            OUT
+ca7            OUT
+ca8            OUT
+ca9            OUT
+caa            OUT
+cab            OUT
+cac            INC  H	1
+cb1            OUT
+cb2            INC  H	1
+cb7            OUT
+cb8            OUT
+cb9            OUT
+cba            OUT
+cbb            OUT
+cbc            OUT
+cbd            OUT
+cbe            DEC  H	1
+cc3            OUT
+cc4            DEC  H	1
+cc9            OUT
+cca            OUT
+ccb            OUT
+ccc            OUT
+ccd            OUT
+cce            OUT
+ccf            OUT
+cd0            INC  H	1
+cd5            OUT
+cd6            INC  H	1
+cdb            OUT
+cdc            OUT
+cdd            OUT
+cde            OUT
+cdf            OUT
+ce0            OUT
+ce1            OUT
+ce2            DEC  H	1
+ce7            OUT
+ce8            DEC  H	1
+ced            OUT
+cee            OUT
+cef            OUT
+cf0            OUT
+cf1            OUT
+cf2            OUT
+cf3            OUT
+cf4            INC  H	1
+cf9            OUT
+cfa            INC  H	1
+cff            OUT
+d00            OUT
+d01            OUT
+d02            OUT
+d03            OUT
+d04            OUT
+d05            OUT
+d06            DEC  H	1
+d0b            OUT
+d0c            DEC  H	1
+d11            OUT
+d12            OUT
+d13            OUT
+d14            OUT
+d15            OUT
+d16            OUT
+d17            OUT
+d18            INC  H	1
+d1d            OUT
+d1e            INC  H	1
+d23            OUT
+d24            OUT
+d25            OUT
+d26            OUT
+d27            OUT
+d28            OUT
+d29            OUT
+d2a            DEC  H	1
+d2f            OUT
+d30            INC  H	2
+d35            OUT
+d36            DEC  H	2
+d3b            OUT
+d3c            DEC  H	1
+d41            OUT
+d42            OUT
+d43            OUT
+d44            OUT
+d45            OUT
+d46            OUT
+d47            OUT
+d48            INC  H	1
+d4d            OUT
+d4e            INC  H	1
+d53            OUT
+d54            OUT
+d55            OUT
+d56            OUT
+d57            OUT
+d58            OUT
+d59            OUT
+d5a            DEC  H	1
+d5f            OUT
+d60            DEC  H	1
+d65            OUT
+d66            OUT
+d67            OUT
+d68            OUT
+d69            OUT
+d6a            OUT
+d6b            OUT
+d6c            INC  H	1
+d71            OUT
+d72            INC  H	1
+d77            OUT
+d78            OUT
+d79            OUT
+d7a            OUT
+d7b            OUT
+d7c            OUT
+d7d            OUT
+d7e            DEC  H	1
+d83            OUT
+d84            DEC  H	1
+d89            OUT
+d8a            OUT
+d8b            OUT
+d8c            OUT
+d8d            OUT
+d8e            OUT
+d8f            OUT
+d90            INC  H	1
+d95            OUT
+d96            INC  H	1
+d9b            OUT
+d9c            OUT
+d9d            OUT
+d9e            OUT
+d9f            OUT
+da0            OUT
+da1            OUT
+da2            DEC  H	1
+da7            OUT
+da8            DEC  H	1
+dad            OUT
+dae            OUT
+daf            OUT
+db0            OUT
+db1            OUT
+db2            OUT
+db3            OUT
+db4            INC  H	1
+db9            OUT
+dba            INC  H	1
+dbf            OUT
+dc0            OUT
+dc1            OUT
+dc2            OUT
+dc3            OUT
+dc4            OUT
+dc5            OUT
+dc6            DEC  H	1
+dcb            OUT
+dcc            INC  H	2
+dd1            OUT
+dd2            DEC  H	2
+dd7            OUT
+dd8            DEC  H	1
+ddd            OUT
+dde            OUT
+ddf            OUT
+de0            OUT
+de1            OUT
+de2            OUT
+de3            OUT
+de4            INC  H	1
+de9            OUT
+dea            INC  H	1
+def            OUT
+df0            OUT
+df1            OUT
+df2            OUT
+df3            OUT
+df4            OUT
+df5            OUT
+df6            DEC  H	1
+dfb            OUT
+dfc            DEC  H	1
+e01            OUT
+e02            OUT
+e03            OUT
+e04            OUT
+e05            OUT
+e06            OUT
+e07            OUT
+e08            INC  H	1
+e0d            OUT
+e0e            INC  H	1
+e13            OUT
+e14            OUT
+e15            OUT
+e16            OUT
+e17            OUT
+e18            OUT
+e19            OUT
+e1a            DEC  H	1
+e1f            OUT
+e20            DEC  H	1
+e25            OUT
+e26            OUT
+e27            OUT
+e28            OUT
+e29            OUT
+e2a            OUT
+e2b            OUT
+e2c            INC  H	1
+e31            OUT
+e32            INC  H	1
+e37            OUT
+e38            OUT
+e39            OUT
+e3a            OUT
+e3b            OUT
+e3c            OUT
+e3d            OUT
+e3e            DEC  H	1
+e43            OUT
+e44            DEC  H	1
+e49            OUT
+e4a            OUT
+e4b            OUT
+e4c            OUT
+e4d            OUT
+e4e            OUT
+e4f            OUT
+e50            INC  H	1
+e55            OUT
+e56            INC  H	1
+e5b            OUT
+e5c            OUT
+e5d            OUT
+e5e            OUT
+e5f            OUT
+e60            OUT
+e61            OUT
+e62            DEC  H	1
+e67            OUT
+e68            INC  H	2
+e6d            OUT
+e6e            DEC  H	2
+e73            OUT
+e74            DEC  H	1
+e79            OUT
+e7a            OUT
+e7b            OUT
+e7c            OUT
+e7d            OUT
+e7e            OUT
+e7f            OUT
+e80            INC  H	1
+e85            OUT
+e86            INC  H	1
+e8b            OUT
+e8c            OUT
+e8d            OUT
+e8e            OUT
+e8f            OUT
+e90            OUT
+e91            OUT
+e92            DEC  H	1
+e97            OUT
+e98            DEC  H	1
+e9d            OUT
+e9e            OUT
+e9f            OUT
+ea0            OUT
+ea1            OUT
+ea2            OUT
+ea3            OUT
+ea4            INC  H	1
+ea9            OUT
+eaa            INC  H	1
+eaf            OUT
+eb0            OUT
+eb1            OUT
+eb2            OUT
+eb3            OUT
+eb4            OUT
+eb5            OUT
+eb6            DEC  H	1
+ebb            OUT
+ebc            DEC  H	1
+ec1            OUT
+ec2            OUT
+ec3            OUT
+ec4            OUT
+ec5            OUT
+ec6            OUT
+ec7            OUT
+ec8            INC  H	1
+ecd            OUT
+ece            INC  H	1
+ed3            OUT
+ed4            OUT
+ed5            OUT
+ed6            OUT
+ed7            OUT
+ed8            OUT
+ed9            OUT
+eda            DEC  H	1
+edf            OUT
+ee0            DEC  H	1
+ee5            OUT
+ee6            OUT
+ee7            OUT
+ee8            OUT
+ee9            OUT
+eea            OUT
+eeb            OUT
+eec            INC  H	1
+ef1            OUT
+ef2            INC  H	1
+ef7            OUT
+ef8            OUT
+ef9            OUT
+efa            OUT
+efb            OUT
+efc            OUT
+efd            OUT
+efe            DEC  H	1
+f03            OUT
+f04            INC  H	2
+f09            OUT
+f0a            DEC  H	6
+f0f            OUT
+f10            INC  H	1
+f15            OUT
+f16            OUT
+f17            OUT
+f18            OUT
+f19            OUT
+f1a            OUT
+f1b            OUT
+f1c            DEC  H	1
+f21            OUT
+f22            INC  H	1
+f27            OUT
+f28            OUT
+f29            OUT
+f2a            OUT
+f2b            OUT
+f2c            OUT
+f2d            OUT
+f2e            DEC  H	1
+f33            OUT
+f34            INC  H	1
+f39            OUT
+f3a            OUT
+f3b            OUT
+f3c            OUT
+f3d            OUT
+f3e            OUT
+f3f            OUT
+f40            DEC  H	1
+f45            OUT
+f46            INC  H	1
+f4b            OUT
+f4c            OUT
+f4d            OUT
+f4e            OUT
+f4f            OUT
+f50            OUT
+f51            OUT
+f52            DEC  H	1
+f57            OUT
+f58            INC  H	1
+f5d            OUT
+f5e            OUT
+f5f            OUT
+f60            OUT
+f61            OUT
+f62            OUT
+f63            OUT
+f64            DEC  H	1
+f69            OUT
+f6a            INC  H	1
+f6f            OUT
+f70            OUT
+f71            OUT
+f72            OUT
+f73            OUT
+f74            OUT
+f75            OUT
+f76            DEC  H	1
+f7b            OUT
+f7c            INC  H	1
+f81            OUT
+f82            OUT
+f83            OUT
+f84            OUT
+f85            OUT
+f86            OUT
+f87            OUT
+f88            DEC  H	1
+f8d            OUT
+f8e            INC  H	1
+f93            OUT
+f94            OUT
+f95            OUT
+f96            OUT
+f97            OUT
+f98            OUT
+f99            OUT
+f9a            DEC  H	1
+f9f            OUT
+fa0            INC  H	6
+fa5            OUT
+fa6            DEC  H	2
+fab            OUT
+fac            INC  H	1
+fb1            OUT
+fb2            OUT
+fb3            OUT
+fb4            OUT
+fb5            OUT
+fb6            OUT
+fb7            OUT
+fb8            DEC  H	1
+fbd            OUT
+fbe            DEC  H	1
+fc3            OUT
+fc4            OUT
+fc5            OUT
+fc6            OUT
+fc7            OUT
+fc8            OUT
+fc9            OUT
+fca            INC  H	1
+fcf            OUT
+fd0            INC  H	1
+fd5            OUT
+fd6            OUT
+fd7            OUT
+fd8            OUT
+fd9            OUT
+fda            OUT
+fdb            OUT
+fdc            DEC  H	1
+fe1            OUT
+fe2            DEC  H	1
+fe7            OUT
+fe8            OUT
+fe9            OUT
+fea            OUT
+feb            OUT
+fec            OUT
+fed            OUT
+fee            INC  H	1
+ff3            OUT
+ff4            INC  H	1
+ff9            OUT
+ffa            OUT
+ffb            OUT
+ffc            OUT
+ffd            OUT
+ffe            OUT
+fff            OUT
+1000           DEC  H	1
+1005           OUT
+1006           DEC  H	1
+100b           OUT
+100c           OUT
+100d           OUT
+100e           OUT
+100f           OUT
+1010           OUT
+1011           OUT
+1012           INC  H	1
+1017           OUT
+1018           INC  H	1
+101d           OUT
+101e           OUT
+101f           OUT
+1020           OUT
+1021           OUT
+1022           OUT
+1023           OUT
+1024           DEC  H	1
+1029           OUT
+102a           DEC  H	1
+102f           OUT
+1030           OUT
+1031           OUT
+1032           OUT
+1033           OUT
+1034           OUT
+1035           OUT
+1036           INC  H	1
+103b           OUT
+103c           INC  H	2
+1041           OUT
+1042           DEC  H	2
+1047           OUT
+1048           INC  H	1
+104d           OUT
+104e           OUT
+104f           OUT
+1050           OUT
+1051           OUT
+1052           OUT
+1053           OUT
+1054           DEC  H	1
+1059           OUT
+105a           DEC  H	1
+105f           OUT
+1060           OUT
+1061           OUT
+1062           OUT
+1063           OUT
+1064           OUT
+1065           OUT
+1066           INC  H	1
+106b           OUT
+106c           INC  H	1
+1071           OUT
+1072           OUT
+1073           OUT
+1074           OUT
+1075           OUT
+1076           OUT
+1077           OUT
+1078           DEC  H	1
+107d           OUT
+107e           DEC  H	1
+1083           OUT
+1084           OUT
+1085           OUT
+1086           OUT
+1087           OUT
+1088           OUT
+1089           OUT
+108a           INC  H	1
+108f           OUT
+1090           INC  H	1
+1095           OUT
+1096           OUT
+1097           OUT
+1098           OUT
+1099           OUT
+109a           OUT
+109b           OUT
+109c           DEC  H	1
+10a1           OUT
+10a2           DEC  H	1
+10a7           OUT
+10a8           OUT
+10a9           OUT
+10aa           OUT
+10ab           OUT
+10ac           OUT
+10ad           OUT
+10ae           INC  H	1
+10b3           OUT
+10b4           INC  H	1
+10b9           OUT
+10ba           OUT
+10bb           OUT
+10bc           OUT
+10bd           OUT
+10be           OUT
+10bf           OUT
+10c0           DEC  H	1
+10c5           OUT
+10c6           DEC  H	1
+10cb           OUT
+10cc           OUT
+10cd           OUT
+10ce           OUT
+10cf           OUT
+10d0           OUT
+10d1           OUT
+10d2           INC  H	1
+10d7           OUT
+10d8           INC  H	2
+10dd           OUT
+10de           DEC  H	2
+10e3           OUT
+10e4           INC  H	1
+10e9           OUT
+10ea           OUT
+10eb           OUT
+10ec           OUT
+10ed           OUT
+10ee           OUT
+10ef           OUT
+10f0           DEC  H	1
+10f5           OUT
+10f6           DEC  H	1
+10fb           OUT
+10fc           OUT
+10fd           OUT
+10fe           OUT
+10ff           OUT
+1100           OUT
+1101           OUT
+1102           INC  H	1
+1107           OUT
+1108           INC  H	1
+110d           OUT
+110e           OUT
+110f           OUT
+1110           OUT
+1111           OUT
+1112           OUT
+1113           OUT
+1114           DEC  H	1
+1119           OUT
+111a           DEC  H	1
+111f           OUT
+1120           OUT
+1121           OUT
+1122           OUT
+1123           OUT
+1124           OUT
+1125           OUT
+1126           INC  H	1
+112b           OUT
+112c           INC  H	1
+1131           OUT
+1132           OUT
+1133           OUT
+1134           OUT
+1135           OUT
+1136           OUT
+1137           OUT
+1138           DEC  H	1
+113d           OUT
+113e           DEC  H	1
+1143           OUT
+1144           OUT
+1145           OUT
+1146           OUT
+1147           OUT
+1148           OUT
+1149           OUT
+114a           INC  H	1
+114f           OUT
+1150           INC  H	1
+1155           OUT
+1156           OUT
+1157           OUT
+1158           OUT
+1159           OUT
+115a           OUT
+115b           OUT
+115c           DEC  H	1
+1161           OUT
+1162           DEC  H	1
+1167           OUT
+1168           OUT
+1169           OUT
+116a           OUT
+116b           OUT
+116c           OUT
+116d           OUT
+116e           INC  H	1
+1173           OUT
+1174           INC  H	2
+1179           OUT
+117a           DEC  H	2
+117f           OUT
+1180           INC  H	1
+1185           OUT
+1186           OUT
+1187           OUT
+1188           OUT
+1189           OUT
+118a           OUT
+118b           OUT
+118c           DEC  H	1
+1191           OUT
+1192           DEC  H	1
+1197           OUT
+1198           OUT
+1199           OUT
+119a           OUT
+119b           OUT
+119c           OUT
+119d           OUT
+119e           INC  H	1
+11a3           OUT
+11a4           INC  H	1
+11a9           OUT
+11aa           OUT
+11ab           OUT
+11ac           OUT
+11ad           OUT
+11ae           OUT
+11af           OUT
+11b0           DEC  H	1
+11b5           OUT
+11b6           DEC  H	1
+11bb           OUT
+11bc           OUT
+11bd           OUT
+11be           OUT
+11bf           OUT
+11c0           OUT
+11c1           OUT
+11c2           INC  H	1
+11c7           OUT
+11c8           INC  H	1
+11cd           OUT
+11ce           OUT
+11cf           OUT
+11d0           OUT
+11d1           OUT
+11d2           OUT
+11d3           OUT
+11d4           DEC  H	1
+11d9           OUT
+11da           DEC  H	1
+11df           OUT
+11e0           OUT
+11e1           OUT
+11e2           OUT
+11e3           OUT
+11e4           OUT
+11e5           OUT
+11e6           INC  H	1
+11eb           OUT
+11ec           INC  H	1
+11f1           OUT
+11f2           OUT
+11f3           OUT
+11f4           OUT
+11f5           OUT
+11f6           OUT
+11f7           OUT
+11f8           DEC  H	1
+11fd           OUT
+11fe           DEC  H	1
+1203           OUT
+1204           OUT
+1205           OUT
+1206           OUT
+1207           OUT
+1208           OUT
+1209           OUT
+120a           INC  H	1
+120f           OUT
+1210           INC  H	2
+1215           OUT
+1216           DEC  H	6
+121b           OUT
+121c           INC  H	1
+1221           OUT
+1222           OUT
+1223           OUT
+1224           OUT
+1225           OUT
+1226           OUT
+1227           OUT
+1228           DEC  H	1
+122d           OUT
+122e           INC  H	1
+1233           OUT
+1234           OUT
+1235           OUT
+1236           OUT
+1237           OUT
+1238           OUT
+1239           OUT
+123a           DEC  H	1
+123f           OUT
+1240           INC  H	1
+1245           OUT
+1246           OUT
+1247           OUT
+1248           OUT
+1249           OUT
+124a           OUT
+124b           OUT
+124c           DEC  H	1
+1251           OUT
+1252           INC  H	1
+1257           OUT
+1258           OUT
+1259           OUT
+125a           OUT
+125b           OUT
+125c           OUT
+125d           OUT
+125e           DEC  H	1
+1263           OUT
+1264           INC  H	1
+1269           OUT
+126a           OUT
+126b           OUT
+126c           OUT
+126d           OUT
+126e           OUT
+126f           OUT
+1270           DEC  H	1
+1275           OUT
+1276           INC  H	1
+127b           OUT
+127c           OUT
+127d           OUT
+127e           OUT
+127f           OUT
+1280           OUT
+1281           OUT
+1282           DEC  H	1
+1287           OUT
+1288           INC  H	1
+128d           OUT
+128e           OUT
+128f           OUT
+1290           OUT
+1291           OUT
+1292           OUT
+1293           OUT
+1294           DEC  H	1
+1299           OUT
+129a           INC  H	1
+129f           OUT
+12a0           OUT
+12a1           OUT
+12a2           OUT
+12a3           OUT
+12a4           OUT
+12a5           OUT
+12a6           DEC  H	1
+12ab           OUT
+12ac           INC  H	6
+12b1           OUT
+12b2           DEC  H	2
+12b7           OUT
+12b8           DEC  H	1
+12bd           OUT
+12be           OUT
+12bf           OUT
+12c0           OUT
+12c1           OUT
+12c2           OUT
+12c3           OUT
+12c4           INC  H	1
+12c9           OUT
+12ca           INC  H	1
+12cf           OUT
+12d0           OUT
+12d1           OUT
+12d2           OUT
+12d3           OUT
+12d4           OUT
+12d5           OUT
+12d6           DEC  H	1
+12db           OUT
+12dc           DEC  H	1
+12e1           OUT
+12e2           OUT
+12e3           OUT
+12e4           OUT
+12e5           OUT
+12e6           OUT
+12e7           OUT
+12e8           INC  H	1
+12ed           OUT
+12ee           INC  H	1
+12f3           OUT
+12f4           OUT
+12f5           OUT
+12f6           OUT
+12f7           OUT
+12f8           OUT
+12f9           OUT
+12fa           DEC  H	1
+12ff           OUT
+1300           DEC  H	1
+1305           OUT
+1306           OUT
+1307           OUT
+1308           OUT
+1309           OUT
+130a           OUT
+130b           OUT
+130c           INC  H	1
+1311           OUT
+1312           INC  H	1
+1317           OUT
+1318           OUT
+1319           OUT
+131a           OUT
+131b           OUT
+131c           OUT
+131d           OUT
+131e           DEC  H	1
+1323           OUT
+1324           DEC  H	1
+1329           OUT
+132a           OUT
+132b           OUT
+132c           OUT
+132d           OUT
+132e           OUT
+132f           OUT
+1330           INC  H	1
+1335           OUT
+1336           INC  H	1
+133b           OUT
+133c           OUT
+133d           OUT
+133e           OUT
+133f           OUT
+1340           OUT
+1341           OUT
+1342           DEC  H	1
+1347           OUT
+1348           INC  H	2
+134d           OUT
+134e           DEC  H	2
+1353           OUT
+1354           DEC  H	1
+1359           OUT
+135a           OUT
+135b           OUT
+135c           OUT
+135d           OUT
+135e           OUT
+135f           OUT
+1360           INC  H	1
+1365           OUT
+1366           INC  H	1
+136b           OUT
+136c           OUT
+136d           OUT
+136e           OUT
+136f           OUT
+1370           OUT
+1371           OUT
+1372           DEC  H	1
+1377           OUT
+1378           DEC  H	1
+137d           OUT
+137e           OUT
+137f           OUT
+1380           OUT
+1381           OUT
+1382           OUT
+1383           OUT
+1384           INC  H	1
+1389           OUT
+138a           INC  H	1
+138f           OUT
+1390           OUT
+1391           OUT
+1392           OUT
+1393           OUT
+1394           OUT
+1395           OUT
+1396           DEC  H	1
+139b           OUT
+139c           DEC  H	1
+13a1           OUT
+13a2           OUT
+13a3           OUT
+13a4           OUT
+13a5           OUT
+13a6           OUT
+13a7           OUT
+13a8           INC  H	1
+13ad           OUT
+13ae           INC  H	1
+13b3           OUT
+13b4           OUT
+13b5           OUT
+13b6           OUT
+13b7           OUT
+13b8           OUT
+13b9           OUT
+13ba           DEC  H	1
+13bf           OUT
+13c0           DEC  H	1
+13c5           OUT
+13c6           OUT
+13c7           OUT
+13c8           OUT
+13c9           OUT
+13ca           OUT
+13cb           OUT
+13cc           INC  H	1
+13d1           OUT
+13d2           INC  H	1
+13d7           OUT
+13d8           OUT
+13d9           OUT
+13da           OUT
+13db           OUT
+13dc           OUT
+13dd           OUT
+13de           DEC  H	1
+13e3           OUT
+13e4           INC  H	2
+13e9           OUT
+13ea           DEC  H	2
+13ef           OUT
+13f0           DEC  H	1
+13f5           OUT
+13f6           OUT
+13f7           OUT
+13f8           OUT
+13f9           OUT
+13fa           OUT
+13fb           OUT
+13fc           INC  H	1
+1401           OUT
+1402           INC  H	1
+1407           OUT
+1408           OUT
+1409           OUT
+140a           OUT
+140b           OUT
+140c           OUT
+140d           OUT
+140e           DEC  H	1
+1413           OUT
+1414           DEC  H	1
+1419           OUT
+141a           OUT
+141b           OUT
+141c           OUT
+141d           OUT
+141e           OUT
+141f           OUT
+1420           INC  H	1
+1425           OUT
+1426           INC  H	1
+142b           OUT
+142c           OUT
+142d           OUT
+142e           OUT
+142f           OUT
+1430           OUT
+1431           OUT
+1432           DEC  H	1
+1437           OUT
+1438           DEC  H	1
+143d           OUT
+143e           OUT
+143f           OUT
+1440           OUT
+1441           OUT
+1442           OUT
+1443           OUT
+1444           INC  H	1
+1449           OUT
+144a           INC  H	1
+144f           OUT
+1450           OUT
+1451           OUT
+1452           OUT
+1453           OUT
+1454           OUT
+1455           OUT
+1456           DEC  H	1
+145b           OUT
+145c           DEC  H	1
+1461           OUT
+1462           OUT
+1463           OUT
+1464           OUT
+1465           OUT
+1466           OUT
+1467           OUT
+1468           INC  H	1
+146d           OUT
+146e           INC  H	1
+1473           OUT
+1474           OUT
+1475           OUT
+1476           OUT
+1477           OUT
+1478           OUT
+1479           OUT
+147a           DEC  H	1
+147f           OUT
+1480           INC  H	2
+1485           OUT
+1486           DEC  H	2
+148b           OUT
+148c           DEC  H	1
+1491           OUT
+1492           OUT
+1493           OUT
+1494           OUT
+1495           OUT
+1496           OUT
+1497           OUT
+1498           INC  H	1
+149d           OUT
+149e           INC  H	1
+14a3           OUT
+14a4           OUT
+14a5           OUT
+14a6           OUT
+14a7           OUT
+14a8           OUT
+14a9           OUT
+14aa           DEC  H	1
+14af           OUT
+14b0           DEC  H	1
+14b5           OUT
+14b6           OUT
+14b7           OUT
+14b8           OUT
+14b9           OUT
+14ba           OUT
+14bb           OUT
+14bc           INC  H	1
+14c1           OUT
+14c2           INC  H	1
+14c7           OUT
+14c8           OUT
+14c9           OUT
+14ca           OUT
+14cb           OUT
+14cc           OUT
+14cd           OUT
+14ce           DEC  H	1
+14d3           OUT
+14d4           DEC  H	1
+14d9           OUT
+14da           OUT
+14db           OUT
+14dc           OUT
+14dd           OUT
+14de           OUT
+14df           OUT
+14e0           INC  H	1
+14e5           OUT
+14e6           INC  H	1
+14eb           OUT
+14ec           OUT
+14ed           OUT
+14ee           OUT
+14ef           OUT
+14f0           OUT
+14f1           OUT
+14f2           DEC  H	1
+14f7           OUT
+14f8           DEC  H	1
+14fd           OUT
+14fe           OUT
+14ff           OUT
+1500           OUT
+1501           OUT
+1502           OUT
+1503           OUT
+1504           INC  H	1
+1509           OUT
+150a           INC  H	1
+150f           OUT
+1510           OUT
+1511           OUT
+1512           OUT
+1513           OUT
+1514           OUT
+1515           OUT
+1516           DEC  H	1
+151b           OUT
+151c           INC  H	2
+1521           OUT
+1522           DEC  H	6
+1527           OUT
+1528           INC  H	1
+152d           OUT
+152e           OUT
+152f           OUT
+1530           OUT
+1531           OUT
+1532           OUT
+1533           OUT
+1534           DEC  H	1
+1539           OUT
+153a           INC  H	1
+153f           OUT
+1540           OUT
+1541           OUT
+1542           OUT
+1543           OUT
+1544           OUT
+1545           OUT
+1546           DEC  H	1
+154b           OUT
+154c           INC  H	1
+1551           OUT
+1552           OUT
+1553           OUT
+1554           OUT
+1555           OUT
+1556           OUT
+1557           OUT
+1558           DEC  H	1
+155d           OUT
+155e           INC  H	1
+1563           OUT
+1564           OUT
+1565           OUT
+1566           OUT
+1567           OUT
+1568           OUT
+1569           OUT
+156a           DEC  H	1
+156f           OUT
+1570           INC  H	1
+1575           OUT
+1576           OUT
+1577           OUT
+1578           OUT
+1579           OUT
+157a           OUT
+157b           OUT
+157c           DEC  H	1
+1581           OUT
+1582           INC  H	1
+1587           OUT
+1588           OUT
+1589           OUT
+158a           OUT
+158b           OUT
+158c           OUT
+158d           OUT
+158e           DEC  H	1
+1593           OUT
+1594           INC  H	1
+1599           OUT
+159a           OUT
+159b           OUT
+159c           OUT
+159d           OUT
+159e           OUT
+159f           OUT
+15a0           DEC  H	1
+15a5           OUT
+15a6           INC  H	1
+15ab           OUT
+15ac           OUT
+15ad           OUT
+15ae           OUT
+15af           OUT
+15b0           OUT
+15b1           OUT
+15b2           DEC  H	1
+15b7           OUT
+15b8           INC  H	6
+15bd           OUT
+15be           DEC  H	2
+15c3           OUT
+15c4           INC  H	1
+15c9           OUT
+15ca           OUT
+15cb           OUT
+15cc           OUT
+15cd           OUT
+15ce           OUT
+15cf           OUT
+15d0           DEC  H	1
+15d5           OUT
+15d6           DEC  H	1
+15db           OUT
+15dc           OUT
+15dd           OUT
+15de           OUT
+15df           OUT
+15e0           OUT
+15e1           OUT
+15e2           INC  H	1
+15e7           OUT
+15e8           INC  H	1
+15ed           OUT
+15ee           OUT
+15ef           OUT
+15f0           OUT
+15f1           OUT
+15f2           OUT
+15f3           OUT
+15f4           DEC  H	1
+15f9           OUT
+15fa           DEC  H	1
+15ff           OUT
+1600           OUT
+1601           OUT
+1602           OUT
+1603           OUT
+1604           OUT
+1605           OUT
+1606           INC  H	1
+160b           OUT
+160c           INC  H	1
+1611           OUT
+1612           OUT
+1613           OUT
+1614           OUT
+1615           OUT
+1616           OUT
+1617           OUT
+1618           DEC  H	1
+161d           OUT
+161e           DEC  H	1
+1623           OUT
+1624           OUT
+1625           OUT
+1626           OUT
+1627           OUT
+1628           OUT
+1629           OUT
+162a           INC  H	1
+162f           OUT
+1630           INC  H	1
+1635           OUT
+1636           OUT
+1637           OUT
+1638           OUT
+1639           OUT
+163a           OUT
+163b           OUT
+163c           DEC  H	1
+1641           OUT
+1642           DEC  H	1
+1647           OUT
+1648           OUT
+1649           OUT
+164a           OUT
+164b           OUT
+164c           OUT
+164d           OUT
+164e           INC  H	1
+1653           OUT
+1654           INC  H	2
+1659           OUT
+165a           DEC  H	2
+165f           OUT
+1660           INC  H	1
+1665           OUT
+1666           OUT
+1667           OUT
+1668           OUT
+1669           OUT
+166a           OUT
+166b           OUT
+166c           DEC  H	1
+1671           OUT
+1672           DEC  H	1
+1677           OUT
+1678           OUT
+1679           OUT
+167a           OUT
+167b           OUT
+167c           OUT
+167d           OUT
+167e           INC  H	1
+1683           OUT
+1684           INC  H	1
+1689           OUT
+168a           OUT
+168b           OUT
+168c           OUT
+168d           OUT
+168e           OUT
+168f           OUT
+1690           DEC  H	1
+1695           OUT
+1696           DEC  H	1
+169b           OUT
+169c           OUT
+169d           OUT
+169e           OUT
+169f           OUT
+16a0           OUT
+16a1           OUT
+16a2           INC  H	1
+16a7           OUT
+16a8           INC  H	1
+16ad           OUT
+16ae           OUT
+16af           OUT
+16b0           OUT
+16b1           OUT
+16b2           OUT
+16b3           OUT
+16b4           DEC  H	1
+16b9           OUT
+16ba           DEC  H	1
+16bf           OUT
+16c0           OUT
+16c1           OUT
+16c2           OUT
+16c3           OUT
+16c4           OUT
+16c5           OUT
+16c6           INC  H	1
+16cb           OUT
+16cc           INC  H	1
+16d1           OUT
+16d2           OUT
+16d3           OUT
+16d4           OUT
+16d5           OUT
+16d6           OUT
+16d7           OUT
+16d8           DEC  H	1
+16dd           OUT
+16de           DEC  H	1
+16e3           OUT
+16e4           OUT
+16e5           OUT
+16e6           OUT
+16e7           OUT
+16e8           OUT
+16e9           OUT
+16ea           INC  H	1
+16ef           OUT
+16f0           INC  H	2
+16f5           OUT
+16f6           DEC  H	2
+16fb           OUT
+16fc           INC  H	1
+1701           OUT
+1702           OUT
+1703           OUT
+1704           OUT
+1705           OUT
+1706           OUT
+1707           OUT
+1708           DEC  H	1
+170d           OUT
+170e           DEC  H	1
+1713           OUT
+1714           OUT
+1715           OUT
+1716           OUT
+1717           OUT
+1718           OUT
+1719           OUT
+171a           INC  H	1
+171f           OUT
+1720           INC  H	1
+1725           OUT
+1726           OUT
+1727           OUT
+1728           OUT
+1729           OUT
+172a           OUT
+172b           OUT
+172c           DEC  H	1
+1731           OUT
+1732           DEC  H	1
+1737           OUT
+1738           OUT
+1739           OUT
+173a           OUT
+173b           OUT
+173c           OUT
+173d           OUT
+173e           INC  H	1
+1743           OUT
+1744           INC  H	1
+1749           OUT
+174a           OUT
+174b           OUT
+174c           OUT
+174d           OUT
+174e           OUT
+174f           OUT
+1750           DEC  H	1
+1755           OUT
+1756           DEC  H	1
+175b           OUT
+175c           OUT
+175d           OUT
+175e           OUT
+175f           OUT
+1760           OUT
+1761           OUT
+1762           INC  H	1
+1767           OUT
+1768           INC  H	1
+176d           OUT
+176e           OUT
+176f           OUT
+1770           OUT
+1771           OUT
+1772           OUT
+1773           OUT
+1774           DEC  H	1
+1779           OUT
+177a           DEC  H	1
+177f           OUT
+1780           OUT
+1781           OUT
+1782           OUT
+1783           OUT
+1784           OUT
+1785           OUT
+1786           INC  H	1
+178b           OUT
+178c           INC  H	2
+1791           OUT
+1792           DEC  H	2
+1797           OUT
+1798           INC  H	1
+179d           OUT
+179e           OUT
+179f           OUT
+17a0           OUT
+17a1           OUT
+17a2           OUT
+17a3           OUT
+17a4           DEC  H	1
+17a9           OUT
+17aa           DEC  H	1
+17af           OUT
+17b0           OUT
+17b1           OUT
+17b2           OUT
+17b3           OUT
+17b4           OUT
+17b5           OUT
+17b6           INC  H	1
+17bb           OUT
+17bc           INC  H	1
+17c1           OUT
+17c2           OUT
+17c3           OUT
+17c4           OUT
+17c5           OUT
+17c6           OUT
+17c7           OUT
+17c8           DEC  H	1
+17cd           OUT
+17ce           DEC  H	1
+17d3           OUT
+17d4           OUT
+17d5           OUT
+17d6           OUT
+17d7           OUT
+17d8           OUT
+17d9           OUT
+17da           INC  H	1
+17df           OUT
+17e0           INC  H	1
+17e5           OUT
+17e6           OUT
+17e7           OUT
+17e8           OUT
+17e9           OUT
+17ea           OUT
+17eb           OUT
+17ec           DEC  H	1
+17f1           OUT
+17f2           DEC  H	1
+17f7           OUT
+17f8           OUT
+17f9           OUT
+17fa           OUT
+17fb           OUT
+17fc           OUT
+17fd           OUT
+17fe           INC  H	1
+1803           OUT
+1804           INC  H	1
+1809           OUT
+180a           OUT
+180b           OUT
+180c           OUT
+180d           OUT
+180e           OUT
+180f           OUT
+1810           DEC  H	1
+1815           OUT
+1816           DEC  H	1
+181b           OUT
+181c           OUT
+181d           OUT
+181e           OUT
+181f           OUT
+1820           OUT
+1821           OUT
+1822           INC  H	1
+1827           OUT
+1828           INC  H	2
+182d           OUT
+182e           DEC  H	6
+1833           OUT
+1834           INC  H	1
+1839           OUT
+183a           OUT
+183b           OUT
+183c           OUT
+183d           OUT
+183e           OUT
+183f           OUT
+1840           DEC  H	1
+1845           OUT
+1846           INC  H	1
+184b           OUT
+184c           OUT
+184d           OUT
+184e           OUT
+184f           OUT
+1850           OUT
+1851           OUT
+1852           DEC  H	1
+1857           OUT
+1858           INC  H	1
+185d           OUT
+185e           OUT
+185f           OUT
+1860           OUT
+1861           OUT
+1862           OUT
+1863           OUT
+1864           DEC  H	1
+1869           OUT
+186a           INC  H	1
+186f           OUT
+1870           OUT
+1871           OUT
+1872           OUT
+1873           OUT
+1874           OUT
+1875           OUT
+1876           DEC  H	1
+187b           OUT
+187c           INC  H	1
+1881           OUT
+1882           OUT
+1883           OUT
+1884           OUT
+1885           OUT
+1886           OUT
+1887           OUT
+1888           DEC  H	1
+188d           OUT
+188e           INC  H	1
+1893           OUT
+1894           OUT
+1895           OUT
+1896           OUT
+1897           OUT
+1898           OUT
+1899           OUT
+189a           DEC  H	1
+189f           OUT
+18a0           INC  H	1
+18a5           OUT
+18a6           OUT
+18a7           OUT
+18a8           OUT
+18a9           OUT
+18aa           OUT
+18ab           OUT
+18ac           DEC  H	1
+18b1           OUT
+18b2           INC  H	1
+18b7           OUT
+18b8           OUT
+18b9           OUT
+18ba           OUT
+18bb           OUT
+18bc           OUT
+18bd           OUT
+18be           DEC  H	1
+18c3           OUT
+18c4           INC  H	6
+18c9           OUT
+18ca           DEC  H	2
+18cf           OUT
+18d0           DEC  H	1
+18d5           OUT
+18d6           OUT
+18d7           OUT
+18d8           DEC  H	1
+18dd           INC *H	3
+18df           OUT
+18e0           INC  H	1
+18e5           OUT
+18e6           OUT
+18e7           OUT
+18e8           INC  H	1
+18ed           OUT
+18ee           INC  H	1
+18f3           OUT
+18f4           OUT
+18f5           OUT
+18f6           OUT
+18f7           OUT
+18f8           OUT
+18f9           OUT
+18fa           DEC  H	1
+18ff           OUT
+1900           DEC  H	1
+1905           OUT
+1906           OUT
+1907           OUT
+1908           DEC  H	1
+190d           OUT
+190e           INC  H	1
+1913           OUT
+1914           OUT
+1915           OUT
+1916           INC  H	1
+191b           OUT
+191c           INC  H	1
+1921           OUT
+1922           OUT
+1923           OUT
+1924           OUT
+1925           OUT
+1926           OUT
+1927           OUT
+1928           DEC  H	1
+192d           OUT
+192e           DEC  H	1
+1933           OUT
+1934           OUT
+1935           OUT
+1936           DEC  H	1
+193b           OUT
+193c           INC  H	1
+1941           OUT
+1942           OUT
+1943           OUT
+1944           INC  H	1
+1949           OUT
+194a           INC  H	1
+194f           OUT
+1950           OUT
+1951           OUT
+1952           OUT
+1953           OUT
+1954           OUT
+1955           OUT
+1956           DEC  H	1
+195b           OUT
+195c           DEC  H	1
+1961           OUT
+1962           OUT
+1963           OUT
+1964           DEC  H	1
+1969           OUT
+196a           INC  H	1
+196f           OUT
+1970           OUT
+1971           OUT
+1972           INC  H	1
+1977           OUT
+1978           INC  H	1
+197d           OUT
+197e           OUT
+197f           OUT
+1980           OUT
+1981           OUT
+1982           OUT
+1983           OUT
+1984           DEC  H	1
+1989           OUT
+198a           INC  H	2
+198f           OUT
+1990           DEC  H	2
+1995           OUT
+1996           DEC  H	5
+199b           DEC *H	3
+199d           OUT
+199e           OUT
+199f           INC  H	1
+19a4           DEC *H	3
+19a6           OUT
+19a7           DEC  H	1
+19ac           OUT
+19ad           INC  H	1
+19b2           INC *H	1
+19b4           OUT
+19b5           INC  H	3
+19ba           OUT
+19bb           OUT
+19bc           INC  H	1
+19c1           OUT
+19c2           INC  H	1
+19c7           OUT
+19c8           OUT
+19c9           DEC  H	5
+19ce           DEC *H	1
+19d0           OUT
+19d1           DEC  H	1
+19d6           OUT
+19d7           INC  H	1
+19dc           INC *H	1
+19de           OUT
+19df           INC  H	5
+19e4           OUT
+19e5           OUT
+19e6           DEC  H	1
+19eb           OUT
+19ec           DEC  H	1
+19f1           OUT
+19f2           OUT
+19f3           DEC  H	3
+19f8           DEC *H	1
+19fa           OUT
+19fb           DEC  H	1
+1a00           OUT
+1a01           INC  H	1
+1a06           INC *H	1
+1a08           OUT
+1a09           INC  H	3
+1a0e           OUT
+1a0f           OUT
+1a10           INC  H	1
+1a15           OUT
+1a16           INC  H	1
+1a1b           OUT
+1a1c           OUT
+1a1d           DEC  H	5
+1a22           DEC *H	1
+1a24           OUT
+1a25           DEC  H	1
+1a2a           OUT
+1a2b           INC  H	1
+1a30           INC *H	1
+1a32           OUT
+1a33           INC  H	5
+1a38           OUT
+1a39           OUT
+1a3a           DEC  H	1
+1a3f           OUT
+1a40           DEC  H	1
+1a45           OUT
+1a46           OUT
+1a47           DEC  H	3
+1a4c           DEC *H	1
+1a4e           OUT
+1a4f           DEC  H	1
+1a54           OUT
+1a55           INC  H	1
+1a5a           INC *H	1
+1a5c           OUT
+1a5d           INC  H	3
+1a62           OUT
+1a63           OUT
+1a64           INC  H	1
+1a69           OUT
+1a6a           INC  H	1
+1a6f           OUT
+1a70           OUT
+1a71           DEC  H	5
+1a76           DEC *H	1
+1a78           OUT
+1a79           DEC  H	1
+1a7e           OUT
+1a7f           INC  H	1
+1a84           INC *H	1
+1a86           OUT
+1a87           INC  H	1
+1a8c           INC  H	4
+1a91           OUT
+1a92           OUT
+1a93           DEC  H	1
+1a98           OUT
+1a99           DEC  H	1
+1a9e           OUT
+1a9f           OUT
+1aa0           DEC  H	3
+1aa5           DEC *H	1
+1aa7           OUT
+1aa8           DEC  H	1
+1aad           OUT
+1aae           INC  H	1
+1ab3           INC *H	1
+1ab5           OUT
+1ab6           INC  H	3
+1abb           OUT
+1abc           OUT
+1abd           INC  H	1
+1ac2           OUT
+1ac3           INC  H	1
+1ac8           OUT
+1ac9           OUT
+1aca           DEC  H	5
+1acf           DEC *H	1
+1ad1           OUT
+1ad2           DEC  H	1
+1ad7           OUT
+1ad8           INC  H	1
+1add           INC *H	1
+1adf           OUT
+1ae0           INC  H	5
+1ae5           OUT
+1ae6           OUT
+1ae7           DEC  H	1
+1aec           OUT
+1aed           INC  H	2
+1af2           OUT
+1af3           DEC  H	2
+1af8           OUT
+1af9           DEC  H	1
+1afe           OUT
+1aff           OUT
+1b00           DEC  H	2
+1b05           INC *H	2
+1b07           OUT
+1b08           INC  H	2
+1b0d           OUT
+1b0e           DEC  H	1
+1b13           DEC *H	2
+1b15           DEC *H	1
+1b17           OUT
+1b18           INC  H	1
+1b1d           OUT
+1b1e           OUT
+1b1f           INC  H	1
+1b24           OUT
+1b25           INC  H	1
+1b2a           OUT
+1b2b           OUT
+1b2c           DEC  H	4
+1b31           OUT
+1b32           INC  H	2
+1b37           OUT
+1b38           DEC  H	1
+1b3d           OUT
+1b3e           INC  H	3
+1b43           OUT
+1b44           OUT
+1b45           DEC  H	1
+1b4a           OUT
+1b4b           DEC  H	1
+1b50           OUT
+1b51           OUT
+1b52           DEC  H	2
+1b57           OUT
+1b58           INC  H	2
+1b5d           OUT
+1b5e           DEC  H	1
+1b63           OUT
+1b64           INC  H	1
+1b69           OUT
+1b6a           OUT
+1b6b           INC  H	1
+1b70           OUT
+1b71           INC  H	1
+1b76           OUT
+1b77           OUT
+1b78           DEC  H	4
+1b7d           OUT
+1b7e           INC  H	2
+1b83           OUT
+1b84           DEC  H	1
+1b89           OUT
+1b8a           INC  H	3
+1b8f           OUT
+1b90           OUT
+1b91           DEC  H	1
+1b96           OUT
+1b97           DEC  H	1
+1b9c           OUT
+1b9d           OUT
+1b9e           DEC  H	2
+1ba3           OUT
+1ba4           INC  H	2
+1ba9           OUT
+1baa           DEC  H	1
+1baf           OUT
+1bb0           INC  H	1
+1bb5           OUT
+1bb6           OUT
+1bb7           INC  H	1
+1bbc           OUT
+1bbd           INC  H	1
+1bc2           OUT
+1bc3           OUT
+1bc4           DEC  H	4
+1bc9           OUT
+1bca           INC  H	2
+1bcf           OUT
+1bd0           DEC  H	1
+1bd5           OUT
+1bd6           INC  H	3
+1bdb           OUT
+1bdc           OUT
+1bdd           DEC  H	1
+1be2           OUT
+1be3           DEC  H	1
+1be8           OUT
+1be9           OUT
+1bea           DEC  H	2
+1bef           OUT
+1bf0           INC  H	2
+1bf5           OUT
+1bf6           DEC  H	1
+1bfb           OUT
+1bfc           INC  H	1
+1c01           OUT
+1c02           OUT
+1c03           INC  H	1
+1c08           OUT
+1c09           INC  H	1
+1c0e           OUT
+1c0f           OUT
+1c10           DEC  H	4
+1c15           OUT
+1c16           INC  H	2
+1c1b           OUT
+1c1c           DEC  H	1
+1c21           OUT
+1c22           INC  H	3
+1c27           OUT
+1c28           OUT
+1c29           DEC  H	1
+1c2e           OUT
+1c2f           INC  H	2
+1c34           OUT
+1c35           DEC  H	2
+1c3a           OUT
+1c3b           DEC  H	1
+1c40           OUT
+1c41           DEC  H	1
+1c46           DEC  H	1
+1c4b           DEC *H	7
+1c4d           OUT
+1c4e           INC  H	1
+1c53           INC *H	3
+1c55           OUT
+1c56           OUT
+1c57           OUT
+1c58           DEC  H	2
+1c5d           OUT
+1c5e           INC  H	3
+1c63           OUT
+1c64           INC  H	1
+1c69           OUT
+1c6a           INC  H	1
+1c6f           OUT
+1c70           DEC  H	4
+1c75           OUT
+1c76           INC  H	1
+1c7b           OUT
+1c7c           OUT
+1c7d           OUT
+1c7e           DEC  H	2
+1c83           OUT
+1c84           INC  H	5
+1c89           OUT
+1c8a           DEC  H	1
+1c8f           OUT
+1c90           DEC  H	1
+1c95           OUT
+1c96           DEC  H	2
+1c9b           OUT
+1c9c           INC  H	1
+1ca1           OUT
+1ca2           OUT
+1ca3           OUT
+1ca4           DEC  H	2
+1ca9           OUT
+1caa           INC  H	3
+1caf           OUT
+1cb0           INC  H	1
+1cb5           OUT
+1cb6           INC  H	1
+1cbb           OUT
+1cbc           DEC  H	4
+1cc1           OUT
+1cc2           INC  H	1
+1cc7           OUT
+1cc8           OUT
+1cc9           OUT
+1cca           DEC  H	2
+1ccf           OUT
+1cd0           INC  H	5
+1cd5           OUT
+1cd6           DEC  H	1
+1cdb           OUT
+1cdc           DEC  H	1
+1ce1           OUT
+1ce2           DEC  H	2
+1ce7           OUT
+1ce8           INC  H	1
+1ced           OUT
+1cee           OUT
+1cef           OUT
+1cf0           DEC  H	2
+1cf5           OUT
+1cf6           INC  H	3
+1cfb           OUT
+1cfc           INC  H	1
+1d01           OUT
+1d02           INC  H	1
+1d07           OUT
+1d08           DEC  H	4
+1d0d           OUT
+1d0e           INC  H	1
+1d13           OUT
+1d14           OUT
+1d15           OUT
+1d16           DEC  H	2
+1d1b           OUT
+1d1c           INC  H	5
+1d21           OUT
+1d22           DEC  H	1
+1d27           OUT
+1d28           DEC  H	1
+1d2d           OUT
+1d2e           DEC  H	2
+1d33           OUT
+1d34           INC  H	1
+1d39           OUT
+1d3a           OUT
+1d3b           OUT
+1d3c           DEC  H	2
+1d41           OUT
+1d42           INC  H	3
+1d47           OUT
+1d48           INC  H	1
+1d4d           OUT
+1d4e           INC  H	1
+1d53           OUT
+1d54           DEC  H	4
+1d59           OUT
+1d5a           INC  H	1
+1d5f           OUT
+1d60           OUT
+1d61           OUT
+1d62           DEC  H	1
+1d67           INC *H	1
+1d69           OUT
+1d6a           INC  H	4
+1d6f           OUT
+1d70           DEC  H	1
+1d75           OUT
+1d76           INC  H	2
+1d7b           OUT
+1d7c           DEC  H	5
+1d81           INC *H	2
+1d83           OUT
+1d84           DEC  H	1
+1d89           INC *H	4
+1d8b           OUT
+1d8c           OUT
+1d8d           OUT
+1d8e           OUT
+1d8f           OUT
+1d90           OUT
+1d91           OUT
+1d92           INC  H	1
+1d97           OUT
+1d98           DEC  H	1
+1d9d           OUT
+1d9e           OUT
+1d9f           OUT
+1da0           OUT
+1da1           OUT
+1da2           OUT
+1da3           OUT
+1da4           INC  H	1
+1da9           OUT
+1daa           DEC  H	1
+1daf           OUT
+1db0           OUT
+1db1           OUT
+1db2           OUT
+1db3           OUT
+1db4           OUT
+1db5           OUT
+1db6           INC  H	1
+1dbb           OUT
+1dbc           DEC  H	1
+1dc1           OUT
+1dc2           OUT
+1dc3           OUT
+1dc4           OUT
+1dc5           OUT
+1dc6           OUT
+1dc7           OUT
+1dc8           INC  H	1
+1dcd           OUT
+1dce           DEC  H	1
+1dd3           OUT
+1dd4           OUT
+1dd5           OUT
+1dd6           OUT
+1dd7           OUT
+1dd8           OUT
+1dd9           OUT
+1dda           INC  H	1
+1ddf           OUT
+1de0           DEC  H	1
+1de5           OUT
+1de6           OUT
+1de7           OUT
+1de8           OUT
+1de9           OUT
+1dea           OUT
+1deb           OUT
+1dec           INC  H	1
+1df1           OUT
+1df2           DEC  H	1
+1df7           OUT
+1df8           OUT
+1df9           OUT
+1dfa           OUT
+1dfb           OUT
+1dfc           OUT
+1dfd           OUT
+1dfe           INC  H	1
+1e03           OUT
+1e04           DEC  H	1
+1e09           OUT
+1e0a           OUT
+1e0b           OUT
+1e0c           OUT
+1e0d           OUT
+1e0e           OUT
+1e0f           OUT
+1e10           INC  H	1
+1e15           OUT
+1e16           INC  H	5
+1e1b           OUT
+1e1c           DEC  H	2
+1e21           OUT
+1e22           INC  H	1
+1e27           OUT
+1e28           DEC  H	3
+1e2d           DEC *H	4
+1e2f           OUT
+1e30           INC *H	4
+1e32           OUT
+1e33           INC  H	2
+1e38           OUT
+1e39           DEC  H	2
+1e3e           OUT
+1e3f           DEC *H	2
+1e41           OUT
+1e42           INC  H	3
+1e47           OUT
+1e48           DEC  H	1
+1e4d           OUT
+1e4e           DEC  H	1
+1e53           OUT
+1e54           OUT
+1e55           DEC  H	1
+1e5a           INC *H	2
+1e5c           OUT
+1e5d           DEC  H	1
+1e62           INC *H	1
+1e64           OUT
+1e65           INC *H	3
+1e67           OUT
+1e68           INC  H	3
+1e6d           OUT
+1e6e           DEC  H	1
+1e73           OUT
+1e74           INC  H	1
+1e79           OUT
+1e7a           INC  H	1
+1e7f           OUT
+1e80           OUT
+1e81           DEC  H	4
+1e86           OUT
+1e87           INC  H	1
+1e8c           DEC *H	3
+1e8e           OUT
+1e8f           OUT
+1e90           INC  H	3
+1e95           OUT
+1e96           OUT
+1e97           DEC  H	1
+1e9c           OUT
+1e9d           DEC  H	1
+1ea2           OUT
+1ea3           OUT
+1ea4           DEC  H	1
+1ea9           OUT
+1eaa           INC  H	2
+1eaf           OUT
+1eb0           DEC  H	3
+1eb5           OUT
+1eb6           INC  H	2
+1ebb           OUT
+1ebc           OUT
+1ebd           INC  H	1
+1ec2           OUT
+1ec3           INC  H	1
+1ec8           OUT
+1ec9           OUT
+1eca           DEC  H	3
+1ecf           OUT
+1ed0           DEC  H	2
+1ed5           DEC *H	2
+1ed7           OUT
+1ed8           INC  H	1
+1edd           OUT
+1ede           INC  H	4
+1ee3           OUT
+1ee4           OUT
+1ee5           DEC  H	1
+1eea           OUT
+1eeb           DEC  H	1
+1ef0           OUT
+1ef1           OUT
+1ef2           DEC  H	2
+1ef7           OUT
+1ef8           INC  H	1
+1efd           OUT
+1efe           OUT
+1eff           INC  H	1
+1f04           OUT
+1f05           OUT
+1f06           INC  H	1
+1f0b           OUT
+1f0c           INC  H	1
+1f11           OUT
+1f12           OUT
+1f13           DEC  H	3
+1f18           INC *H	3
+1f1a           OUT
+1f1b           DEC  H	2
+1f20           INC *H	1
+1f22           OUT
+1f23           INC  H	1
+1f28           OUT
+1f29           INC  H	3
+1f2e           OUT
+1f2f           INC  H	1
+1f34           OUT
+1f35           DEC  H	1
+1f3a           OUT
+1f3b           DEC  H	1
+1f40           OUT
+1f41           DEC  H	1
+1f46           DEC *H	4
+1f48           OUT
+1f49           INC *H	3
+1f4b           INC *H	1
+1f4d           OUT
+1f4e           INC  H	2
+1f53           OUT
+1f54           DEC  H	2
+1f59           OUT
+1f5a           DEC *H	2
+1f5c           OUT
+1f5d           INC  H	1
+1f62           OUT
+1f63           INC  H	1
+1f68           OUT
+1f69           INC  H	2
+1f6e           OUT
+1f6f           DEC  H	2
+1f74           OUT
+1f75           INC  H	1
+1f7a           OUT
+1f7b           OUT
+1f7c           DEC  H	3
+1f81           DEC *H	2
+1f83           OUT
+1f84           INC  H	1
+1f89           OUT
+1f8a           DEC  H	1
+1f8f           INC *H	2
+1f91           OUT
+1f92           INC  H	3
+1f97           OUT
+1f98           OUT
+1f99           DEC  H	1
+1f9e           OUT
+1f9f           DEC  H	1
+1fa4           OUT
+1fa5           DEC  H	2
+1faa           OUT
+1fab           INC  H	1
+1fb0           INC *H	2
+1fb2           OUT
+1fb3           DEC  H	3
+1fb8           OUT
+1fb9           INC  H	1
+1fbe           DEC *H	3
+1fc0           OUT
+1fc1           INC  H	2
+1fc6           DEC *H	3
+1fc8           OUT
+1fc9           INC  H	1
+1fce           OUT
+1fcf           INC  H	1
+1fd4           OUT
+1fd5           INC  H	1
+1fda           OUT
+1fdb           OUT
+1fdc           DEC  H	3
+1fe1           OUT
+1fe2           INC  H	1
+1fe7           OUT
+1fe8           DEC  H	2
+1fed           OUT
+1fee           INC  H	4
+1ff3           OUT
+1ff4           OUT
+1ff5           DEC  H	1
+1ffa           OUT
+1ffb           DEC  H	1
+2000           OUT
+2001           OUT
+2002           DEC  H	3
+2007           DEC *H	1
+2009           OUT
+200a           DEC  H	1
+200f           OUT
+2010           INC  H	1
+2015           INC *H	1
+2017           OUT
+2018           INC  H	3
+201d           OUT
+201e           OUT
+201f           INC  H	1
+2024           OUT
+2025           INC  H	1
+202a           OUT
+202b           OUT
+202c           DEC  H	1
+2031           DEC *H	1
+2033           OUT
+2034           DEC  H	1
+2039           OUT
+203a           INC  H	1
+203f           INC *H	2
+2041           OUT
+2042           INC  H	1
+2047           OUT
+2048           OUT
+2049           DEC  H	1
+204e           DEC *H	1
+2050           OUT
+2051           DEC  H	1
+2056           OUT
+2057           OUT
+2058           DEC  H	1
+205d           OUT
+205e           INC  H	1
+2063           OUT
+2064           DEC  H	2
+2069           OUT
+206a           INC  H	2
+206f           OUT
+2070           OUT
+2071           INC  H	1
+2076           OUT
+2077           INC  H	1
+207c           OUT
+207d           DEC  H	4
+2082           OUT
+2083           INC  H	1
+2088           INC *H	3
+208a           OUT
+208b           DEC  H	3
+2090           OUT
+2091           INC  H	1
+2096           OUT
+2097           INC  H	2
+209c           DEC *H	3
+209e           OUT
+209f           INC  H	3
+20a4           OUT
+20a5           DEC  H	1
+20aa           OUT
+20ab           DEC  H	1
+20b0           OUT
+20b1           OUT
+20b2           DEC  H	1
+20b7           DEC *H	1
+20b9           OUT
+20ba           INC  H	1
+20bf           OUT
+20c0           DEC  H	1
+20c5           INC *H	2
+20c7           OUT
+20c8           INC  H	1
+20cd           OUT
+20ce           OUT
+20cf           INC  H	1
+20d4           OUT
+20d5           INC  H	2
+20da           OUT
+20db           DEC  H	2
+20e0           OUT
+20e1           INC  H	1
+20e6           OUT
+20e7           OUT
+20e8           DEC  H	3
+20ed           DEC *H	2
+20ef           OUT
+20f0           INC  H	1
+20f5           OUT
+20f6           DEC  H	1
+20fb           INC *H	2
+20fd           OUT
+20fe           INC  H	3
+2103           OUT
+2104           OUT
+2105           DEC  H	1
+210a           OUT
+210b           DEC  H	1
+2110           OUT
+2111           OUT
+2112           DEC  H	2
+2117           OUT
+2118           INC  H	2
+211d           OUT
+211e           DEC  H	1
+2123           DEC *H	1
+2125           OUT
+2126           OUT
+2127           INC  H	1
+212c           OUT
+212d           INC  H	1
+2132           OUT
+2133           INC  H	1
+2138           OUT
+2139           OUT
+213a           DEC  H	5
+213f           DEC *H	1
+2141           OUT
+2142           DEC  H	1
+2147           OUT
+2148           INC  H	1
+214d           INC *H	1
+214f           OUT
+2150           INC  H	5
+2155           OUT
+2156           OUT
+2157           DEC  H	1
+215c           OUT
+215d           DEC  H	1
+2162           OUT
+2163           OUT
+2164           DEC  H	3
+2169           DEC *H	1
+216b           OUT
+216c           DEC  H	1
+2171           OUT
+2172           INC  H	1
+2177           INC *H	1
+2179           OUT
+217a           INC  H	3
+217f           OUT
+2180           OUT
+2181           INC  H	1
+2186           OUT
+2187           INC  H	1
+218c           OUT
+218d           OUT
+218e           DEC  H	1
+2193           DEC *H	1
+2195           OUT
+2196           DEC  H	1
+219b           OUT
+219c           INC  H	1
+21a1           INC *H	2
+21a3           OUT
+21a4           INC  H	1
+21a9           OUT
+21aa           OUT
+21ab           DEC  H	1
+21b0           DEC *H	1
+21b2           OUT
+21b3           DEC  H	1
+21b8           OUT
+21b9           OUT
+21ba           DEC  H	3
+21bf           DEC *H	1
+21c1           OUT
+21c2           DEC  H	1
+21c7           OUT
+21c8           INC  H	1
+21cd           INC *H	1
+21cf           OUT
+21d0           INC  H	3
+21d5           OUT
+21d6           OUT
+21d7           INC  H	1
+21dc           OUT
+21dd           INC  H	1
+21e2           OUT
+21e3           OUT
+21e4           DEC  H	4
+21e9           OUT
+21ea           INC  H	2
+21ef           OUT
+21f0           DEC  H	1
+21f5           OUT
+21f6           OUT
+21f7           INC  H	3
+21fc           OUT
+21fd           DEC  H	1
+2202           OUT
+2203           DEC  H	1
+2208           OUT
+2209           OUT
+220a           DEC  H	1
+220f           DEC *H	1
+2211           OUT
+2212           INC  H	1
+2217           OUT
+2218           DEC  H	1
+221d           INC *H	2
+221f           OUT
+2220           INC  H	1
+2225           OUT
+2226           OUT
+2227           INC  H	1
+222c           OUT
+222d           INC  H	2
+2232           OUT
+2233           DEC  H	1
+2238           DEC  H	1
+223d           OUT
+223e           INC  H	1
+2243           OUT
+2244           DEC  H	4
+2249           DEC *H	7
+224b           OUT
+224c           INC  H	1
+2251           INC *H	2
+2253           OUT
+2254           OUT
+2255           OUT
+2256           DEC  H	2
+225b           OUT
+225c           INC  H	5
+2261           OUT
+2262           DEC  H	1
+2267           OUT
+2268           DEC  H	1
+226d           OUT
+226e           DEC  H	2
+2273           OUT
+2274           INC  H	1
+2279           OUT
+227a           OUT
+227b           OUT
+227c           DEC  H	2
+2281           OUT
+2282           INC  H	3
+2287           OUT
+2288           INC  H	1
+228d           OUT
+228e           INC  H	1
+2293           OUT
+2294           DEC  H	4
+2299           OUT
+229a           INC  H	1
+229f           OUT
+22a0           OUT
+22a1           OUT
+22a2           DEC  H	2
+22a7           OUT
+22a8           INC  H	5
+22ad           OUT
+22ae           DEC  H	1
+22b3           OUT
+22b4           DEC  H	1
+22b9           OUT
+22ba           DEC  H	2
+22bf           OUT
+22c0           INC  H	1
+22c5           OUT
+22c6           OUT
+22c7           OUT
+22c8           DEC  H	2
+22cd           OUT
+22ce           INC  H	3
+22d3           OUT
+22d4           INC  H	1
+22d9           OUT
+22da           INC  H	1
+22df           OUT
+22e0           DEC  H	4
+22e5           OUT
+22e6           INC  H	1
+22eb           OUT
+22ec           OUT
+22ed           OUT
+22ee           DEC  H	2
+22f3           OUT
+22f4           INC  H	5
+22f9           OUT
+22fa           DEC  H	1
+22ff           OUT
+2300           DEC  H	1
+2305           OUT
+2306           DEC  H	2
+230b           OUT
+230c           INC  H	1
+2311           OUT
+2312           OUT
+2313           OUT
+2314           DEC  H	2
+2319           OUT
+231a           INC  H	3
+231f           OUT
+2320           INC  H	1
+2325           OUT
+2326           INC  H	1
+232b           OUT
+232c           DEC  H	4
+2331           OUT
+2332           INC  H	1
+2337           OUT
+2338           OUT
+2339           OUT
+233a           DEC  H	2
+233f           OUT
+2340           INC  H	5
+2345           OUT
+2346           DEC  H	1
+234b           OUT
+234c           DEC  H	1
+2351           OUT
+2352           DEC  H	2
+2357           OUT
+2358           INC  H	1
+235d           OUT
+235e           OUT
+235f           OUT
+2360           DEC  H	2
+2365           OUT
+2366           INC  H	3
+236b           OUT
+236c           INC  H	1
+2371           OUT
+2372           INC  H	2
+2377           OUT
+2378           DEC  H	6
+237d           INC *H	2
+237f           OUT
+2380           INC *H	2
+2382           OUT
+2383           OUT
+2384           OUT
+2385           OUT
+2386           OUT
+2387           OUT
+2388           OUT
+2389           INC  H	1
+238e           INC *H	3
+2390           OUT
+2391           DEC  H	1
+2396           OUT
+2397           OUT
+2398           OUT
+2399           OUT
+239a           OUT
+239b           OUT
+239c           OUT
+239d           INC  H	1
+23a2           OUT
+23a3           DEC  H	1
+23a8           OUT
+23a9           OUT
+23aa           OUT
+23ab           OUT
+23ac           OUT
+23ad           OUT
+23ae           OUT
+23af           INC  H	1
+23b4           OUT
+23b5           DEC  H	1
+23ba           OUT
+23bb           OUT
+23bc           OUT
+23bd           OUT
+23be           OUT
+23bf           OUT
+23c0           OUT
+23c1           INC  H	1
+23c6           OUT
+23c7           DEC  H	1
+23cc           OUT
+23cd           OUT
+23ce           OUT
+23cf           OUT
+23d0           OUT
+23d1           OUT
+23d2           OUT
+23d3           INC  H	1
+23d8           OUT
+23d9           DEC  H	1
+23de           OUT
+23df           OUT
+23e0           OUT
+23e1           OUT
+23e2           OUT
+23e3           OUT
+23e4           OUT
+23e5           INC  H	1
+23ea           OUT
+23eb           DEC  H	1
+23f0           OUT
+23f1           OUT
+23f2           OUT
+23f3           OUT
+23f4           INC  H	2
+23f9           DEC *H	4
+23fb           OUT
+23fc           DEC  H	1
+2401           DEC *H	2
+2403           OUT
+2404           DEC  H	2
+2409           OUT
+240a           INC  H	1
+240f           INC *H	2
+2411           OUT
+2412           INC  H	2
+2417           INC *H	1
+2419           OUT
+241a           DEC  H	2
+241f           OUT
+2420           INC  H	2
+2425           OUT
+2426           INC  H	1
+242b           OUT
+242c           DEC  H	2
+2431           DEC *H	1
+2433           OUT
+2434           DEC  H	1
+2439           DEC *H	1
+243b           DEC *H	1
+243d           OUT
+243e           OUT
+243f           DEC *H	2
+2441           OUT
+2442           INC  H	6
+2447           OUT
+== Data Memory Dump ==
+Page: 000000
+Values: 
+00 20 2b 28 5c 20 7c 3a a0 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+

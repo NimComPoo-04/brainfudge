@@ -1,0 +1,4236 @@
+== Instruction Memory Dump ==
+0              INC *H	d
+2              JZ	2f
+7              DEC *H	1
+9              INC  H	1
+e              INC *H	2
+10             INC  H	3
+15             INC *H	5
+17             INC  H	1
+1c             INC *H	2
+1e             INC  H	1
+23             INC *H	1
+25             DEC  H	6
+2a             JNZ	7
+2f             INC  H	5
+34             INC *H	6
+36             INC  H	1
+3b             DEC *H	3
+3d             INC  H	a
+42             INC *H	f
+44             JZ	75
+49             JZ	58
+4e             INC  H	9
+53             JNZ	4e
+58             INC *H	1
+5a             JZ	69
+5f             DEC  H	9
+64             JNZ	5f
+69             INC  H	9
+6e             DEC *H	1
+70             JNZ	49
+75             INC *H	1
+77             JZ	97
+7c             INC  H	8
+81             JZ	8d
+86             DEC *H	1
+88             JNZ	86
+8d             INC  H	1
+92             JNZ	7c
+97             DEC  H	9
+9c             JZ	ab
+a1             DEC  H	9
+a6             JNZ	a1
+ab             INC  H	8
+b0             JZ	bc
+b5             DEC *H	1
+b7             JNZ	b5
+bc             INC *H	1
+be             DEC  H	7
+c3             INC *H	5
+c5             JZ	ee
+ca             DEC *H	1
+cc             JZ	e4
+d1             DEC *H	1
+d3             INC  H	9
+d8             INC *H	1
+da             DEC  H	9
+df             JNZ	d1
+e4             INC  H	9
+e9             JNZ	ca
+ee             INC  H	7
+f3             INC *H	1
+f5             INC  H	1a
+fa             INC  H	1
+ff             INC *H	1
+101            DEC  H	11
+106            JZ	115
+10b            DEC  H	9
+110            JNZ	10b
+115            INC  H	3
+11a            JZ	126
+11f            DEC *H	1
+121            JNZ	11f
+126            INC *H	1
+128            JZ	4579
+12d            INC  H	6
+132            JZ	152
+137            INC  H	7
+13c            JZ	148
+141            DEC *H	1
+143            JNZ	141
+148            INC  H	2
+14d            JNZ	137
+152            DEC  H	9
+157            JZ	166
+15c            DEC  H	9
+161            JNZ	15c
+166            INC  H	2
+16b            INC  H	5
+170            JZ	17c
+175            DEC *H	1
+177            JNZ	175
+17c            INC *H	1
+17e            DEC  H	6
+183            INC *H	4
+185            JZ	1ae
+18a            DEC *H	1
+18c            JZ	1a4
+191            DEC *H	1
+193            INC  H	9
+198            INC *H	1
+19a            DEC  H	9
+19f            JNZ	191
+1a4            INC  H	9
+1a9            JNZ	18a
+1ae            INC  H	6
+1b3            INC *H	1
+1b5            DEC  H	6
+1ba            INC *H	7
+1bc            JZ	1ea
+1c1            DEC *H	1
+1c3            JZ	1e0
+1c8            DEC *H	1
+1ca            INC  H	3
+1cf            INC  H	6
+1d4            INC *H	1
+1d6            DEC  H	9
+1db            JNZ	1c8
+1e0            INC  H	9
+1e5            JNZ	1c1
+1ea            INC  H	6
+1ef            INC *H	1
+1f1            DEC  H	10
+1f6            JZ	205
+1fb            DEC  H	9
+200            JNZ	1fb
+205            INC  H	3
+20a            JZ	3ea0
+20f            JZ	21b
+214            DEC *H	1
+216            JNZ	214
+21b            INC  H	6
+220            JZ	27c
+225            INC  H	5
+22a            INC  H	2
+22f            JZ	247
+234            DEC *H	1
+236            DEC  H	6
+23b            INC *H	1
+23d            INC  H	6
+242            JNZ	234
+247            DEC  H	6
+24c            JZ	272
+251            DEC *H	1
+253            INC  H	6
+258            INC *H	1
+25a            DEC  H	2
+25f            INC *H	1
+261            DEC  H	3
+266            INC *H	1
+268            DEC  H	1
+26d            JNZ	251
+272            INC  H	8
+277            JNZ	225
+27c            DEC  H	9
+281            JZ	290
+286            DEC  H	9
+28b            JNZ	286
+290            INC  H	9
+295            JZ	2ec
+29a            INC  H	8
+29f            JZ	2b7
+2a4            DEC *H	1
+2a6            DEC  H	7
+2ab            INC *H	1
+2ad            INC  H	7
+2b2            JNZ	2a4
+2b7            DEC  H	7
+2bc            JZ	2e2
+2c1            DEC *H	1
+2c3            INC  H	7
+2c8            INC *H	1
+2ca            DEC  H	2
+2cf            INC *H	1
+2d1            DEC  H	3
+2d6            INC *H	1
+2d8            DEC  H	2
+2dd            JNZ	2c1
+2e2            INC  H	8
+2e7            JNZ	29a
+2ec            DEC  H	9
+2f1            JZ	305
+2f6            DEC  H	7
+2fb            DEC  H	2
+300            JNZ	2f6
+305            INC  H	7
+30a            JZ	322
+30f            DEC *H	1
+311            DEC  H	7
+316            INC *H	1
+318            INC  H	7
+31d            JNZ	30f
+322            DEC  H	7
+327            JZ	346
+32c            DEC *H	1
+32e            INC  H	7
+333            INC *H	1
+335            DEC  H	2
+33a            INC *H	1
+33c            DEC  H	5
+341            JNZ	32c
+346            INC  H	9
+34b            INC *H	f
+34d            JZ	41c
+352            JZ	361
+357            INC  H	9
+35c            JNZ	357
+361            INC *H	1
+363            INC  H	1
+368            JZ	374
+36d            DEC *H	1
+36f            JNZ	36d
+374            INC  H	1
+379            JZ	385
+37e            DEC *H	1
+380            JNZ	37e
+385            INC  H	1
+38a            JZ	396
+38f            DEC *H	1
+391            JNZ	38f
+396            INC  H	1
+39b            JZ	3a7
+3a0            DEC *H	1
+3a2            JNZ	3a0
+3a7            INC  H	1
+3ac            JZ	3b8
+3b1            DEC *H	1
+3b3            JNZ	3b1
+3b8            INC  H	1
+3bd            JZ	3c9
+3c2            DEC *H	1
+3c4            JNZ	3c2
+3c9            INC  H	1
+3ce            JZ	3da
+3d3            DEC *H	1
+3d5            JNZ	3d3
+3da            INC  H	1
+3df            JZ	3eb
+3e4            DEC *H	1
+3e6            JNZ	3e4
+3eb            INC  H	1
+3f0            JZ	3fc
+3f5            DEC *H	1
+3f7            JNZ	3f5
+3fc            DEC  H	9
+401            JZ	410
+406            DEC  H	9
+40b            JNZ	406
+410            INC  H	9
+415            DEC *H	1
+417            JNZ	352
+41c            INC *H	1
+41e            JZ	434
+423            INC  H	1
+428            INC *H	1
+42a            INC  H	8
+42f            JNZ	423
+434            DEC  H	9
+439            JZ	448
+43e            DEC  H	9
+443            JNZ	43e
+448            INC  H	9
+44d            JZ	573
+452            INC  H	1
+457            DEC *H	1
+459            INC  H	4
+45e            JZ	476
+463            DEC *H	1
+465            DEC  H	4
+46a            INC *H	1
+46c            INC  H	4
+471            JNZ	463
+476            DEC  H	4
+47b            JZ	4fb
+480            DEC *H	1
+482            INC  H	4
+487            INC *H	1
+489            DEC  H	5
+48e            JZ	4e2
+493            DEC *H	1
+495            INC  H	2
+49a            JZ	4b2
+49f            DEC *H	1
+4a1            DEC  H	2
+4a6            INC *H	1
+4a8            INC  H	2
+4ad            JNZ	49f
+4b2            DEC  H	2
+4b7            JZ	4d6
+4bc            DEC *H	1
+4be            INC  H	2
+4c3            INC *H	1
+4c5            INC  H	2
+4ca            INC *H	1
+4cc            DEC  H	4
+4d1            JNZ	4bc
+4d6            INC *H	1
+4d8            INC  H	9
+4dd            JNZ	493
+4e2            DEC  H	8
+4e7            JZ	4f6
+4ec            DEC  H	9
+4f1            JNZ	4ec
+4f6            JNZ	480
+4fb            INC  H	9
+500            JZ	50f
+505            INC  H	9
+50a            JNZ	505
+50f            DEC  H	7
+514            DEC  H	2
+519            JZ	545
+51e            INC  H	1
+523            JZ	53b
+528            DEC *H	1
+52a            INC  H	9
+52f            INC *H	1
+531            DEC  H	9
+536            JNZ	528
+53b            DEC  H	a
+540            JNZ	51e
+545            INC  H	1
+54a            JZ	562
+54f            DEC *H	1
+551            INC  H	9
+556            INC *H	1
+558            DEC  H	9
+55d            JNZ	54f
+562            DEC  H	1
+567            INC *H	1
+569            INC  H	8
+56e            JNZ	452
+573            DEC  H	9
+578            JZ	626
+57d            INC  H	1
+582            JZ	58e
+587            DEC *H	1
+589            JNZ	587
+58e            DEC  H	1
+593            DEC *H	1
+595            INC  H	4
+59a            JZ	5f8
+59f            DEC *H	1
+5a1            DEC  H	4
+5a6            INC *H	1
+5a8            INC  H	1
+5ad            JZ	5d1
+5b2            DEC  H	1
+5b7            DEC *H	1
+5b9            INC  H	1
+5be            DEC *H	1
+5c0            DEC  H	6
+5c5            INC *H	1
+5c7            INC  H	6
+5cc            JNZ	5b2
+5d1            DEC  H	1
+5d6            JZ	5ee
+5db            DEC *H	1
+5dd            INC  H	1
+5e2            INC *H	1
+5e4            DEC  H	1
+5e9            JNZ	5db
+5ee            INC  H	4
+5f3            JNZ	59f
+5f8            DEC  H	3
+5fd            JZ	615
+602            DEC *H	1
+604            INC  H	3
+609            INC *H	1
+60b            DEC  H	3
+610            JNZ	602
+615            DEC  H	1
+61a            INC *H	1
+61c            DEC  H	9
+621            JNZ	57d
+626            INC  H	5
+62b            INC  H	4
+630            JZ	646
+635            INC  H	1
+63a            INC *H	1
+63c            INC  H	8
+641            JNZ	635
+646            DEC  H	9
+64b            JZ	65a
+650            DEC  H	9
+655            JNZ	650
+65a            INC  H	9
+65f            JZ	785
+664            INC  H	1
+669            DEC *H	1
+66b            INC  H	5
+670            JZ	688
+675            DEC *H	1
+677            DEC  H	5
+67c            INC *H	1
+67e            INC  H	5
+683            JNZ	675
+688            DEC  H	5
+68d            JZ	70d
+692            DEC *H	1
+694            INC  H	5
+699            INC *H	1
+69b            DEC  H	6
+6a0            JZ	6f4
+6a5            DEC *H	1
+6a7            INC  H	3
+6ac            JZ	6c4
+6b1            DEC *H	1
+6b3            DEC  H	3
+6b8            INC *H	1
+6ba            INC  H	3
+6bf            JNZ	6b1
+6c4            DEC  H	3
+6c9            JZ	6e8
+6ce            DEC *H	1
+6d0            INC  H	3
+6d5            INC *H	1
+6d7            INC  H	1
+6dc            INC *H	1
+6de            DEC  H	4
+6e3            JNZ	6ce
+6e8            INC *H	1
+6ea            INC  H	9
+6ef            JNZ	6a5
+6f4            DEC  H	8
+6f9            JZ	708
+6fe            DEC  H	9
+703            JNZ	6fe
+708            JNZ	692
+70d            INC  H	9
+712            JZ	726
+717            INC  H	2
+71c            INC  H	7
+721            JNZ	717
+726            DEC  H	9
+72b            JZ	757
+730            INC  H	2
+735            JZ	74d
+73a            DEC *H	1
+73c            INC  H	9
+741            INC *H	1
+743            DEC  H	9
+748            JNZ	73a
+74d            DEC  H	b
+752            JNZ	730
+757            INC  H	2
+75c            JZ	774
+761            DEC *H	1
+763            INC  H	9
+768            INC *H	1
+76a            DEC  H	9
+76f            JNZ	761
+774            DEC  H	2
+779            INC *H	1
+77b            INC  H	8
+780            JNZ	664
+785            DEC  H	9
+78a            JZ	83d
+78f            INC  H	1
+794            JZ	7a0
+799            DEC *H	1
+79b            JNZ	799
+7a0            DEC  H	1
+7a5            DEC *H	1
+7a7            INC  H	4
+7ac            JZ	80a
+7b1            DEC *H	1
+7b3            DEC  H	4
+7b8            INC *H	1
+7ba            INC  H	1
+7bf            JZ	7e3
+7c4            DEC  H	1
+7c9            DEC *H	1
+7cb            INC  H	1
+7d0            DEC *H	1
+7d2            DEC  H	6
+7d7            INC *H	1
+7d9            INC  H	6
+7de            JNZ	7c4
+7e3            DEC  H	1
+7e8            JZ	800
+7ed            DEC *H	1
+7ef            INC  H	1
+7f4            INC *H	1
+7f6            DEC  H	1
+7fb            JNZ	7ed
+800            INC  H	4
+805            JNZ	7b1
+80a            DEC  H	3
+80f            JZ	82c
+814            DEC *H	1
+816            INC  H	3
+81b            INC *H	1
+81d            DEC  H	2
+822            DEC  H	1
+827            JNZ	814
+82c            DEC  H	1
+831            INC *H	1
+833            DEC  H	9
+838            JNZ	78f
+83d            INC  H	9
+842            JZ	873
+847            INC  H	4
+84c            JZ	869
+851            DEC *H	1
+853            DEC  H	24
+858            INC *H	1
+85a            INC  H	d
+85f            INC  H	17
+864            JNZ	851
+869            INC  H	5
+86e            JNZ	847
+873            DEC  H	9
+878            JZ	887
+87d            DEC  H	9
+882            JNZ	87d
+887            INC  H	9
+88c            INC *H	f
+88e            JZ	8ce
+893            JZ	8a7
+898            INC  H	4
+89d            INC  H	5
+8a2            JNZ	898
+8a7            DEC  H	9
+8ac            DEC *H	1
+8ae            DEC  H	9
+8b3            JZ	8c2
+8b8            DEC  H	9
+8bd            JNZ	8b8
+8c2            INC  H	9
+8c7            DEC *H	1
+8c9            JNZ	893
+8ce            INC *H	1
+8d0            INC  H	15
+8d5            INC *H	1
+8d7            DEC  H	3
+8dc            JZ	8f0
+8e1            DEC  H	6
+8e6            DEC  H	3
+8eb            JNZ	8e1
+8f0            INC  H	9
+8f5            JZ	ab3
+8fa            INC  H	3
+8ff            JZ	917
+904            DEC *H	1
+906            DEC  H	3
+90b            DEC *H	1
+90d            INC  H	3
+912            JNZ	904
+917            INC *H	1
+919            DEC  H	3
+91e            JZ	9b2
+923            DEC *H	1
+925            INC  H	3
+92a            DEC *H	1
+92c            INC  H	1
+931            JZ	949
+936            DEC *H	1
+938            DEC  H	4
+93d            INC *H	1
+93f            INC  H	4
+944            JNZ	936
+949            DEC  H	4
+94e            JZ	9ad
+953            DEC *H	1
+955            INC  H	4
+95a            INC *H	1
+95c            DEC  H	d
+961            JZ	975
+966            DEC  H	5
+96b            DEC  H	4
+970            JNZ	966
+975            INC  H	4
+97a            JZ	986
+97f            DEC *H	1
+981            JNZ	97f
+986            INC *H	1
+988            INC  H	5
+98d            JZ	99c
+992            INC  H	9
+997            JNZ	992
+99c            INC  H	1
+9a1            INC *H	1
+9a3            DEC  H	1
+9a8            JNZ	953
+9ad            JNZ	923
+9b2            INC *H	1
+9b4            INC  H	4
+9b9            JZ	9d1
+9be            DEC *H	1
+9c0            DEC  H	4
+9c5            DEC *H	1
+9c7            INC  H	4
+9cc            JNZ	9be
+9d1            INC *H	1
+9d3            DEC  H	4
+9d8            JZ	a78
+9dd            DEC *H	1
+9df            INC  H	4
+9e4            DEC *H	1
+9e6            DEC  H	1
+9eb            JZ	a03
+9f0            DEC *H	1
+9f2            DEC  H	3
+9f7            INC *H	1
+9f9            INC  H	3
+9fe            JNZ	9f0
+a03            DEC  H	3
+a08            JZ	a73
+a0d            DEC *H	1
+a0f            INC  H	1
+a14            INC  H	2
+a19            INC *H	1
+a1b            DEC  H	c
+a20            JZ	a2f
+a25            DEC  H	9
+a2a            JNZ	a25
+a2f            INC  H	3
+a34            JZ	a40
+a39            DEC *H	1
+a3b            JNZ	a39
+a40            INC *H	1
+a42            INC  H	6
+a47            JZ	a56
+a4c            INC  H	9
+a51            JNZ	a4c
+a56            INC  H	1
+a5b            JZ	a67
+a60            DEC *H	1
+a62            JNZ	a60
+a67            INC *H	1
+a69            DEC  H	1
+a6e            JNZ	a0d
+a73            JNZ	9dd
+a78            INC *H	1
+a7a            INC  H	1
+a7f            JZ	aa9
+a84            DEC *H	1
+a86            DEC  H	1
+a8b            JZ	a9a
+a90            INC  H	9
+a95            JNZ	a90
+a9a            DEC  H	6
+a9f            DEC  H	2
+aa4            JNZ	a84
+aa9            INC  H	8
+aae            JNZ	8fa
+ab3            DEC  H	9
+ab8            JZ	ac7
+abd            DEC  H	9
+ac2            JNZ	abd
+ac7            DEC  H	7
+acc            JZ	aeb
+ad1            DEC *H	1
+ad3            INC  H	1
+ad8            INC *H	1
+ada            INC  H	3
+adf            DEC *H	1
+ae1            DEC  H	4
+ae6            JNZ	ad1
+aeb            INC  H	9
+af0            INC *H	13
+af2            INC *H	7
+af4            INC  H	2
+af9            JZ	b11
+afe            DEC *H	1
+b00            DEC  H	4
+b05            INC *H	1
+b07            INC  H	4
+b0c            JNZ	afe
+b11            DEC  H	4
+b16            JZ	b3f
+b1b            DEC *H	1
+b1d            INC  H	4
+b22            INC *H	1
+b24            DEC  H	2
+b29            JZ	b35
+b2e            DEC *H	1
+b30            JNZ	b2e
+b35            DEC  H	2
+b3a            JNZ	b1b
+b3f            INC  H	2
+b44            JZ	3678
+b49            DEC  H	7
+b4e            INC *H	1
+b50            DEC  H	1
+b55            JZ	b80
+b5a            DEC *H	1
+b5c            DEC  H	1
+b61            INC *H	1
+b63            INC  H	4
+b68            INC *H	1
+b6a            DEC  H	2
+b6f            JZ	b7b
+b74            DEC *H	1
+b76            JNZ	b74
+b7b            JNZ	b5a
+b80            INC  H	1
+b85            JZ	bba
+b8a            DEC *H	1
+b8c            DEC  H	2
+b91            JZ	bb0
+b96            DEC *H	1
+b98            INC  H	1
+b9d            INC *H	1
+b9f            INC  H	3
+ba4            DEC *H	1
+ba6            DEC  H	4
+bab            JNZ	b96
+bb0            INC  H	3
+bb5            JNZ	b8a
+bba            INC  H	d
+bbf            JZ	c01
+bc4            INC  H	2
+bc9            JZ	bd5
+bce            DEC *H	1
+bd0            JNZ	bce
+bd5            INC  H	1
+bda            JZ	be6
+bdf            DEC *H	1
+be1            JNZ	bdf
+be6            INC  H	1
+beb            JZ	bf7
+bf0            DEC *H	1
+bf2            JNZ	bf0
+bf7            INC  H	5
+bfc            JNZ	bc4
+c01            DEC  H	9
+c06            JZ	c15
+c0b            DEC  H	9
+c10            JNZ	c0b
+c15            INC  H	3
+c1a            JZ	c26
+c1f            DEC *H	1
+c21            JNZ	c1f
+c26            INC  H	6
+c2b            JZ	c7b
+c30            INC  H	5
+c35            JZ	c4d
+c3a            DEC *H	1
+c3c            DEC  H	4
+c41            INC *H	1
+c43            INC  H	4
+c48            JNZ	c3a
+c4d            DEC  H	4
+c52            JZ	c71
+c57            DEC *H	1
+c59            INC  H	4
+c5e            INC *H	1
+c60            DEC  H	3
+c65            INC *H	1
+c67            DEC  H	1
+c6c            JNZ	c57
+c71            INC  H	8
+c76            JNZ	c30
+c7b            DEC  H	9
+c80            JZ	c8f
+c85            DEC  H	9
+c8a            JNZ	c85
+c8f            INC  H	9
+c94            JZ	cc5
+c99            INC  H	2
+c9e            JZ	cbb
+ca3            DEC *H	1
+ca5            DEC  H	8
+caa            DEC  H	1
+caf            INC *H	1
+cb1            INC  H	9
+cb6            JNZ	ca3
+cbb            INC  H	7
+cc0            JNZ	c99
+cc5            DEC  H	9
+cca            JZ	cd9
+ccf            DEC  H	9
+cd4            JNZ	ccf
+cd9            INC  H	9
+cde            INC *H	f
+ce0            JZ	daf
+ce5            JZ	cf4
+cea            INC  H	9
+cef            JNZ	cea
+cf4            INC *H	1
+cf6            INC  H	1
+cfb            JZ	d07
+d00            DEC *H	1
+d02            JNZ	d00
+d07            INC  H	1
+d0c            JZ	d18
+d11            DEC *H	1
+d13            JNZ	d11
+d18            INC  H	1
+d1d            JZ	d29
+d22            DEC *H	1
+d24            JNZ	d22
+d29            INC  H	1
+d2e            JZ	d3a
+d33            DEC *H	1
+d35            JNZ	d33
+d3a            INC  H	1
+d3f            JZ	d4b
+d44            DEC *H	1
+d46            JNZ	d44
+d4b            INC  H	1
+d50            JZ	d5c
+d55            DEC *H	1
+d57            JNZ	d55
+d5c            INC  H	1
+d61            JZ	d6d
+d66            DEC *H	1
+d68            JNZ	d66
+d6d            INC  H	1
+d72            JZ	d7e
+d77            DEC *H	1
+d79            JNZ	d77
+d7e            INC  H	1
+d83            JZ	d8f
+d88            DEC *H	1
+d8a            JNZ	d88
+d8f            DEC  H	9
+d94            JZ	da3
+d99            DEC  H	9
+d9e            JNZ	d99
+da3            INC  H	9
+da8            DEC *H	1
+daa            JNZ	ce5
+daf            INC *H	1
+db1            JZ	dc7
+db6            INC  H	1
+dbb            INC *H	1
+dbd            INC  H	8
+dc2            JNZ	db6
+dc7            DEC  H	3
+dcc            DEC  H	6
+dd1            JZ	de0
+dd6            DEC  H	9
+ddb            JNZ	dd6
+de0            INC  H	9
+de5            JZ	f10
+dea            INC  H	1
+def            DEC *H	1
+df1            INC  H	5
+df6            JZ	e0e
+dfb            DEC *H	1
+dfd            DEC  H	5
+e02            INC *H	1
+e04            INC  H	5
+e09            JNZ	dfb
+e0e            DEC  H	5
+e13            JZ	e98
+e18            DEC *H	1
+e1a            INC  H	5
+e1f            INC *H	1
+e21            DEC  H	6
+e26            JZ	e7f
+e2b            DEC *H	1
+e2d            INC  H	2
+e32            JZ	e4a
+e37            DEC *H	1
+e39            DEC  H	2
+e3e            INC *H	1
+e40            INC  H	2
+e45            JNZ	e37
+e4a            DEC  H	1
+e4f            DEC  H	1
+e54            JZ	e73
+e59            DEC *H	1
+e5b            INC  H	2
+e60            INC *H	1
+e62            INC  H	1
+e67            INC *H	1
+e69            DEC  H	3
+e6e            JNZ	e59
+e73            INC *H	1
+e75            INC  H	9
+e7a            JNZ	e2b
+e7f            DEC  H	8
+e84            JZ	e93
+e89            DEC  H	9
+e8e            JNZ	e89
+e93            JNZ	e18
+e98            INC  H	9
+e9d            JZ	eac
+ea2            INC  H	9
+ea7            JNZ	ea2
+eac            DEC  H	9
+eb1            JZ	ee2
+eb6            INC  H	1
+ebb            JZ	ed8
+ec0            DEC *H	1
+ec2            INC  H	4
+ec7            INC  H	5
+ecc            INC *H	1
+ece            DEC  H	9
+ed3            JNZ	ec0
+ed8            DEC  H	a
+edd            JNZ	eb6
+ee2            INC  H	1
+ee7            JZ	eff
+eec            DEC *H	1
+eee            INC  H	9
+ef3            INC *H	1
+ef5            DEC  H	9
+efa            JNZ	eec
+eff            DEC  H	1
+f04            INC *H	1
+f06            INC  H	8
+f0b            JNZ	dea
+f10            DEC  H	9
+f15            JZ	fc3
+f1a            INC  H	1
+f1f            JZ	f2b
+f24            DEC *H	1
+f26            JNZ	f24
+f2b            DEC  H	1
+f30            DEC *H	1
+f32            INC  H	3
+f37            JZ	f95
+f3c            DEC *H	1
+f3e            DEC  H	3
+f43            INC *H	1
+f45            INC  H	1
+f4a            JZ	f6e
+f4f            DEC  H	1
+f54            DEC *H	1
+f56            INC  H	1
+f5b            DEC *H	1
+f5d            DEC  H	7
+f62            INC *H	1
+f64            INC  H	7
+f69            JNZ	f4f
+f6e            DEC  H	1
+f73            JZ	f8b
+f78            DEC *H	1
+f7a            INC  H	1
+f7f            INC *H	1
+f81            DEC  H	1
+f86            JNZ	f78
+f8b            INC  H	3
+f90            JNZ	f3c
+f95            DEC  H	2
+f9a            JZ	fb2
+f9f            DEC *H	1
+fa1            INC  H	2
+fa6            INC *H	1
+fa8            DEC  H	2
+fad            JNZ	f9f
+fb2            DEC  H	1
+fb7            INC *H	1
+fb9            DEC  H	9
+fbe            JNZ	f1a
+fc3            INC  H	9
+fc8            JZ	101d
+fcd            INC  H	6
+fd2            JZ	fef
+fd7            DEC *H	1
+fd9            DEC  H	1
+fde            DEC  H	4
+fe3            INC *H	1
+fe5            INC  H	5
+fea            JNZ	fd7
+fef            DEC  H	5
+ff4            JZ	1013
+ff9            DEC *H	1
+ffb            INC  H	5
+1000           INC *H	1
+1002           DEC  H	4
+1007           INC *H	1
+1009           DEC  H	1
+100e           JNZ	ff9
+1013           INC  H	8
+1018           JNZ	fcd
+101d           DEC  H	9
+1022           JZ	1031
+1027           DEC  H	9
+102c           JNZ	1027
+1031           INC  H	9
+1036           JZ	104c
+103b           INC  H	1
+1040           INC *H	1
+1042           INC  H	8
+1047           JNZ	103b
+104c           DEC  H	9
+1051           JZ	1060
+1056           DEC  H	9
+105b           JNZ	1056
+1060           INC  H	9
+1065           JZ	1186
+106a           INC  H	1
+106f           DEC *H	1
+1071           INC  H	5
+1076           JZ	108e
+107b           DEC *H	1
+107d           DEC  H	5
+1082           INC *H	1
+1084           INC  H	5
+1089           JNZ	107b
+108e           DEC  H	5
+1093           JZ	1113
+1098           DEC *H	1
+109a           INC  H	5
+109f           INC *H	1
+10a1           DEC  H	6
+10a6           JZ	10fa
+10ab           DEC *H	1
+10ad           INC  H	2
+10b2           JZ	10ca
+10b7           DEC *H	1
+10b9           DEC  H	2
+10be           INC *H	1
+10c0           INC  H	2
+10c5           JNZ	10b7
+10ca           DEC  H	2
+10cf           JZ	10ee
+10d4           DEC *H	1
+10d6           INC  H	2
+10db           INC *H	1
+10dd           INC  H	2
+10e2           INC *H	1
+10e4           DEC  H	4
+10e9           JNZ	10d4
+10ee           INC *H	1
+10f0           INC  H	9
+10f5           JNZ	10ab
+10fa           DEC  H	8
+10ff           JZ	110e
+1104           DEC  H	9
+1109           JNZ	1104
+110e           JNZ	1098
+1113           INC  H	9
+1118           JZ	1127
+111d           INC  H	9
+1122           JNZ	111d
+1127           DEC  H	9
+112c           JZ	1158
+1131           INC  H	1
+1136           JZ	114e
+113b           DEC *H	1
+113d           INC  H	9
+1142           INC *H	1
+1144           DEC  H	9
+1149           JNZ	113b
+114e           DEC  H	a
+1153           JNZ	1131
+1158           INC  H	1
+115d           JZ	1175
+1162           DEC *H	1
+1164           INC  H	9
+1169           INC *H	1
+116b           DEC  H	9
+1170           JNZ	1162
+1175           DEC  H	1
+117a           INC *H	1
+117c           INC  H	8
+1181           JNZ	106a
+1186           DEC  H	9
+118b           JZ	1239
+1190           INC  H	1
+1195           JZ	11a1
+119a           DEC *H	1
+119c           JNZ	119a
+11a1           DEC  H	1
+11a6           DEC *H	1
+11a8           INC  H	4
+11ad           JZ	120b
+11b2           DEC *H	1
+11b4           DEC  H	4
+11b9           INC *H	1
+11bb           INC  H	1
+11c0           JZ	11e4
+11c5           DEC  H	1
+11ca           DEC *H	1
+11cc           INC  H	1
+11d1           DEC *H	1
+11d3           DEC  H	6
+11d8           INC *H	1
+11da           INC  H	6
+11df           JNZ	11c5
+11e4           DEC  H	1
+11e9           JZ	1201
+11ee           DEC *H	1
+11f0           INC  H	1
+11f5           INC *H	1
+11f7           DEC  H	1
+11fc           JNZ	11ee
+1201           INC  H	4
+1206           JNZ	11b2
+120b           DEC  H	3
+1210           JZ	1228
+1215           DEC *H	1
+1217           INC  H	3
+121c           INC *H	1
+121e           DEC  H	3
+1223           JNZ	1215
+1228           DEC  H	1
+122d           INC *H	1
+122f           DEC  H	9
+1234           JNZ	1190
+1239           INC  H	9
+123e           JZ	126a
+1243           INC  H	4
+1248           JZ	1260
+124d           DEC *H	1
+124f           DEC  H	24
+1254           INC *H	1
+1256           INC  H	24
+125b           JNZ	124d
+1260           INC  H	5
+1265           JNZ	1243
+126a           DEC  H	9
+126f           JZ	127e
+1274           DEC  H	9
+1279           JNZ	1274
+127e           INC  H	9
+1283           JZ	12b4
+1288           INC  H	3
+128d           JZ	12aa
+1292           DEC *H	1
+1294           DEC  H	24
+1299           INC *H	1
+129b           INC  H	1
+12a0           INC  H	23
+12a5           JNZ	1292
+12aa           INC  H	6
+12af           JNZ	1288
+12b4           DEC  H	9
+12b9           JZ	12c8
+12be           DEC  H	9
+12c3           JNZ	12be
+12c8           INC  H	9
+12cd           INC *H	8
+12cf           INC *H	7
+12d1           JZ	130c
+12d6           JZ	12e5
+12db           INC  H	9
+12e0           JNZ	12db
+12e5           DEC  H	9
+12ea           DEC *H	1
+12ec           DEC  H	9
+12f1           JZ	1300
+12f6           DEC  H	9
+12fb           JNZ	12f6
+1300           INC  H	9
+1305           DEC *H	1
+1307           JNZ	12d6
+130c           INC *H	1
+130e           JZ	135e
+1313           INC  H	8
+1318           JZ	1330
+131d           DEC *H	1
+131f           DEC  H	7
+1324           INC *H	1
+1326           INC  H	7
+132b           JNZ	131d
+1330           DEC  H	7
+1335           JZ	1354
+133a           DEC *H	1
+133c           INC  H	7
+1341           INC *H	1
+1343           DEC  H	6
+1348           INC *H	1
+134a           DEC  H	1
+134f           JNZ	133a
+1354           INC  H	8
+1359           JNZ	1313
+135e           DEC  H	9
+1363           JZ	1372
+1368           DEC  H	9
+136d           JNZ	1368
+1372           INC  H	9
+1377           JZ	1397
+137c           INC  H	6
+1381           JZ	138d
+1386           DEC *H	1
+1388           JNZ	1386
+138d           INC  H	3
+1392           JNZ	137c
+1397           DEC  H	9
+139c           JZ	13ab
+13a1           DEC  H	9
+13a6           JNZ	13a1
+13ab           INC  H	4
+13b0           INC *H	1
+13b2           INC  H	1
+13b7           JZ	13d6
+13bc           DEC *H	1
+13be           DEC  H	1
+13c3           DEC *H	1
+13c5           DEC  H	4
+13ca           INC *H	1
+13cc           INC  H	5
+13d1           JNZ	13bc
+13d6           INC  H	1
+13db           JZ	1440
+13e0           DEC *H	1
+13e2           DEC  H	6
+13e7           JZ	1406
+13ec           DEC *H	1
+13ee           INC  H	5
+13f3           INC *H	1
+13f5           DEC  H	1
+13fa           INC *H	2
+13fc           DEC  H	4
+1401           JNZ	13ec
+1406           INC  H	5
+140b           JZ	1428
+1410           DEC *H	1
+1412           DEC  H	1
+1417           DEC  H	4
+141c           INC *H	1
+141e           INC  H	5
+1423           JNZ	1410
+1428           DEC  H	1
+142d           DEC *H	1
+142f           INC  H	1
+1434           INC *H	1
+1436           INC  H	1
+143b           JNZ	13e0
+1440           DEC  H	1
+1445           JZ	145d
+144a           DEC *H	1
+144c           INC  H	1
+1451           INC *H	1
+1453           DEC  H	1
+1458           JNZ	144a
+145d           DEC  H	5
+1462           JZ	147a
+1467           DEC *H	1
+1469           INC  H	5
+146e           INC *H	1
+1470           DEC  H	5
+1475           JNZ	1467
+147a           INC  H	6
+147f           JZ	148b
+1484           DEC *H	1
+1486           JNZ	1484
+148b           DEC  H	6
+1490           INC *H	1
+1492           INC  H	4
+1497           JZ	14af
+149c           DEC *H	1
+149e           DEC  H	4
+14a3           DEC *H	1
+14a5           INC  H	4
+14aa           JNZ	149c
+14af           INC *H	1
+14b1           DEC  H	4
+14b6           JZ	19db
+14bb           DEC *H	1
+14bd           INC  H	4
+14c2           DEC *H	1
+14c4           INC  H	5
+14c9           JZ	167d
+14ce           INC  H	2
+14d3           JZ	14eb
+14d8           DEC *H	1
+14da           DEC  H	2
+14df           DEC *H	1
+14e1           INC  H	2
+14e6           JNZ	14d8
+14eb           INC *H	1
+14ed           DEC  H	2
+14f2           JZ	1581
+14f7           DEC *H	1
+14f9           INC  H	2
+14fe           DEC *H	1
+1500           INC  H	1
+1505           JZ	151d
+150a           DEC *H	1
+150c           DEC  H	3
+1511           INC *H	1
+1513           INC  H	3
+1518           JNZ	150a
+151d           DEC  H	3
+1522           JZ	157c
+1527           DEC *H	1
+1529           INC  H	3
+152e           INC *H	1
+1530           DEC  H	c
+1535           JZ	1544
+153a           DEC  H	9
+153f           JNZ	153a
+1544           INC  H	3
+1549           JZ	1555
+154e           DEC *H	1
+1550           JNZ	154e
+1555           INC *H	1
+1557           INC  H	6
+155c           JZ	156b
+1561           INC  H	9
+1566           JNZ	1561
+156b           INC  H	1
+1570           INC *H	1
+1572           DEC  H	1
+1577           JNZ	1527
+157c           JNZ	14f7
+1581           INC *H	1
+1583           INC  H	3
+1588           JZ	15a0
+158d           DEC *H	1
+158f           DEC  H	3
+1594           DEC *H	1
+1596           INC  H	3
+159b           JNZ	158d
+15a0           INC *H	1
+15a2           DEC  H	3
+15a7           JZ	1647
+15ac           DEC *H	1
+15ae           INC  H	3
+15b3           DEC *H	1
+15b5           DEC  H	1
+15ba           JZ	15d2
+15bf           DEC *H	1
+15c1           DEC  H	2
+15c6           INC *H	1
+15c8           INC  H	2
+15cd           JNZ	15bf
+15d2           DEC  H	2
+15d7           JZ	1642
+15dc           DEC *H	1
+15de           INC  H	2
+15e3           INC *H	1
+15e5           DEC  H	b
+15ea           JZ	15fe
+15ef           DEC  H	5
+15f4           DEC  H	4
+15f9           JNZ	15ef
+15fe           INC  H	4
+1603           JZ	160f
+1608           DEC *H	1
+160a           JNZ	1608
+160f           INC *H	1
+1611           INC  H	5
+1616           JZ	1625
+161b           INC  H	9
+1620           JNZ	161b
+1625           INC  H	1
+162a           JZ	1636
+162f           DEC *H	1
+1631           JNZ	162f
+1636           INC *H	1
+1638           DEC  H	1
+163d           JNZ	15dc
+1642           JNZ	15ac
+1647           INC *H	1
+1649           INC  H	1
+164e           JZ	1673
+1653           DEC *H	1
+1655           DEC  H	1
+165a           JZ	1669
+165f           INC  H	9
+1664           JNZ	165f
+1669           DEC  H	8
+166e           JNZ	1653
+1673           INC  H	8
+1678           JNZ	14ce
+167d           DEC  H	9
+1682           JZ	1691
+1687           DEC  H	9
+168c           JNZ	1687
+1691           INC  H	4
+1696           JZ	16ae
+169b           DEC *H	1
+169d           DEC  H	4
+16a2           INC *H	1
+16a4           INC  H	4
+16a9           JNZ	169b
+16ae           DEC  H	4
+16b3           JZ	183b
+16b8           DEC *H	1
+16ba           INC  H	4
+16bf           INC *H	1
+16c1           INC  H	5
+16c6           JZ	1716
+16cb           INC  H	1
+16d0           INC *H	1
+16d2           INC  H	2
+16d7           JZ	16ef
+16dc           DEC *H	1
+16de           DEC  H	2
+16e3           DEC *H	1
+16e5           INC  H	2
+16ea           JNZ	16dc
+16ef           DEC  H	2
+16f4           JZ	170c
+16f9           DEC *H	1
+16fb           INC  H	2
+1700           INC *H	1
+1702           DEC  H	2
+1707           JNZ	16f9
+170c           INC  H	8
+1711           JNZ	16cb
+1716           DEC  H	5
+171b           DEC  H	3
+1720           INC *H	1
+1722           DEC  H	1
+1727           JZ	1820
+172c           INC  H	1
+1731           JZ	17b3
+1736           DEC *H	1
+1738           INC  H	5
+173d           INC *H	1
+173f           DEC  H	4
+1744           JZ	1780
+1749           DEC *H	1
+174b           INC  H	4
+1750           DEC *H	1
+1752           DEC  H	e
+1757           INC *H	1
+1759           INC  H	b
+175e           JZ	1776
+1763           DEC *H	1
+1765           INC  H	3
+176a           INC *H	1
+176c           DEC  H	3
+1771           JNZ	1763
+1776           DEC  H	1
+177b           JNZ	1749
+1780           INC  H	1
+1785           JZ	17a9
+178a           DEC *H	1
+178c           INC  H	3
+1791           DEC *H	1
+1793           DEC  H	9
+1798           DEC  H	5
+179d           INC *H	1
+179f           INC  H	b
+17a4           JNZ	178a
+17a9           DEC  H	2
+17ae           JNZ	1736
+17b3           INC  H	1
+17b8           JZ	17f4
+17bd           DEC *H	1
+17bf           INC  H	4
+17c4           INC *H	1
+17c6           DEC  H	3
+17cb           JZ	17ea
+17d0           DEC *H	1
+17d2           INC  H	3
+17d7           DEC *H	1
+17d9           DEC  H	e
+17de           INC *H	1
+17e0           INC  H	b
+17e5           JNZ	17d0
+17ea           DEC  H	1
+17ef           JNZ	17bd
+17f4           INC  H	1
+17f9           JZ	1811
+17fe           DEC *H	1
+1800           INC  H	3
+1805           INC *H	1
+1807           DEC  H	3
+180c           JNZ	17fe
+1811           DEC  H	2
+1816           DEC  H	a
+181b           JNZ	172c
+1820           INC  H	4
+1825           JZ	1831
+182a           DEC *H	1
+182c           JNZ	182a
+1831           DEC  H	4
+1836           JNZ	16b8
+183b           INC  H	3
+1840           JZ	1858
+1845           DEC *H	1
+1847           DEC  H	3
+184c           INC *H	1
+184e           INC  H	3
+1853           JNZ	1845
+1858           DEC  H	3
+185d           JZ	19d6
+1862           DEC *H	1
+1864           INC  H	3
+1869           INC *H	1
+186b           INC  H	6
+1870           JZ	18c0
+1875           INC  H	1
+187a           INC *H	1
+187c           INC  H	1
+1881           JZ	1899
+1886           DEC *H	1
+1888           DEC  H	1
+188d           DEC *H	1
+188f           INC  H	1
+1894           JNZ	1886
+1899           DEC  H	1
+189e           JZ	18b6
+18a3           DEC *H	1
+18a5           INC  H	1
+18aa           INC *H	1
+18ac           DEC  H	1
+18b1           JNZ	18a3
+18b6           INC  H	8
+18bb           JNZ	1875
+18c0           DEC  H	3
+18c5           DEC  H	5
+18ca           INC *H	1
+18cc           DEC  H	1
+18d1           JZ	19c5
+18d6           INC  H	1
+18db           JZ	195d
+18e0           DEC *H	1
+18e2           INC  H	5
+18e7           INC *H	1
+18e9           DEC  H	3
+18ee           JZ	192a
+18f3           DEC *H	1
+18f5           INC  H	3
+18fa           DEC *H	1
+18fc           DEC  H	e
+1901           INC *H	1
+1903           INC  H	a
+1908           JZ	1920
+190d           DEC *H	1
+190f           INC  H	4
+1914           INC *H	1
+1916           DEC  H	4
+191b           JNZ	190d
+1920           INC  H	1
+1925           JNZ	18f3
+192a           DEC  H	1
+192f           JZ	1953
+1934           DEC *H	1
+1936           INC  H	4
+193b           DEC *H	1
+193d           DEC  H	7
+1942           DEC  H	7
+1947           INC *H	1
+1949           INC  H	a
+194e           JNZ	1934
+1953           DEC  H	1
+1958           JNZ	18e0
+195d           INC  H	2
+1962           JZ	199e
+1967           DEC *H	1
+1969           INC  H	3
+196e           INC *H	1
+1970           DEC  H	4
+1975           JZ	1994
+197a           DEC *H	1
+197c           INC  H	4
+1981           DEC *H	1
+1983           DEC  H	e
+1988           INC *H	1
+198a           INC  H	a
+198f           JNZ	197a
+1994           INC  H	1
+1999           JNZ	1967
+199e           DEC  H	1
+19a3           JZ	19bb
+19a8           DEC *H	1
+19aa           INC  H	4
+19af           INC *H	1
+19b1           DEC  H	4
+19b6           JNZ	19a8
+19bb           DEC  H	b
+19c0           JNZ	18d6
+19c5           INC  H	6
+19ca           INC *H	1
+19cc           DEC  H	6
+19d1           JNZ	1862
+19d6           JNZ	14bb
+19db           INC  H	4
+19e0           JZ	19f8
+19e5           DEC *H	1
+19e7           DEC  H	4
+19ec           INC *H	1
+19ee           INC  H	4
+19f3           JNZ	19e5
+19f8           DEC  H	4
+19fd           JZ	1b1d
+1a02           DEC *H	1
+1a04           INC  H	4
+1a09           INC *H	1
+1a0b           INC  H	5
+1a10           JZ	1a1f
+1a15           INC  H	9
+1a1a           JNZ	1a15
+1a1f           DEC  H	9
+1a24           JZ	1b18
+1a29           INC  H	1
+1a2e           JZ	1aab
+1a33           DEC *H	1
+1a35           INC  H	5
+1a3a           INC *H	1
+1a3c           DEC  H	4
+1a41           JZ	1a7d
+1a46           DEC *H	1
+1a48           INC  H	4
+1a4d           DEC *H	1
+1a4f           DEC  H	e
+1a54           INC *H	1
+1a56           INC  H	b
+1a5b           JZ	1a73
+1a60           DEC *H	1
+1a62           INC  H	3
+1a67           INC *H	1
+1a69           DEC  H	3
+1a6e           JNZ	1a60
+1a73           DEC  H	1
+1a78           JNZ	1a46
+1a7d           INC  H	1
+1a82           JZ	1aa1
+1a87           DEC *H	1
+1a89           INC  H	3
+1a8e           DEC *H	1
+1a90           DEC  H	e
+1a95           INC *H	1
+1a97           INC  H	b
+1a9c           JNZ	1a87
+1aa1           DEC  H	2
+1aa6           JNZ	1a33
+1aab           INC  H	1
+1ab0           JZ	1aec
+1ab5           DEC *H	1
+1ab7           INC  H	4
+1abc           INC *H	1
+1abe           DEC  H	3
+1ac3           JZ	1ae2
+1ac8           DEC *H	1
+1aca           INC  H	3
+1acf           DEC *H	1
+1ad1           DEC  H	e
+1ad6           INC *H	1
+1ad8           INC  H	b
+1add           JNZ	1ac8
+1ae2           DEC  H	1
+1ae7           JNZ	1ab5
+1aec           INC  H	1
+1af1           JZ	1b09
+1af6           DEC *H	1
+1af8           INC  H	3
+1afd           INC *H	1
+1aff           DEC  H	3
+1b04           JNZ	1af6
+1b09           DEC  H	7
+1b0e           DEC  H	5
+1b13           JNZ	1a29
+1b18           JNZ	1a02
+1b1d           INC  H	1
+1b22           JZ	1b2e
+1b27           DEC *H	1
+1b29           JNZ	1b27
+1b2e           INC  H	2
+1b33           JZ	1b3f
+1b38           DEC *H	1
+1b3a           JNZ	1b38
+1b3f           INC  H	1
+1b44           JZ	1b50
+1b49           DEC *H	1
+1b4b           JNZ	1b49
+1b50           INC  H	5
+1b55           JZ	1b86
+1b5a           INC  H	2
+1b5f           JZ	1b6b
+1b64           DEC *H	1
+1b66           JNZ	1b64
+1b6b           INC  H	1
+1b70           JZ	1b7c
+1b75           DEC *H	1
+1b77           JNZ	1b75
+1b7c           INC  H	6
+1b81           JNZ	1b5a
+1b86           DEC  H	9
+1b8b           JZ	1b9a
+1b90           DEC  H	9
+1b95           JNZ	1b90
+1b9a           INC  H	9
+1b9f           JZ	1bf4
+1ba4           INC  H	5
+1ba9           JZ	1bc6
+1bae           DEC *H	1
+1bb0           DEC  H	1
+1bb5           DEC  H	3
+1bba           INC *H	1
+1bbc           INC  H	4
+1bc1           JNZ	1bae
+1bc6           DEC  H	4
+1bcb           JZ	1bea
+1bd0           DEC *H	1
+1bd2           INC  H	4
+1bd7           INC *H	1
+1bd9           DEC  H	3
+1bde           INC *H	1
+1be0           DEC  H	1
+1be5           JNZ	1bd0
+1bea           INC  H	8
+1bef           JNZ	1ba4
+1bf4           DEC  H	9
+1bf9           JZ	1c08
+1bfe           DEC  H	9
+1c03           JNZ	1bfe
+1c08           INC  H	9
+1c0d           INC *H	f
+1c0f           JZ	1cde
+1c14           JZ	1c23
+1c19           INC  H	9
+1c1e           JNZ	1c19
+1c23           INC *H	1
+1c25           INC  H	1
+1c2a           JZ	1c36
+1c2f           DEC *H	1
+1c31           JNZ	1c2f
+1c36           INC  H	1
+1c3b           JZ	1c47
+1c40           DEC *H	1
+1c42           JNZ	1c40
+1c47           INC  H	1
+1c4c           JZ	1c58
+1c51           DEC *H	1
+1c53           JNZ	1c51
+1c58           INC  H	1
+1c5d           JZ	1c69
+1c62           DEC *H	1
+1c64           JNZ	1c62
+1c69           INC  H	1
+1c6e           JZ	1c7a
+1c73           DEC *H	1
+1c75           JNZ	1c73
+1c7a           INC  H	1
+1c7f           JZ	1c8b
+1c84           DEC *H	1
+1c86           JNZ	1c84
+1c8b           INC  H	1
+1c90           JZ	1c9c
+1c95           DEC *H	1
+1c97           JNZ	1c95
+1c9c           INC  H	1
+1ca1           JZ	1cad
+1ca6           DEC *H	1
+1ca8           JNZ	1ca6
+1cad           INC  H	1
+1cb2           JZ	1cbe
+1cb7           DEC *H	1
+1cb9           JNZ	1cb7
+1cbe           DEC  H	9
+1cc3           JZ	1cd2
+1cc8           DEC  H	9
+1ccd           JNZ	1cc8
+1cd2           INC  H	9
+1cd7           DEC *H	1
+1cd9           JNZ	1c14
+1cde           INC *H	1
+1ce0           JZ	1cf6
+1ce5           INC  H	1
+1cea           INC *H	1
+1cec           INC  H	8
+1cf1           JNZ	1ce5
+1cf6           DEC  H	9
+1cfb           JZ	1d0a
+1d00           DEC  H	9
+1d05           JNZ	1d00
+1d0a           INC  H	9
+1d0f           JZ	1e35
+1d14           INC  H	1
+1d19           DEC *H	1
+1d1b           INC  H	4
+1d20           JZ	1d38
+1d25           DEC *H	1
+1d27           DEC  H	4
+1d2c           INC *H	1
+1d2e           INC  H	4
+1d33           JNZ	1d25
+1d38           DEC  H	4
+1d3d           JZ	1dbd
+1d42           DEC *H	1
+1d44           INC  H	4
+1d49           INC *H	1
+1d4b           DEC  H	5
+1d50           JZ	1da4
+1d55           DEC *H	1
+1d57           INC  H	2
+1d5c           JZ	1d74
+1d61           DEC *H	1
+1d63           DEC  H	2
+1d68           INC *H	1
+1d6a           INC  H	2
+1d6f           JNZ	1d61
+1d74           DEC  H	2
+1d79           JZ	1d98
+1d7e           DEC *H	1
+1d80           INC  H	2
+1d85           INC *H	1
+1d87           INC  H	1
+1d8c           INC *H	1
+1d8e           DEC  H	3
+1d93           JNZ	1d7e
+1d98           INC *H	1
+1d9a           INC  H	9
+1d9f           JNZ	1d55
+1da4           DEC  H	8
+1da9           JZ	1db8
+1dae           DEC  H	9
+1db3           JNZ	1dae
+1db8           JNZ	1d42
+1dbd           INC  H	9
+1dc2           JZ	1dd1
+1dc7           INC  H	9
+1dcc           JNZ	1dc7
+1dd1           DEC  H	8
+1dd6           DEC  H	1
+1ddb           JZ	1e07
+1de0           INC  H	1
+1de5           JZ	1dfd
+1dea           DEC *H	1
+1dec           INC  H	9
+1df1           INC *H	1
+1df3           DEC  H	9
+1df8           JNZ	1dea
+1dfd           DEC  H	a
+1e02           JNZ	1de0
+1e07           INC  H	1
+1e0c           JZ	1e24
+1e11           DEC *H	1
+1e13           INC  H	9
+1e18           INC *H	1
+1e1a           DEC  H	9
+1e1f           JNZ	1e11
+1e24           DEC  H	1
+1e29           INC *H	1
+1e2b           INC  H	8
+1e30           JNZ	1d14
+1e35           DEC  H	9
+1e3a           JZ	1ee8
+1e3f           INC  H	1
+1e44           JZ	1e50
+1e49           DEC *H	1
+1e4b           JNZ	1e49
+1e50           DEC  H	1
+1e55           DEC *H	1
+1e57           INC  H	3
+1e5c           JZ	1eba
+1e61           DEC *H	1
+1e63           DEC  H	3
+1e68           INC *H	1
+1e6a           INC  H	1
+1e6f           JZ	1e93
+1e74           DEC  H	1
+1e79           DEC *H	1
+1e7b           INC  H	1
+1e80           DEC *H	1
+1e82           DEC  H	7
+1e87           INC *H	1
+1e89           INC  H	7
+1e8e           JNZ	1e74
+1e93           DEC  H	1
+1e98           JZ	1eb0
+1e9d           DEC *H	1
+1e9f           INC  H	1
+1ea4           INC *H	1
+1ea6           DEC  H	1
+1eab           JNZ	1e9d
+1eb0           INC  H	3
+1eb5           JNZ	1e61
+1eba           DEC  H	2
+1ebf           JZ	1ed7
+1ec4           DEC *H	1
+1ec6           INC  H	2
+1ecb           INC *H	1
+1ecd           DEC  H	2
+1ed2           JNZ	1ec4
+1ed7           DEC  H	1
+1edc           INC *H	1
+1ede           DEC  H	9
+1ee3           JNZ	1e3f
+1ee8           INC  H	9
+1eed           JZ	1f1e
+1ef2           INC  H	3
+1ef7           JZ	1f0f
+1efc           DEC *H	1
+1efe           DEC  H	24
+1f03           INC *H	1
+1f05           INC  H	24
+1f0a           JNZ	1efc
+1f0f           INC  H	1
+1f14           INC  H	5
+1f19           JNZ	1ef2
+1f1e           DEC  H	9
+1f23           JZ	1f32
+1f28           DEC  H	9
+1f2d           JNZ	1f28
+1f32           INC  H	5
+1f37           JZ	1f43
+1f3c           DEC *H	1
+1f3e           JNZ	1f3c
+1f43           INC  H	4
+1f48           INC *H	f
+1f4a           JZ	1f8a
+1f4f           JZ	1f5e
+1f54           INC  H	9
+1f59           JNZ	1f54
+1f5e           DEC  H	9
+1f63           DEC *H	1
+1f65           DEC  H	5
+1f6a           DEC  H	4
+1f6f           JZ	1f7e
+1f74           DEC  H	9
+1f79           JNZ	1f74
+1f7e           INC  H	9
+1f83           DEC *H	1
+1f85           JNZ	1f4f
+1f8a           INC *H	1
+1f8c           JZ	2145
+1f91           INC  H	3
+1f96           JZ	1fae
+1f9b           DEC *H	1
+1f9d           DEC  H	3
+1fa2           DEC *H	1
+1fa4           INC  H	3
+1fa9           JNZ	1f9b
+1fae           INC *H	1
+1fb0           DEC  H	3
+1fb5           JZ	2049
+1fba           DEC *H	1
+1fbc           INC  H	3
+1fc1           DEC *H	1
+1fc3           INC  H	1
+1fc8           JZ	1fe0
+1fcd           DEC *H	1
+1fcf           DEC  H	4
+1fd4           INC *H	1
+1fd6           INC  H	4
+1fdb           JNZ	1fcd
+1fe0           DEC  H	4
+1fe5           JZ	2044
+1fea           DEC *H	1
+1fec           INC  H	4
+1ff1           INC *H	1
+1ff3           DEC  H	5
+1ff8           DEC  H	8
+1ffd           JZ	200c
+2002           DEC  H	9
+2007           JNZ	2002
+200c           INC  H	4
+2011           JZ	201d
+2016           DEC *H	1
+2018           JNZ	2016
+201d           INC *H	1
+201f           INC  H	5
+2024           JZ	2033
+2029           INC  H	9
+202e           JNZ	2029
+2033           INC  H	1
+2038           INC *H	1
+203a           DEC  H	1
+203f           JNZ	1fea
+2044           JNZ	1fba
+2049           INC *H	1
+204b           INC  H	4
+2050           JZ	2068
+2055           DEC *H	1
+2057           DEC  H	4
+205c           DEC *H	1
+205e           INC  H	4
+2063           JNZ	2055
+2068           INC *H	1
+206a           DEC  H	4
+206f           JZ	210a
+2074           DEC *H	1
+2076           INC  H	4
+207b           DEC *H	1
+207d           DEC  H	1
+2082           JZ	209a
+2087           DEC *H	1
+2089           DEC  H	3
+208e           INC *H	1
+2090           INC  H	3
+2095           JNZ	2087
+209a           DEC  H	3
+209f           JZ	2105
+20a4           DEC *H	1
+20a6           INC  H	3
+20ab           INC *H	1
+20ad           DEC  H	c
+20b2           JZ	20c1
+20b7           DEC  H	9
+20bc           JNZ	20b7
+20c1           INC  H	3
+20c6           JZ	20d2
+20cb           DEC *H	1
+20cd           JNZ	20cb
+20d2           INC *H	1
+20d4           INC  H	6
+20d9           JZ	20e8
+20de           INC  H	9
+20e3           JNZ	20de
+20e8           INC  H	1
+20ed           JZ	20f9
+20f2           DEC *H	1
+20f4           JNZ	20f2
+20f9           INC *H	1
+20fb           DEC  H	1
+2100           JNZ	20a4
+2105           JNZ	2074
+210a           INC *H	1
+210c           INC  H	1
+2111           JZ	213b
+2116           DEC *H	1
+2118           DEC  H	1
+211d           JZ	2131
+2122           INC  H	2
+2127           INC  H	7
+212c           JNZ	2122
+2131           DEC  H	8
+2136           JNZ	2116
+213b           INC  H	8
+2140           JNZ	1f91
+2145           DEC  H	9
+214a           JZ	2159
+214f           DEC  H	9
+2154           JNZ	214f
+2159           INC  H	3
+215e           JZ	2176
+2163           DEC *H	1
+2165           DEC  H	3
+216a           INC *H	1
+216c           INC  H	3
+2171           JNZ	2163
+2176           DEC  H	3
+217b           JZ	22de
+2180           DEC *H	1
+2182           INC  H	3
+2187           INC *H	1
+2189           INC  H	6
+218e           JZ	21de
+2193           INC  H	1
+2198           INC *H	1
+219a           INC  H	3
+219f           JZ	21b7
+21a4           DEC *H	1
+21a6           DEC  H	3
+21ab           DEC *H	1
+21ad           INC  H	3
+21b2           JNZ	21a4
+21b7           DEC  H	3
+21bc           JZ	21d4
+21c1           DEC *H	1
+21c3           INC  H	3
+21c8           INC *H	1
+21ca           DEC  H	3
+21cf           JNZ	21c1
+21d4           INC  H	8
+21d9           JNZ	2193
+21de           DEC  H	8
+21e3           INC *H	1
+21e5           DEC  H	1
+21ea           JZ	22d9
+21ef           INC  H	1
+21f4           JZ	2271
+21f9           DEC *H	1
+21fb           INC  H	1
+2200           INC *H	1
+2202           INC  H	1
+2207           JZ	2243
+220c           DEC *H	1
+220e           DEC  H	1
+2213           DEC *H	1
+2215           DEC  H	a
+221a           INC *H	1
+221c           INC  H	c
+2221           JZ	2239
+2226           DEC *H	1
+2228           DEC  H	2
+222d           INC *H	1
+222f           INC  H	2
+2234           JNZ	2226
+2239           DEC  H	1
+223e           JNZ	220c
+2243           INC  H	1
+2248           JZ	2267
+224d           DEC *H	1
+224f           DEC  H	2
+2254           DEC *H	1
+2256           DEC  H	a
+225b           INC *H	1
+225d           INC  H	c
+2262           JNZ	224d
+2267           DEC  H	3
+226c           JNZ	21f9
+2271           INC  H	2
+2276           JZ	22b2
+227b           DEC *H	1
+227d           DEC  H	1
+2282           INC *H	1
+2284           INC  H	2
+2289           JZ	22a8
+228e           DEC *H	1
+2290           DEC  H	2
+2295           DEC *H	1
+2297           DEC  H	a
+229c           INC *H	1
+229e           INC  H	c
+22a3           JNZ	228e
+22a8           DEC  H	1
+22ad           JNZ	227b
+22b2           INC  H	1
+22b7           JZ	22cf
+22bc           DEC *H	1
+22be           DEC  H	2
+22c3           INC *H	1
+22c5           INC  H	2
+22ca           JNZ	22bc
+22cf           DEC  H	d
+22d4           JNZ	21ef
+22d9           JNZ	2180
+22de           INC  H	4
+22e3           JZ	22fb
+22e8           DEC *H	1
+22ea           DEC  H	4
+22ef           INC *H	1
+22f1           INC  H	4
+22f6           JNZ	22e8
+22fb           DEC  H	4
+2300           JZ	2479
+2305           DEC *H	1
+2307           INC  H	4
+230c           INC *H	1
+230e           INC  H	5
+2313           JZ	2368
+2318           INC  H	1
+231d           INC *H	1
+231f           INC  H	2
+2324           JZ	233c
+2329           DEC *H	1
+232b           DEC  H	2
+2330           DEC *H	1
+2332           INC  H	2
+2337           JNZ	2329
+233c           DEC  H	2
+2341           JZ	2359
+2346           DEC *H	1
+2348           INC  H	2
+234d           INC *H	1
+234f           DEC  H	2
+2354           JNZ	2346
+2359           INC  H	2
+235e           INC  H	6
+2363           JNZ	2318
+2368           DEC  H	8
+236d           INC *H	1
+236f           DEC  H	1
+2374           JZ	2468
+2379           INC  H	1
+237e           JZ	2400
+2383           DEC *H	1
+2385           INC  H	1
+238a           INC *H	1
+238c           INC  H	2
+2391           JZ	23cd
+2396           DEC *H	1
+2398           DEC  H	2
+239d           DEC *H	1
+239f           DEC  H	a
+23a4           INC *H	1
+23a6           INC  H	b
+23ab           JZ	23c3
+23b0           DEC *H	1
+23b2           DEC  H	1
+23b7           INC *H	1
+23b9           INC  H	1
+23be           JNZ	23b0
+23c3           INC  H	1
+23c8           JNZ	2396
+23cd           DEC  H	1
+23d2           JZ	23f6
+23d7           DEC *H	1
+23d9           DEC  H	1
+23de           DEC *H	1
+23e0           DEC  H	a
+23e5           INC *H	1
+23e7           INC  H	4
+23ec           INC  H	7
+23f1           JNZ	23d7
+23f6           DEC  H	2
+23fb           JNZ	2383
+2400           INC  H	3
+2405           JZ	2441
+240a           DEC *H	1
+240c           DEC  H	2
+2411           INC *H	1
+2413           INC  H	1
+2418           JZ	2437
+241d           DEC *H	1
+241f           DEC  H	1
+2424           DEC *H	1
+2426           DEC  H	a
+242b           INC *H	1
+242d           INC  H	b
+2432           JNZ	241d
+2437           INC  H	1
+243c           JNZ	240a
+2441           DEC  H	1
+2446           JZ	245e
+244b           DEC *H	1
+244d           DEC  H	1
+2452           INC *H	1
+2454           INC  H	1
+2459           JNZ	244b
+245e           DEC  H	c
+2463           JNZ	2379
+2468           INC  H	5
+246d           INC *H	1
+246f           DEC  H	5
+2474           JNZ	2305
+2479           INC  H	9
+247e           JZ	24c0
+2483           INC  H	3
+2488           JZ	2494
+248d           DEC *H	1
+248f           JNZ	248d
+2494           INC  H	1
+2499           JZ	24a5
+249e           DEC *H	1
+24a0           JNZ	249e
+24a5           INC  H	1
+24aa           JZ	24b6
+24af           DEC *H	1
+24b1           JNZ	24af
+24b6           INC  H	4
+24bb           JNZ	2483
+24c0           DEC  H	9
+24c5           JZ	24d4
+24ca           DEC  H	9
+24cf           JNZ	24ca
+24d4           INC  H	3
+24d9           JZ	24e5
+24de           DEC *H	1
+24e0           JNZ	24de
+24e5           INC  H	1
+24ea           JZ	24f6
+24ef           DEC *H	1
+24f1           JNZ	24ef
+24f6           INC  H	5
+24fb           JZ	2550
+2500           INC  H	7
+2505           JZ	2522
+250a           DEC *H	1
+250c           DEC  H	5
+2511           DEC  H	1
+2516           INC *H	1
+2518           INC  H	6
+251d           JNZ	250a
+2522           DEC  H	6
+2527           JZ	2546
+252c           DEC *H	1
+252e           INC  H	6
+2533           INC *H	1
+2535           DEC  H	4
+253a           INC *H	1
+253c           DEC  H	2
+2541           JNZ	252c
+2546           INC  H	8
+254b           JNZ	2500
+2550           DEC  H	9
+2555           JZ	2564
+255a           DEC  H	9
+255f           JNZ	255a
+2564           INC  H	4
+2569           INC *H	1
+256b           INC  H	1
+2570           JZ	2594
+2575           DEC *H	1
+2577           DEC  H	1
+257c           DEC *H	1
+257e           DEC  H	4
+2583           INC *H	1
+2585           INC  H	4
+258a           INC  H	1
+258f           JNZ	2575
+2594           INC  H	2
+2599           JZ	25f9
+259e           DEC *H	1
+25a0           DEC  H	7
+25a5           JZ	25c4
+25aa           DEC *H	1
+25ac           INC  H	5
+25b1           INC *H	1
+25b3           DEC  H	1
+25b8           INC *H	2
+25ba           DEC  H	4
+25bf           JNZ	25aa
+25c4           INC  H	5
+25c9           JZ	25e1
+25ce           DEC *H	1
+25d0           DEC  H	5
+25d5           INC *H	1
+25d7           INC  H	5
+25dc           JNZ	25ce
+25e1           DEC  H	1
+25e6           DEC *H	1
+25e8           INC  H	1
+25ed           INC *H	1
+25ef           INC  H	2
+25f4           JNZ	259e
+25f9           DEC  H	2
+25fe           JZ	2616
+2603           DEC *H	1
+2605           INC  H	2
+260a           INC *H	1
+260c           DEC  H	2
+2611           JNZ	2603
+2616           DEC  H	5
+261b           JZ	2638
+2620           DEC *H	1
+2622           INC  H	5
+2627           INC *H	1
+2629           DEC  H	2
+262e           DEC  H	3
+2633           JNZ	2620
+2638           INC *H	1
+263a           INC  H	4
+263f           JZ	2657
+2644           DEC *H	1
+2646           DEC  H	4
+264b           DEC *H	1
+264d           INC  H	4
+2652           JNZ	2644
+2657           INC *H	1
+2659           DEC  H	4
+265e           JZ	2bbf
+2663           DEC *H	1
+2665           INC  H	4
+266a           DEC *H	1
+266c           INC  H	5
+2671           JZ	282f
+2676           INC  H	3
+267b           JZ	2693
+2680           DEC *H	1
+2682           DEC  H	3
+2687           DEC *H	1
+2689           INC  H	3
+268e           JNZ	2680
+2693           INC *H	1
+2695           DEC  H	3
+269a           JZ	272e
+269f           DEC *H	1
+26a1           INC  H	3
+26a6           DEC *H	1
+26a8           DEC  H	1
+26ad           JZ	26c5
+26b2           DEC *H	1
+26b4           DEC  H	2
+26b9           INC *H	1
+26bb           INC  H	2
+26c0           JNZ	26b2
+26c5           DEC  H	2
+26ca           JZ	2729
+26cf           DEC *H	1
+26d1           INC  H	2
+26d6           INC *H	1
+26d8           DEC  H	2
+26dd           DEC  H	9
+26e2           JZ	26f1
+26e7           DEC  H	9
+26ec           JNZ	26e7
+26f1           INC  H	4
+26f6           JZ	2702
+26fb           DEC *H	1
+26fd           JNZ	26fb
+2702           INC *H	1
+2704           INC  H	5
+2709           JZ	2718
+270e           INC  H	9
+2713           JNZ	270e
+2718           INC  H	1
+271d           INC *H	1
+271f           DEC  H	1
+2724           JNZ	26cf
+2729           JNZ	269f
+272e           INC *H	1
+2730           INC  H	2
+2735           JZ	274d
+273a           DEC *H	1
+273c           DEC  H	2
+2741           DEC *H	1
+2743           INC  H	2
+2748           JNZ	273a
+274d           INC *H	1
+274f           DEC  H	2
+2754           JZ	27f4
+2759           DEC *H	1
+275b           INC  H	2
+2760           DEC *H	1
+2762           INC  H	1
+2767           JZ	277f
+276c           DEC *H	1
+276e           DEC  H	3
+2773           INC *H	1
+2775           INC  H	3
+277a           JNZ	276c
+277f           DEC  H	1
+2784           DEC  H	2
+2789           JZ	27ef
+278e           DEC *H	1
+2790           INC  H	3
+2795           INC *H	1
+2797           DEC  H	c
+279c           JZ	27ab
+27a1           DEC  H	9
+27a6           JNZ	27a1
+27ab           INC  H	3
+27b0           JZ	27bc
+27b5           DEC *H	1
+27b7           JNZ	27b5
+27bc           INC *H	1
+27be           INC  H	6
+27c3           JZ	27d2
+27c8           INC  H	9
+27cd           JNZ	27c8
+27d2           INC  H	1
+27d7           JZ	27e3
+27dc           DEC *H	1
+27de           JNZ	27dc
+27e3           INC *H	1
+27e5           DEC  H	1
+27ea           JNZ	278e
+27ef           JNZ	2759
+27f4           INC *H	1
+27f6           INC  H	1
+27fb           JZ	2825
+2800           DEC *H	1
+2802           DEC  H	1
+2807           JZ	2816
+280c           INC  H	9
+2811           JNZ	280c
+2816           DEC  H	1
+281b           DEC  H	7
+2820           JNZ	2800
+2825           INC  H	8
+282a           JNZ	2676
+282f           DEC  H	9
+2834           JZ	2843
+2839           DEC  H	9
+283e           JNZ	2839
+2843           INC  H	3
+2848           JZ	2860
+284d           DEC *H	1
+284f           DEC  H	3
+2854           INC *H	1
+2856           INC  H	3
+285b           JNZ	284d
+2860           DEC  H	3
+2865           JZ	2a1a
+286a           DEC *H	1
+286c           INC  H	3
+2871           INC *H	1
+2873           INC  H	6
+2878           JZ	28c8
+287d           INC  H	1
+2882           INC *H	1
+2884           INC  H	1
+2889           JZ	28a1
+288e           DEC *H	1
+2890           DEC  H	1
+2895           DEC *H	1
+2897           INC  H	1
+289c           JNZ	288e
+28a1           DEC  H	1
+28a6           JZ	28be
+28ab           DEC *H	1
+28ad           INC  H	1
+28b2           INC *H	1
+28b4           DEC  H	1
+28b9           JNZ	28ab
+28be           INC  H	8
+28c3           JNZ	287d
+28c8           DEC  H	8
+28cd           INC *H	1
+28cf           DEC  H	1
+28d4           JZ	29c3
+28d9           INC  H	1
+28de           JZ	295b
+28e3           DEC *H	1
+28e5           INC  H	4
+28ea           INC *H	1
+28ec           DEC  H	2
+28f1           JZ	292d
+28f6           DEC *H	1
+28f8           INC  H	2
+28fd           DEC *H	1
+28ff           DEC  H	d
+2904           INC *H	1
+2906           INC  H	a
+290b           JZ	2923
+2910           DEC *H	1
+2912           INC  H	3
+2917           INC *H	1
+2919           DEC  H	3
+291e           JNZ	2910
+2923           INC  H	1
+2928           JNZ	28f6
+292d           DEC  H	1
+2932           JZ	2951
+2937           DEC *H	1
+2939           INC  H	3
+293e           DEC *H	1
+2940           DEC  H	d
+2945           INC *H	1
+2947           INC  H	a
+294c           JNZ	2937
+2951           DEC  H	1
+2956           JNZ	28e3
+295b           INC  H	2
+2960           JZ	299c
+2965           DEC *H	1
+2967           INC  H	2
+296c           INC *H	1
+296e           DEC  H	3
+2973           JZ	2992
+2978           DEC *H	1
+297a           INC  H	3
+297f           DEC *H	1
+2981           DEC  H	d
+2986           INC *H	1
+2988           INC  H	a
+298d           JNZ	2978
+2992           INC  H	1
+2997           JNZ	2965
+299c           DEC  H	1
+29a1           JZ	29b9
+29a6           DEC *H	1
+29a8           INC  H	3
+29ad           INC *H	1
+29af           DEC  H	3
+29b4           JNZ	29a6
+29b9           DEC  H	b
+29be           JNZ	28d9
+29c3           INC  H	5
+29c8           JZ	29d4
+29cd           DEC *H	1
+29cf           JNZ	29cd
+29d4           INC  H	2
+29d9           JZ	29f1
+29de           DEC *H	1
+29e0           DEC  H	7
+29e5           INC *H	1
+29e7           INC  H	7
+29ec           JNZ	29de
+29f1           DEC  H	7
+29f6           JZ	2a15
+29fb           DEC *H	1
+29fd           INC  H	7
+2a02           INC *H	1
+2a04           DEC  H	2
+2a09           INC *H	1
+2a0b           DEC  H	5
+2a10           JNZ	29fb
+2a15           JNZ	286a
+2a1a           INC  H	4
+2a1f           JZ	2a3c
+2a24           DEC *H	1
+2a26           DEC  H	4
+2a2b           INC *H	1
+2a2d           INC  H	1
+2a32           INC  H	3
+2a37           JNZ	2a24
+2a3c           DEC  H	4
+2a41           JZ	2ba4
+2a46           DEC *H	1
+2a48           INC  H	4
+2a4d           INC *H	1
+2a4f           INC  H	5
+2a54           JZ	2aa4
+2a59           INC  H	1
+2a5e           INC *H	1
+2a60           INC  H	2
+2a65           JZ	2a7d
+2a6a           DEC *H	1
+2a6c           DEC  H	2
+2a71           DEC *H	1
+2a73           INC  H	2
+2a78           JNZ	2a6a
+2a7d           DEC  H	2
+2a82           JZ	2a9a
+2a87           DEC *H	1
+2a89           INC  H	2
+2a8e           INC *H	1
+2a90           DEC  H	2
+2a95           JNZ	2a87
+2a9a           INC  H	8
+2a9f           JNZ	2a59
+2aa4           DEC  H	8
+2aa9           INC *H	1
+2aab           DEC  H	1
+2ab0           JZ	2b9f
+2ab5           INC  H	1
+2aba           JZ	2b37
+2abf           DEC *H	1
+2ac1           INC  H	4
+2ac6           INC *H	1
+2ac8           DEC  H	3
+2acd           JZ	2b09
+2ad2           DEC *H	1
+2ad4           INC  H	3
+2ad9           DEC *H	1
+2adb           DEC  H	d
+2ae0           INC *H	1
+2ae2           INC  H	b
+2ae7           JZ	2aff
+2aec           DEC *H	1
+2aee           INC  H	2
+2af3           INC *H	1
+2af5           DEC  H	2
+2afa           JNZ	2aec
+2aff           DEC  H	1
+2b04           JNZ	2ad2
+2b09           INC  H	1
+2b0e           JZ	2b2d
+2b13           DEC *H	1
+2b15           INC  H	2
+2b1a           DEC *H	1
+2b1c           DEC  H	d
+2b21           INC *H	1
+2b23           INC  H	b
+2b28           JNZ	2b13
+2b2d           DEC  H	2
+2b32           JNZ	2abf
+2b37           INC  H	1
+2b3c           JZ	2b78
+2b41           DEC *H	1
+2b43           INC  H	3
+2b48           INC *H	1
+2b4a           DEC  H	2
+2b4f           JZ	2b6e
+2b54           DEC *H	1
+2b56           INC  H	2
+2b5b           DEC *H	1
+2b5d           DEC  H	d
+2b62           INC *H	1
+2b64           INC  H	b
+2b69           JNZ	2b54
+2b6e           DEC  H	1
+2b73           JNZ	2b41
+2b78           INC  H	1
+2b7d           JZ	2b95
+2b82           DEC *H	1
+2b84           INC  H	2
+2b89           INC *H	1
+2b8b           DEC  H	2
+2b90           JNZ	2b82
+2b95           DEC  H	c
+2b9a           JNZ	2ab5
+2b9f           JNZ	2a46
+2ba4           INC  H	4
+2ba9           JZ	2bb5
+2bae           DEC *H	1
+2bb0           JNZ	2bae
+2bb5           DEC  H	4
+2bba           JNZ	2663
+2bbf           INC  H	4
+2bc4           JZ	2be1
+2bc9           DEC *H	1
+2bcb           DEC  H	4
+2bd0           INC *H	1
+2bd2           INC  H	2
+2bd7           INC  H	2
+2bdc           JNZ	2bc9
+2be1           DEC  H	4
+2be6           JZ	2d62
+2beb           DEC *H	1
+2bed           INC  H	4
+2bf2           INC *H	1
+2bf4           INC  H	1
+2bf9           JZ	2c05
+2bfe           DEC *H	1
+2c00           JNZ	2bfe
+2c05           INC  H	2
+2c0a           JZ	2c22
+2c0f           DEC *H	1
+2c11           DEC  H	7
+2c16           INC *H	1
+2c18           INC  H	7
+2c1d           JNZ	2c0f
+2c22           DEC  H	7
+2c27           JZ	2c46
+2c2c           DEC *H	1
+2c2e           INC  H	7
+2c33           INC *H	1
+2c35           DEC  H	2
+2c3a           INC *H	1
+2c3c           DEC  H	5
+2c41           JNZ	2c2c
+2c46           INC  H	9
+2c4b           JZ	2c5f
+2c50           INC  H	6
+2c55           INC  H	3
+2c5a           JNZ	2c50
+2c5f           DEC  H	9
+2c64           JZ	2d5d
+2c69           INC  H	1
+2c6e           JZ	2cf0
+2c73           DEC *H	1
+2c75           INC  H	4
+2c7a           INC *H	1
+2c7c           DEC  H	3
+2c81           JZ	2cbd
+2c86           DEC *H	1
+2c88           INC  H	3
+2c8d           DEC *H	1
+2c8f           DEC  H	d
+2c94           INC *H	1
+2c96           INC  H	b
+2c9b           JZ	2cb3
+2ca0           DEC *H	1
+2ca2           INC  H	2
+2ca7           INC *H	1
+2ca9           DEC  H	2
+2cae           JNZ	2ca0
+2cb3           DEC  H	1
+2cb8           JNZ	2c86
+2cbd           INC  H	1
+2cc2           JZ	2ce6
+2cc7           DEC *H	1
+2cc9           INC  H	2
+2cce           DEC *H	1
+2cd0           DEC  H	8
+2cd5           DEC  H	5
+2cda           INC *H	1
+2cdc           INC  H	b
+2ce1           JNZ	2cc7
+2ce6           DEC  H	2
+2ceb           JNZ	2c73
+2cf0           INC  H	1
+2cf5           JZ	2d31
+2cfa           DEC *H	1
+2cfc           INC  H	3
+2d01           INC *H	1
+2d03           DEC  H	2
+2d08           JZ	2d27
+2d0d           DEC *H	1
+2d0f           INC  H	2
+2d14           DEC *H	1
+2d16           DEC  H	d
+2d1b           INC *H	1
+2d1d           INC  H	b
+2d22           JNZ	2d0d
+2d27           DEC  H	1
+2d2c           JNZ	2cfa
+2d31           INC  H	1
+2d36           JZ	2d4e
+2d3b           DEC *H	1
+2d3d           INC  H	2
+2d42           INC *H	1
+2d44           DEC  H	2
+2d49           JNZ	2d3b
+2d4e           DEC  H	8
+2d53           DEC  H	4
+2d58           JNZ	2c69
+2d5d           JNZ	2beb
+2d62           INC  H	9
+2d67           JZ	2d98
+2d6c           INC  H	2
+2d71           JZ	2d7d
+2d76           DEC *H	1
+2d78           JNZ	2d76
+2d7d           INC  H	1
+2d82           JZ	2d8e
+2d87           DEC *H	1
+2d89           JNZ	2d87
+2d8e           INC  H	6
+2d93           JNZ	2d6c
+2d98           DEC  H	9
+2d9d           JZ	2dac
+2da2           DEC  H	9
+2da7           JNZ	2da2
+2dac           INC  H	3
+2db1           JZ	2dbd
+2db6           DEC *H	1
+2db8           JNZ	2db6
+2dbd           INC  H	1
+2dc2           JZ	2dce
+2dc7           DEC *H	1
+2dc9           JNZ	2dc7
+2dce           INC  H	5
+2dd3           JZ	2e23
+2dd8           INC  H	5
+2ddd           JZ	2df5
+2de2           DEC *H	1
+2de4           DEC  H	4
+2de9           INC *H	1
+2deb           INC  H	4
+2df0           JNZ	2de2
+2df5           DEC  H	4
+2dfa           JZ	2e19
+2dff           DEC *H	1
+2e01           INC  H	4
+2e06           INC *H	1
+2e08           DEC  H	3
+2e0d           INC *H	1
+2e0f           DEC  H	1
+2e14           JNZ	2dff
+2e19           INC  H	8
+2e1e           JNZ	2dd8
+2e23           DEC  H	9
+2e28           JZ	2e37
+2e2d           DEC  H	9
+2e32           JNZ	2e2d
+2e37           INC  H	9
+2e3c           JZ	2e8c
+2e41           INC  H	6
+2e46           JZ	2e5e
+2e4b           DEC *H	1
+2e4d           DEC  H	5
+2e52           INC *H	1
+2e54           INC  H	5
+2e59           JNZ	2e4b
+2e5e           DEC  H	5
+2e63           JZ	2e82
+2e68           DEC *H	1
+2e6a           INC  H	5
+2e6f           INC *H	1
+2e71           DEC  H	3
+2e76           INC *H	1
+2e78           DEC  H	2
+2e7d           JNZ	2e68
+2e82           INC  H	8
+2e87           JNZ	2e41
+2e8c           DEC  H	9
+2e91           JZ	2ea0
+2e96           DEC  H	9
+2e9b           JNZ	2e96
+2ea0           INC  H	9
+2ea5           INC *H	f
+2ea7           JZ	2f7b
+2eac           JZ	2ec0
+2eb1           INC  H	4
+2eb6           INC  H	5
+2ebb           JNZ	2eb1
+2ec0           INC *H	1
+2ec2           INC  H	1
+2ec7           JZ	2ed3
+2ecc           DEC *H	1
+2ece           JNZ	2ecc
+2ed3           INC  H	1
+2ed8           JZ	2ee4
+2edd           DEC *H	1
+2edf           JNZ	2edd
+2ee4           INC  H	1
+2ee9           JZ	2ef5
+2eee           DEC *H	1
+2ef0           JNZ	2eee
+2ef5           INC  H	1
+2efa           JZ	2f06
+2eff           DEC *H	1
+2f01           JNZ	2eff
+2f06           INC  H	1
+2f0b           JZ	2f17
+2f10           DEC *H	1
+2f12           JNZ	2f10
+2f17           INC  H	1
+2f1c           JZ	2f28
+2f21           DEC *H	1
+2f23           JNZ	2f21
+2f28           INC  H	1
+2f2d           JZ	2f39
+2f32           DEC *H	1
+2f34           JNZ	2f32
+2f39           INC  H	1
+2f3e           JZ	2f4a
+2f43           DEC *H	1
+2f45           JNZ	2f43
+2f4a           INC  H	1
+2f4f           JZ	2f5b
+2f54           DEC *H	1
+2f56           JNZ	2f54
+2f5b           DEC  H	9
+2f60           JZ	2f6f
+2f65           DEC  H	9
+2f6a           JNZ	2f65
+2f6f           INC  H	9
+2f74           DEC *H	1
+2f76           JNZ	2eac
+2f7b           INC *H	1
+2f7d           JZ	2f98
+2f82           INC  H	1
+2f87           INC *H	1
+2f89           INC  H	2
+2f8e           INC  H	6
+2f93           JNZ	2f82
+2f98           DEC  H	9
+2f9d           JZ	2fac
+2fa2           DEC  H	9
+2fa7           JNZ	2fa2
+2fac           INC  H	9
+2fb1           JZ	30d2
+2fb6           INC  H	1
+2fbb           DEC *H	1
+2fbd           INC  H	4
+2fc2           JZ	2fda
+2fc7           DEC *H	1
+2fc9           DEC  H	4
+2fce           INC *H	1
+2fd0           INC  H	4
+2fd5           JNZ	2fc7
+2fda           DEC  H	4
+2fdf           JZ	305f
+2fe4           DEC *H	1
+2fe6           INC  H	4
+2feb           INC *H	1
+2fed           DEC  H	5
+2ff2           JZ	3046
+2ff7           DEC *H	1
+2ff9           INC  H	2
+2ffe           JZ	3016
+3003           DEC *H	1
+3005           DEC  H	2
+300a           INC *H	1
+300c           INC  H	2
+3011           JNZ	3003
+3016           DEC  H	2
+301b           JZ	303a
+3020           DEC *H	1
+3022           INC  H	2
+3027           INC *H	1
+3029           INC  H	2
+302e           INC *H	1
+3030           DEC  H	4
+3035           JNZ	3020
+303a           INC *H	1
+303c           INC  H	9
+3041           JNZ	2ff7
+3046           DEC  H	8
+304b           JZ	305a
+3050           DEC  H	9
+3055           JNZ	3050
+305a           JNZ	2fe4
+305f           INC  H	9
+3064           JZ	3073
+3069           INC  H	9
+306e           JNZ	3069
+3073           DEC  H	9
+3078           JZ	30a4
+307d           INC  H	1
+3082           JZ	309a
+3087           DEC *H	1
+3089           INC  H	9
+308e           INC *H	1
+3090           DEC  H	9
+3095           JNZ	3087
+309a           DEC  H	a
+309f           JNZ	307d
+30a4           INC  H	1
+30a9           JZ	30c1
+30ae           DEC *H	1
+30b0           INC  H	9
+30b5           INC *H	1
+30b7           DEC  H	9
+30bc           JNZ	30ae
+30c1           DEC  H	1
+30c6           INC *H	1
+30c8           INC  H	8
+30cd           JNZ	2fb6
+30d2           DEC  H	9
+30d7           JZ	3185
+30dc           INC  H	1
+30e1           JZ	30ed
+30e6           DEC *H	1
+30e8           JNZ	30e6
+30ed           DEC  H	1
+30f2           DEC *H	1
+30f4           INC  H	4
+30f9           JZ	3157
+30fe           DEC *H	1
+3100           DEC  H	4
+3105           INC *H	1
+3107           INC  H	1
+310c           JZ	3130
+3111           DEC  H	1
+3116           DEC *H	1
+3118           INC  H	1
+311d           DEC *H	1
+311f           DEC  H	6
+3124           INC *H	1
+3126           INC  H	6
+312b           JNZ	3111
+3130           DEC  H	1
+3135           JZ	314d
+313a           DEC *H	1
+313c           INC  H	1
+3141           INC *H	1
+3143           DEC  H	1
+3148           JNZ	313a
+314d           INC  H	4
+3152           JNZ	30fe
+3157           DEC  H	3
+315c           JZ	3174
+3161           DEC *H	1
+3163           INC  H	3
+3168           INC *H	1
+316a           DEC  H	3
+316f           JNZ	3161
+3174           DEC  H	1
+3179           INC *H	1
+317b           DEC  H	9
+3180           JNZ	30dc
+3185           INC  H	9
+318a           JZ	31a0
+318f           INC  H	1
+3194           INC *H	1
+3196           INC  H	8
+319b           JNZ	318f
+31a0           DEC  H	9
+31a5           JZ	31b4
+31aa           DEC  H	9
+31af           JNZ	31aa
+31b4           INC  H	9
+31b9           JZ	32e9
+31be           INC  H	1
+31c3           DEC *H	1
+31c5           INC  H	5
+31ca           JZ	31e2
+31cf           DEC *H	1
+31d1           DEC  H	5
+31d6           INC *H	1
+31d8           INC  H	5
+31dd           JNZ	31cf
+31e2           DEC  H	5
+31e7           JZ	326c
+31ec           DEC *H	1
+31ee           INC  H	5
+31f3           INC *H	1
+31f5           DEC  H	4
+31fa           DEC  H	2
+31ff           JZ	3253
+3204           DEC *H	1
+3206           INC  H	3
+320b           JZ	3223
+3210           DEC *H	1
+3212           DEC  H	3
+3217           INC *H	1
+3219           INC  H	3
+321e           JNZ	3210
+3223           DEC  H	3
+3228           JZ	3247
+322d           DEC *H	1
+322f           INC  H	3
+3234           INC *H	1
+3236           INC  H	1
+323b           INC *H	1
+323d           DEC  H	4
+3242           JNZ	322d
+3247           INC *H	1
+3249           INC  H	9
+324e           JNZ	3204
+3253           DEC  H	8
+3258           JZ	3267
+325d           DEC  H	9
+3262           JNZ	325d
+3267           JNZ	31ec
+326c           INC  H	9
+3271           JZ	3285
+3276           INC  H	6
+327b           INC  H	3
+3280           JNZ	3276
+3285           DEC  H	9
+328a           JZ	32b6
+328f           INC  H	2
+3294           JZ	32ac
+3299           DEC *H	1
+329b           INC  H	9
+32a0           INC *H	1
+32a2           DEC  H	9
+32a7           JNZ	3299
+32ac           DEC  H	b
+32b1           JNZ	328f
+32b6           INC  H	2
+32bb           JZ	32d3
+32c0           DEC *H	1
+32c2           INC  H	9
+32c7           INC *H	1
+32c9           DEC  H	9
+32ce           JNZ	32c0
+32d3           DEC  H	2
+32d8           INC *H	1
+32da           INC  H	3
+32df           INC  H	5
+32e4           JNZ	31be
+32e9           DEC  H	9
+32ee           JZ	339c
+32f3           INC  H	1
+32f8           JZ	3304
+32fd           DEC *H	1
+32ff           JNZ	32fd
+3304           DEC  H	1
+3309           DEC *H	1
+330b           INC  H	4
+3310           JZ	336e
+3315           DEC *H	1
+3317           DEC  H	4
+331c           INC *H	1
+331e           INC  H	1
+3323           JZ	3347
+3328           DEC  H	1
+332d           DEC *H	1
+332f           INC  H	1
+3334           DEC *H	1
+3336           DEC  H	6
+333b           INC *H	1
+333d           INC  H	6
+3342           JNZ	3328
+3347           DEC  H	1
+334c           JZ	3364
+3351           DEC *H	1
+3353           INC  H	1
+3358           INC *H	1
+335a           DEC  H	1
+335f           JNZ	3351
+3364           INC  H	4
+3369           JNZ	3315
+336e           DEC  H	3
+3373           JZ	338b
+3378           DEC *H	1
+337a           INC  H	3
+337f           INC *H	1
+3381           DEC  H	3
+3386           JNZ	3378
+338b           DEC  H	1
+3390           INC *H	1
+3392           DEC  H	9
+3397           JNZ	32f3
+339c           INC  H	9
+33a1           JZ	33d2
+33a6           INC  H	4
+33ab           JZ	33c8
+33b0           DEC *H	1
+33b2           DEC  H	24
+33b7           INC *H	1
+33b9           INC  H	11
+33be           INC  H	13
+33c3           JNZ	33b0
+33c8           INC  H	5
+33cd           JNZ	33a6
+33d2           DEC  H	9
+33d7           JZ	33e6
+33dc           DEC  H	9
+33e1           JNZ	33dc
+33e6           INC  H	9
+33eb           INC *H	f
+33ed           JZ	342d
+33f2           JZ	3406
+33f7           INC  H	8
+33fc           INC  H	1
+3401           JNZ	33f7
+3406           DEC  H	9
+340b           DEC *H	1
+340d           DEC  H	9
+3412           JZ	3421
+3417           DEC  H	9
+341c           JNZ	3417
+3421           INC  H	9
+3426           DEC *H	1
+3428           JNZ	33f2
+342d           INC *H	1
+342f           INC  H	15
+3434           INC *H	1
+3436           DEC  H	3
+343b           JZ	344a
+3440           DEC  H	9
+3445           JNZ	3440
+344a           INC  H	9
+344f           JZ	3608
+3454           INC  H	3
+3459           JZ	3471
+345e           DEC *H	1
+3460           DEC  H	3
+3465           DEC *H	1
+3467           INC  H	3
+346c           JNZ	345e
+3471           INC *H	1
+3473           DEC  H	3
+3478           JZ	3507
+347d           DEC *H	1
+347f           INC  H	3
+3484           DEC *H	1
+3486           INC  H	1
+348b           JZ	34a3
+3490           DEC *H	1
+3492           DEC  H	4
+3497           INC *H	1
+3499           INC  H	4
+349e           JNZ	3490
+34a3           DEC  H	4
+34a8           JZ	3502
+34ad           DEC *H	1
+34af           INC  H	4
+34b4           INC *H	1
+34b6           DEC  H	d
+34bb           JZ	34ca
+34c0           DEC  H	9
+34c5           JNZ	34c0
+34ca           INC  H	4
+34cf           JZ	34db
+34d4           DEC *H	1
+34d6           JNZ	34d4
+34db           INC *H	1
+34dd           INC  H	5
+34e2           JZ	34f1
+34e7           INC  H	9
+34ec           JNZ	34e7
+34f1           INC  H	1
+34f6           INC *H	1
+34f8           DEC  H	1
+34fd           JNZ	34ad
+3502           JNZ	347d
+3507           INC *H	1
+3509           INC  H	4
+350e           JZ	3526
+3513           DEC *H	1
+3515           DEC  H	4
+351a           DEC *H	1
+351c           INC  H	4
+3521           JNZ	3513
+3526           INC *H	1
+3528           DEC  H	4
+352d           JZ	35cd
+3532           DEC *H	1
+3534           INC  H	4
+3539           DEC *H	1
+353b           DEC  H	1
+3540           JZ	3558
+3545           DEC *H	1
+3547           DEC  H	3
+354c           INC *H	1
+354e           INC  H	3
+3553           JNZ	3545
+3558           DEC  H	3
+355d           JZ	35c8
+3562           DEC *H	1
+3564           INC  H	3
+3569           INC *H	1
+356b           DEC  H	1
+3570           DEC  H	b
+3575           JZ	3584
+357a           DEC  H	9
+357f           JNZ	357a
+3584           INC  H	3
+3589           JZ	3595
+358e           DEC *H	1
+3590           JNZ	358e
+3595           INC *H	1
+3597           INC  H	6
+359c           JZ	35ab
+35a1           INC  H	9
+35a6           JNZ	35a1
+35ab           INC  H	1
+35b0           JZ	35bc
+35b5           DEC *H	1
+35b7           JNZ	35b5
+35bc           INC *H	1
+35be           DEC  H	1
+35c3           JNZ	3562
+35c8           JNZ	3532
+35cd           INC *H	1
+35cf           INC  H	1
+35d4           JZ	35f9
+35d9           DEC *H	1
+35db           DEC  H	1
+35e0           JZ	35ef
+35e5           INC  H	9
+35ea           JNZ	35e5
+35ef           DEC  H	8
+35f4           JNZ	35d9
+35f9           INC  H	1
+35fe           INC  H	7
+3603           JNZ	3454
+3608           DEC  H	9
+360d           JZ	361c
+3612           DEC  H	9
+3617           JNZ	3612
+361c           INC  H	2
+3621           DEC *H	1
+3623           INC  H	2
+3628           JZ	3640
+362d           DEC *H	1
+362f           DEC  H	4
+3634           INC *H	1
+3636           INC  H	4
+363b           JNZ	362d
+3640           DEC  H	4
+3645           JZ	366e
+364a           DEC *H	1
+364c           INC  H	4
+3651           INC *H	1
+3653           DEC  H	2
+3658           JZ	3664
+365d           DEC *H	1
+365f           JNZ	365d
+3664           DEC  H	2
+3669           JNZ	364a
+366e           INC  H	2
+3673           JNZ	b49
+3678           DEC  H	2
+367d           INC *H	1
+367f           INC  H	4
+3684           JZ	369c
+3689           DEC *H	1
+368b           DEC  H	4
+3690           DEC *H	1
+3692           INC  H	4
+3697           JNZ	3689
+369c           INC *H	1
+369e           DEC  H	4
+36a3           JZ	36c1
+36a8           DEC *H	1
+36aa           INC  H	4
+36af           DEC *H	1
+36b1           DEC  H	6
+36b6           OUT
+36b7           INC  H	2
+36bc           JNZ	36a8
+36c1           INC  H	4
+36c6           JZ	36dd
+36cb           DEC *H	1
+36cd           DEC  H	7
+36d2           OUT
+36d3           INC  H	7
+36d8           JNZ	36cb
+36dd           DEC  H	3
+36e2           JZ	36ee
+36e7           DEC *H	1
+36e9           JNZ	36e7
+36ee           INC  H	1
+36f3           JZ	36ff
+36f8           DEC *H	1
+36fa           JNZ	36f8
+36ff           INC  H	1
+3704           JZ	3710
+3709           DEC *H	1
+370b           JNZ	3709
+3710           INC  H	1
+3715           JZ	3721
+371a           DEC *H	1
+371c           JNZ	371a
+3721           INC  H	1
+3726           JZ	3732
+372b           DEC *H	1
+372d           JNZ	372b
+3732           INC  H	1
+3737           JZ	3743
+373c           DEC *H	1
+373e           JNZ	373c
+3743           INC  H	3
+3748           JZ	37bd
+374d           INC  H	1
+3752           JZ	375e
+3757           DEC *H	1
+3759           JNZ	3757
+375e           INC  H	1
+3763           JZ	376f
+3768           DEC *H	1
+376a           JNZ	3768
+376f           INC  H	1
+3774           JZ	3780
+3779           DEC *H	1
+377b           JNZ	3779
+3780           INC  H	1
+3785           JZ	3791
+378a           DEC *H	1
+378c           JNZ	378a
+3791           INC  H	1
+3796           JZ	37a2
+379b           DEC *H	1
+379d           JNZ	379b
+37a2           INC  H	1
+37a7           JZ	37b3
+37ac           DEC *H	1
+37ae           JNZ	37ac
+37b3           INC  H	3
+37b8           JNZ	374d
+37bd           DEC  H	9
+37c2           JZ	37d1
+37c7           DEC  H	9
+37cc           JNZ	37c7
+37d1           INC  H	9
+37d6           JZ	37f6
+37db           INC  H	5
+37e0           JZ	37ec
+37e5           DEC *H	1
+37e7           JNZ	37e5
+37ec           INC  H	4
+37f1           JNZ	37db
+37f6           DEC  H	9
+37fb           JZ	380a
+3800           DEC  H	9
+3805           JNZ	3800
+380a           INC  H	1
+380f           INC *H	a
+3811           JZ	383a
+3816           DEC *H	1
+3818           JZ	3830
+381d           DEC *H	1
+381f           INC  H	9
+3824           INC *H	1
+3826           DEC  H	9
+382b           JNZ	381d
+3830           INC  H	9
+3835           JNZ	3816
+383a           INC  H	4
+383f           INC *H	1
+3841           INC  H	9
+3846           INC *H	1
+3848           DEC  H	9
+384d           DEC  H	5
+3852           JZ	3861
+3857           DEC  H	9
+385c           JNZ	3857
+3861           INC  H	7
+3866           JZ	387e
+386b           DEC *H	1
+386d           DEC  H	7
+3872           INC *H	1
+3874           INC  H	7
+3879           JNZ	386b
+387e           DEC  H	7
+3883           JZ	3935
+3888           DEC *H	1
+388a           INC  H	7
+388f           INC *H	1
+3891           JZ	389d
+3896           DEC *H	1
+3898           JNZ	3896
+389d           INC  H	2
+38a2           JZ	38b1
+38a7           INC  H	9
+38ac           JNZ	38a7
+38b1           DEC  H	6
+38b6           DEC  H	3
+38bb           JZ	3930
+38c0           INC  H	7
+38c5           JZ	38dd
+38ca           DEC *H	1
+38cc           DEC  H	6
+38d1           INC *H	1
+38d3           INC  H	6
+38d8           JNZ	38ca
+38dd           DEC  H	6
+38e2           JZ	3921
+38e7           DEC *H	1
+38e9           INC  H	6
+38ee           INC *H	1
+38f0           DEC  H	7
+38f5           JZ	3904
+38fa           DEC  H	9
+38ff           JNZ	38fa
+3904           INC  H	7
+3909           JZ	3915
+390e           DEC *H	1
+3910           JNZ	390e
+3915           INC *H	1
+3917           INC  H	3
+391c           JNZ	38e7
+3921           DEC  H	5
+3926           DEC  H	5
+392b           JNZ	38c0
+3930           JNZ	3888
+3935           INC  H	7
+393a           JZ	3952
+393f           DEC *H	1
+3941           DEC  H	7
+3946           INC *H	1
+3948           INC  H	7
+394d           JNZ	393f
+3952           DEC  H	7
+3957           JZ	3ae2
+395c           DEC *H	1
+395e           INC  H	7
+3963           INC *H	1
+3965           INC  H	2
+396a           JZ	39ba
+396f           INC  H	1
+3974           INC *H	1
+3976           INC  H	4
+397b           JZ	3993
+3980           DEC *H	1
+3982           DEC  H	4
+3987           DEC *H	1
+3989           INC  H	4
+398e           JNZ	3980
+3993           DEC  H	4
+3998           JZ	39b0
+399d           DEC *H	1
+399f           INC  H	4
+39a4           INC *H	1
+39a6           DEC  H	4
+39ab           JNZ	399d
+39b0           INC  H	8
+39b5           JNZ	396f
+39ba           DEC  H	2
+39bf           INC *H	1
+39c1           DEC  H	7
+39c6           JZ	39f2
+39cb           INC  H	5
+39d0           JZ	39e8
+39d5           DEC *H	1
+39d7           INC  H	2
+39dc           INC *H	1
+39de           DEC  H	2
+39e3           JNZ	39d5
+39e8           DEC  H	e
+39ed           JNZ	39cb
+39f2           INC  H	9
+39f7           JZ	3a06
+39fc           INC  H	9
+3a01           JNZ	39fc
+3a06           DEC  H	6
+3a0b           DEC  H	3
+3a10           JZ	3abe
+3a15           INC  H	1
+3a1a           JZ	3a26
+3a1f           DEC *H	1
+3a21           JNZ	3a1f
+3a26           DEC  H	1
+3a2b           DEC *H	1
+3a2d           INC  H	7
+3a32           JZ	3a90
+3a37           DEC *H	1
+3a39           DEC  H	7
+3a3e           INC *H	1
+3a40           INC  H	1
+3a45           JZ	3a69
+3a4a           DEC  H	1
+3a4f           DEC *H	1
+3a51           INC  H	1
+3a56           DEC *H	1
+3a58           DEC  H	3
+3a5d           INC *H	1
+3a5f           INC  H	3
+3a64           JNZ	3a4a
+3a69           DEC  H	1
+3a6e           JZ	3a86
+3a73           DEC *H	1
+3a75           INC  H	1
+3a7a           INC *H	1
+3a7c           DEC  H	1
+3a81           JNZ	3a73
+3a86           INC  H	7
+3a8b           JNZ	3a37
+3a90           DEC  H	6
+3a95           JZ	3aad
+3a9a           DEC *H	1
+3a9c           INC  H	6
+3aa1           INC *H	1
+3aa3           DEC  H	6
+3aa8           JNZ	3a9a
+3aad           DEC  H	1
+3ab2           INC *H	1
+3ab4           DEC  H	9
+3ab9           JNZ	3a15
+3abe           INC  H	7
+3ac3           DEC *H	1
+3ac5           DEC  H	4
+3aca           JZ	3ad6
+3acf           DEC *H	1
+3ad1           JNZ	3acf
+3ad6           INC *H	1
+3ad8           DEC  H	3
+3add           JNZ	395c
+3ae2           INC *H	1
+3ae4           INC  H	7
+3ae9           JZ	3b01
+3aee           DEC *H	1
+3af0           DEC  H	7
+3af5           DEC *H	1
+3af7           INC  H	7
+3afc           JNZ	3aee
+3b01           INC *H	1
+3b03           DEC  H	7
+3b08           JZ	3e96
+3b0d           DEC *H	1
+3b0f           INC  H	7
+3b14           DEC *H	1
+3b16           INC  H	2
+3b1b           JZ	3b4c
+3b20           INC  H	3
+3b25           INC  H	2
+3b2a           JZ	3b42
+3b2f           DEC *H	1
+3b31           INC  H	2
+3b36           INC *H	1
+3b38           DEC  H	2
+3b3d           JNZ	3b2f
+3b42           INC  H	4
+3b47           JNZ	3b20
+3b4c           DEC  H	9
+3b51           JZ	3c04
+3b56           INC  H	1
+3b5b           JZ	3b67
+3b60           DEC *H	1
+3b62           JNZ	3b60
+3b67           DEC  H	1
+3b6c           DEC *H	1
+3b6e           INC  H	7
+3b73           JZ	3bd1
+3b78           DEC *H	1
+3b7a           DEC  H	7
+3b7f           INC *H	1
+3b81           INC  H	1
+3b86           JZ	3baa
+3b8b           DEC  H	1
+3b90           DEC *H	1
+3b92           INC  H	1
+3b97           DEC *H	1
+3b99           DEC  H	3
+3b9e           INC *H	1
+3ba0           INC  H	3
+3ba5           JNZ	3b8b
+3baa           DEC  H	1
+3baf           JZ	3bc7
+3bb4           DEC *H	1
+3bb6           INC  H	1
+3bbb           INC *H	1
+3bbd           DEC  H	1
+3bc2           JNZ	3bb4
+3bc7           INC  H	7
+3bcc           JNZ	3b78
+3bd1           DEC  H	3
+3bd6           DEC  H	3
+3bdb           JZ	3bf3
+3be0           DEC *H	1
+3be2           INC  H	6
+3be7           INC *H	1
+3be9           DEC  H	6
+3bee           JNZ	3be0
+3bf3           DEC  H	1
+3bf8           INC *H	1
+3bfa           DEC  H	9
+3bff           JNZ	3b56
+3c04           INC  H	1
+3c09           INC *H	5
+3c0b           JZ	3c34
+3c10           DEC *H	1
+3c12           JZ	3c2a
+3c17           DEC *H	1
+3c19           INC  H	9
+3c1e           INC *H	1
+3c20           DEC  H	9
+3c25           JNZ	3c17
+3c2a           INC  H	9
+3c2f           JNZ	3c10
+3c34           INC  H	4
+3c39           INC *H	1
+3c3b           DEC  H	4
+3c40           DEC  H	1
+3c45           JZ	3c54
+3c4a           DEC  H	9
+3c4f           JNZ	3c4a
+3c54           INC  H	9
+3c59           JZ	3e17
+3c5e           INC  H	5
+3c63           JZ	3c7b
+3c68           DEC *H	1
+3c6a           DEC  H	5
+3c6f           DEC *H	1
+3c71           INC  H	5
+3c76           JNZ	3c68
+3c7b           INC *H	1
+3c7d           DEC  H	5
+3c82           JZ	3d16
+3c87           DEC *H	1
+3c89           INC  H	5
+3c8e           DEC *H	1
+3c90           INC  H	2
+3c95           JZ	3cad
+3c9a           DEC *H	1
+3c9c           DEC  H	7
+3ca1           INC *H	1
+3ca3           INC  H	7
+3ca8           JNZ	3c9a
+3cad           DEC  H	5
+3cb2           DEC  H	2
+3cb7           JZ	3d11
+3cbc           DEC *H	1
+3cbe           INC  H	7
+3cc3           INC *H	1
+3cc5           DEC  H	10
+3cca           JZ	3cd9
+3ccf           DEC  H	9
+3cd4           JNZ	3ccf
+3cd9           INC  H	4
+3cde           JZ	3cea
+3ce3           DEC *H	1
+3ce5           JNZ	3ce3
+3cea           INC *H	1
+3cec           INC  H	5
+3cf1           JZ	3d00
+3cf6           INC  H	9
+3cfb           JNZ	3cf6
+3d00           INC  H	1
+3d05           INC *H	1
+3d07           DEC  H	1
+3d0c           JNZ	3cbc
+3d11           JNZ	3c87
+3d16           INC *H	1
+3d18           INC  H	7
+3d1d           JZ	3d3a
+3d22           DEC *H	1
+3d24           DEC  H	2
+3d29           DEC  H	5
+3d2e           DEC *H	1
+3d30           INC  H	7
+3d35           JNZ	3d22
+3d3a           INC *H	1
+3d3c           DEC  H	7
+3d41           JZ	3de1
+3d46           DEC *H	1
+3d48           INC  H	7
+3d4d           DEC *H	1
+3d4f           DEC  H	2
+3d54           JZ	3d6c
+3d59           DEC *H	1
+3d5b           DEC  H	5
+3d60           INC *H	1
+3d62           INC  H	5
+3d67           JNZ	3d59
+3d6c           DEC  H	5
+3d71           JZ	3ddc
+3d76           DEC *H	1
+3d78           INC  H	5
+3d7d           INC *H	1
+3d7f           DEC  H	e
+3d84           JZ	3d98
+3d89           DEC  H	4
+3d8e           DEC  H	5
+3d93           JNZ	3d89
+3d98           INC  H	3
+3d9d           JZ	3da9
+3da2           DEC *H	1
+3da4           JNZ	3da2
+3da9           INC *H	1
+3dab           INC  H	6
+3db0           JZ	3dbf
+3db5           INC  H	9
+3dba           JNZ	3db5
+3dbf           INC  H	1
+3dc4           JZ	3dd0
+3dc9           DEC *H	1
+3dcb           JNZ	3dc9
+3dd0           INC *H	1
+3dd2           DEC  H	1
+3dd7           JNZ	3d76
+3ddc           JNZ	3d46
+3de1           INC *H	1
+3de3           INC  H	1
+3de8           JZ	3e0d
+3ded           DEC *H	1
+3def           DEC  H	1
+3df4           JZ	3e03
+3df9           INC  H	9
+3dfe           JNZ	3df9
+3e03           DEC  H	8
+3e08           JNZ	3ded
+3e0d           INC  H	8
+3e12           JNZ	3c5e
+3e17           DEC  H	8
+3e1c           DEC  H	1
+3e21           JZ	3e30
+3e26           DEC  H	9
+3e2b           JNZ	3e26
+3e30           INC  H	4
+3e35           JZ	3e41
+3e3a           DEC *H	1
+3e3c           JNZ	3e3a
+3e41           DEC  H	3
+3e46           INC *H	5
+3e48           JZ	3e71
+3e4d           DEC *H	1
+3e4f           JZ	3e67
+3e54           DEC *H	1
+3e56           INC  H	9
+3e5b           INC *H	1
+3e5d           DEC  H	9
+3e62           JNZ	3e54
+3e67           INC  H	9
+3e6c           JNZ	3e4d
+3e71           INC  H	4
+3e76           DEC *H	1
+3e78           DEC  H	5
+3e7d           JZ	3e91
+3e82           DEC  H	8
+3e87           DEC  H	1
+3e8c           JNZ	3e82
+3e91           JNZ	3b0d
+3e96           INC  H	3
+3e9b           JNZ	20f
+3ea0           DEC  H	4
+3ea5           OUT
+3ea6           INC  H	a
+3eab           JZ	3ecb
+3eb0           INC  H	6
+3eb5           JZ	3ec1
+3eba           DEC *H	1
+3ebc           JNZ	3eba
+3ec1           INC  H	3
+3ec6           JNZ	3eb0
+3ecb           DEC  H	9
+3ed0           JZ	3edf
+3ed5           DEC  H	9
+3eda           JNZ	3ed5
+3edf           INC  H	1
+3ee4           INC *H	9
+3ee6           JZ	3f0f
+3eeb           DEC *H	1
+3eed           JZ	3f05
+3ef2           DEC *H	1
+3ef4           INC  H	9
+3ef9           INC *H	1
+3efb           DEC  H	9
+3f00           JNZ	3ef2
+3f05           INC  H	9
+3f0a           JNZ	3eeb
+3f0f           INC  H	5
+3f14           INC *H	1
+3f16           INC  H	9
+3f1b           INC *H	1
+3f1d           DEC  H	f
+3f22           JZ	3f31
+3f27           DEC  H	9
+3f2c           JNZ	3f27
+3f31           INC  H	8
+3f36           JZ	3f4e
+3f3b           DEC *H	1
+3f3d           DEC  H	8
+3f42           INC *H	1
+3f44           INC  H	8
+3f49           JNZ	3f3b
+3f4e           DEC  H	8
+3f53           JZ	3ffb
+3f58           DEC *H	1
+3f5a           INC  H	8
+3f5f           INC *H	1
+3f61           JZ	3f6d
+3f66           DEC *H	1
+3f68           JNZ	3f66
+3f6d           INC  H	1
+3f72           JZ	3f81
+3f77           INC  H	9
+3f7c           JNZ	3f77
+3f81           DEC  H	9
+3f86           JZ	3ff6
+3f8b           INC  H	8
+3f90           JZ	3fa8
+3f95           DEC *H	1
+3f97           DEC  H	7
+3f9c           INC *H	1
+3f9e           INC  H	7
+3fa3           JNZ	3f95
+3fa8           DEC  H	7
+3fad           JZ	3fec
+3fb2           DEC *H	1
+3fb4           INC  H	7
+3fb9           INC *H	1
+3fbb           DEC  H	8
+3fc0           JZ	3fcf
+3fc5           DEC  H	9
+3fca           JNZ	3fc5
+3fcf           INC  H	8
+3fd4           JZ	3fe0
+3fd9           DEC *H	1
+3fdb           JNZ	3fd9
+3fe0           INC *H	1
+3fe2           INC  H	2
+3fe7           JNZ	3fb2
+3fec           DEC  H	a
+3ff1           JNZ	3f8b
+3ff6           JNZ	3f58
+3ffb           INC  H	8
+4000           JZ	401d
+4005           DEC *H	1
+4007           DEC  H	7
+400c           DEC  H	1
+4011           INC *H	1
+4013           INC  H	8
+4018           JNZ	4005
+401d           DEC  H	8
+4022           JZ	41b2
+4027           DEC *H	1
+4029           INC  H	8
+402e           INC *H	1
+4030           INC  H	1
+4035           JZ	4085
+403a           INC  H	1
+403f           INC *H	1
+4041           INC  H	5
+4046           JZ	405e
+404b           DEC *H	1
+404d           DEC  H	5
+4052           DEC *H	1
+4054           INC  H	5
+4059           JNZ	404b
+405e           DEC  H	5
+4063           JZ	407b
+4068           DEC *H	1
+406a           INC  H	5
+406f           INC *H	1
+4071           DEC  H	5
+4076           JNZ	4068
+407b           INC  H	8
+4080           JNZ	403a
+4085           DEC  H	1
+408a           INC *H	1
+408c           DEC  H	8
+4091           JZ	40bd
+4096           INC  H	6
+409b           JZ	40b3
+40a0           DEC *H	1
+40a2           INC  H	2
+40a7           INC *H	1
+40a9           DEC  H	2
+40ae           JNZ	40a0
+40b3           DEC  H	f
+40b8           JNZ	4096
+40bd           INC  H	9
+40c2           JZ	40d1
+40c7           INC  H	9
+40cc           JNZ	40c7
+40d1           DEC  H	9
+40d6           JZ	418e
+40db           INC  H	1
+40e0           JZ	40ec
+40e5           DEC *H	1
+40e7           JNZ	40e5
+40ec           DEC  H	1
+40f1           DEC *H	1
+40f3           INC  H	2
+40f8           INC  H	6
+40fd           JZ	415b
+4102           DEC *H	1
+4104           DEC  H	8
+4109           INC *H	1
+410b           INC  H	1
+4110           JZ	4134
+4115           DEC  H	1
+411a           DEC *H	1
+411c           INC  H	1
+4121           DEC *H	1
+4123           DEC  H	2
+4128           INC *H	1
+412a           INC  H	2
+412f           JNZ	4115
+4134           DEC  H	1
+4139           JZ	4151
+413e           DEC *H	1
+4140           INC  H	1
+4145           INC *H	1
+4147           DEC  H	1
+414c           JNZ	413e
+4151           INC  H	8
+4156           JNZ	4102
+415b           DEC  H	7
+4160           JZ	4178
+4165           DEC *H	1
+4167           INC  H	7
+416c           INC *H	1
+416e           DEC  H	7
+4173           JNZ	4165
+4178           DEC  H	1
+417d           INC *H	1
+417f           DEC  H	8
+4184           DEC  H	1
+4189           JNZ	40db
+418e           INC  H	8
+4193           DEC *H	1
+4195           DEC  H	5
+419a           JZ	41a6
+419f           DEC *H	1
+41a1           JNZ	419f
+41a6           INC *H	1
+41a8           DEC  H	3
+41ad           JNZ	4027
+41b2           INC *H	1
+41b4           INC  H	8
+41b9           JZ	41d1
+41be           DEC *H	1
+41c0           DEC  H	8
+41c5           DEC *H	1
+41c7           INC  H	8
+41cc           JNZ	41be
+41d1           INC *H	1
+41d3           DEC  H	8
+41d8           JZ	456f
+41dd           DEC *H	1
+41df           INC  H	8
+41e4           DEC *H	1
+41e6           INC  H	1
+41eb           JZ	421c
+41f0           INC  H	5
+41f5           INC  H	1
+41fa           JZ	4212
+41ff           DEC *H	1
+4201           INC  H	2
+4206           INC *H	1
+4208           DEC  H	2
+420d           JNZ	41ff
+4212           INC  H	3
+4217           JNZ	41f0
+421c           DEC  H	9
+4221           JZ	42d4
+4226           INC  H	1
+422b           JZ	4237
+4230           DEC *H	1
+4232           JNZ	4230
+4237           DEC  H	1
+423c           DEC *H	1
+423e           INC  H	8
+4243           JZ	42a1
+4248           DEC *H	1
+424a           DEC  H	8
+424f           INC *H	1
+4251           INC  H	1
+4256           JZ	427a
+425b           DEC  H	1
+4260           DEC *H	1
+4262           INC  H	1
+4267           DEC *H	1
+4269           DEC  H	2
+426e           INC *H	1
+4270           INC  H	2
+4275           JNZ	425b
+427a           DEC  H	1
+427f           JZ	4297
+4284           DEC *H	1
+4286           INC  H	1
+428b           INC *H	1
+428d           DEC  H	1
+4292           JNZ	4284
+4297           INC  H	8
+429c           JNZ	4248
+42a1           DEC  H	4
+42a6           DEC  H	3
+42ab           JZ	42c3
+42b0           DEC *H	1
+42b2           INC  H	7
+42b7           INC *H	1
+42b9           DEC  H	7
+42be           JNZ	42b0
+42c3           DEC  H	1
+42c8           INC *H	1
+42ca           DEC  H	9
+42cf           JNZ	4226
+42d4           INC  H	1
+42d9           INC *H	5
+42db           JZ	4304
+42e0           DEC *H	1
+42e2           JZ	42fa
+42e7           DEC *H	1
+42e9           INC  H	9
+42ee           INC *H	1
+42f0           DEC  H	9
+42f5           JNZ	42e7
+42fa           INC  H	9
+42ff           JNZ	42e0
+4304           INC  H	5
+4309           INC *H	1
+430b           INC  H	1
+4310           INC  H	1a
+4315           INC *H	1
+4317           DEC  H	6
+431c           JZ	432b
+4321           DEC  H	9
+4326           JNZ	4321
+432b           INC  H	9
+4330           JZ	44ee
+4335           INC  H	6
+433a           JZ	4352
+433f           DEC *H	1
+4341           DEC  H	6
+4346           DEC *H	1
+4348           INC  H	6
+434d           JNZ	433f
+4352           INC *H	1
+4354           DEC  H	3
+4359           DEC  H	3
+435e           JZ	43ed
+4363           DEC *H	1
+4365           INC  H	6
+436a           DEC *H	1
+436c           INC  H	2
+4371           JZ	4389
+4376           DEC *H	1
+4378           DEC  H	8
+437d           INC *H	1
+437f           INC  H	8
+4384           JNZ	4376
+4389           DEC  H	8
+438e           JZ	43e8
+4393           DEC *H	1
+4395           INC  H	8
+439a           INC *H	1
+439c           DEC  H	11
+43a1           JZ	43b0
+43a6           DEC  H	9
+43ab           JNZ	43a6
+43b0           INC  H	4
+43b5           JZ	43c1
+43ba           DEC *H	1
+43bc           JNZ	43ba
+43c1           INC *H	1
+43c3           INC  H	5
+43c8           JZ	43d7
+43cd           INC  H	9
+43d2           JNZ	43cd
+43d7           INC  H	1
+43dc           INC *H	1
+43de           DEC  H	1
+43e3           JNZ	4393
+43e8           JNZ	4363
+43ed           INC *H	1
+43ef           INC  H	8
+43f4           JZ	440c
+43f9           DEC *H	1
+43fb           DEC  H	8
+4400           DEC *H	1
+4402           INC  H	8
+4407           JNZ	43f9
+440c           INC *H	1
+440e           DEC  H	8
+4413           JZ	44b8
+4418           DEC *H	1
+441a           INC  H	8
+441f           DEC *H	1
+4421           DEC  H	1
+4426           DEC  H	1
+442b           JZ	4443
+4430           DEC *H	1
+4432           DEC  H	6
+4437           INC *H	1
+4439           INC  H	6
+443e           JNZ	4430
+4443           DEC  H	6
+4448           JZ	44b3
+444d           DEC *H	1
+444f           INC  H	6
+4454           INC *H	1
+4456           DEC  H	f
+445b           JZ	446a
+4460           DEC  H	9
+4465           JNZ	4460
+446a           INC  H	3
+446f           JZ	447b
+4474           DEC *H	1
+4476           JNZ	4474
+447b           INC *H	1
+447d           INC  H	6
+4482           JZ	4496
+4487           INC  H	8
+448c           INC  H	1
+4491           JNZ	4487
+4496           INC  H	1
+449b           JZ	44a7
+44a0           DEC *H	1
+44a2           JNZ	44a0
+44a7           INC *H	1
+44a9           DEC  H	1
+44ae           JNZ	444d
+44b3           JNZ	4418
+44b8           INC *H	1
+44ba           INC  H	1
+44bf           JZ	44e4
+44c4           DEC *H	1
+44c6           DEC  H	1
+44cb           JZ	44da
+44d0           INC  H	9
+44d5           JNZ	44d0
+44da           DEC  H	8
+44df           JNZ	44c4
+44e4           INC  H	8
+44e9           JNZ	4335
+44ee           DEC  H	9
+44f3           JZ	4502
+44f8           DEC  H	9
+44fd           JNZ	44f8
+4502           INC  H	4
+4507           JZ	4513
+450c           DEC *H	1
+450e           JNZ	450c
+4513           DEC  H	3
+4518           INC *H	5
+451a           JZ	4543
+451f           DEC *H	1
+4521           JZ	4539
+4526           DEC *H	1
+4528           INC  H	9
+452d           INC *H	1
+452f           DEC  H	9
+4534           JNZ	4526
+4539           INC  H	9
+453e           JNZ	451f
+4543           INC  H	5
+4548           DEC *H	1
+454a           INC  H	1b
+454f           DEC *H	1
+4551           DEC  H	6
+4556           JZ	456a
+455b           DEC  H	6
+4560           DEC  H	3
+4565           JNZ	455b
+456a           JNZ	41dd
+456f           INC  H	3
+4574           JNZ	12d
+4579           DEC  H	3
+== Data Memory Dump ==
+Page: 000000
+Values: 
+10 19 00 00 42 20 a0 00 00 00 00 00 00 00 00 00 
+10 00 00 00 00 00 00 00 00 10 00 00 00 00 00 00 
+00 00 10 00 00 00 00 00 00 00 00 10 00 00 00 00 
+00 00 00 00 10 00 00 00 00 00 00 10 10 10 00 00 
+00 00 00 00 00 00 10 00 00 00 00 00 00 00 00 10 
+00 00 00 00 00 00 00 10 10 00 00 00 00 00 00 00 
+00 10 00 00 00 00 00 00 10 00 10 00 00 00 00 00 
+00 00 00 10 00 00 00 00 00 00 00 00 10 00 00 00 
+00 00 00 00 00 10 00 00 00 00 00 00 00 00 10 00 
+00 00 00 00 00 00 00 10 00 00 00 00 00 00 00 00 
+00 00 00 00 10 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 10 00 00 00 00 00 00 00 00 10 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 10 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Page: 100000
+Values: 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 73 2e 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
