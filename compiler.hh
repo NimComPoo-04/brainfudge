@@ -6,6 +6,11 @@
 #include "vm.hh"
 #include "Vector.hh"
 
+typedef unsigned char uint8_t;
+typedef unsigned int uint32_t;
+typedef signed char int8_t;
+typedef signed int int32_t;
+
 class Compiler
 {
 private:

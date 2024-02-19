@@ -73,7 +73,7 @@ namespace VM
 	DataMemory::AssocCell::AssocCell(int32_t arg)
 	{
 		argument = arg;
-		next = nullptr;
+		next = 0;
 		for(int i = 0; i < 256; i++)
 			page[i] = 0;
 	}
@@ -85,9 +85,9 @@ namespace VM
 
 	DataMemory::~DataMemory()
 	{
-		while(pages != nullptr)
+		while(pages != 0)
 		{
-			auto *k = pages->next;
+			AssocCell *k = pages->next;
 			delete pages;
 			pages = k;
 		}
@@ -99,7 +99,7 @@ namespace VM
 		int32_t index = indx & 0xff;
 
 		AssocCell *k = pages;
-		AssocCell *prev = nullptr;
+		AssocCell *prev = 0;
 		while(k)
 		{
 			if(k->argument == arg)
@@ -123,7 +123,7 @@ namespace VM
 	uint8_t InstructionMemory::operator[](uint32_t index) const
 	{
 		if(index > size)
-			return static_cast<uint8_t>(Instruction::HALT);
+			return static_cast<uint8_t>(i_HALT);
 		return buffer[index];
 	}
 
@@ -134,16 +134,16 @@ namespace VM
 		// Fetching instructions
 		switch(static_cast<Instruction>(ins_memory[I]))
 		{
-			case Instruction::HALT:
+			case i_HALT:
 				return 0;
-			case Instruction::NOP:
+			case i_NOP:
 				{
 					I += 1;
 					ticks = NOP();
 				}
 				break;
 
-			case Instruction::OUT:
+			case i_OUT:
 				{
 					I += 1;
 
@@ -152,7 +152,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::IN:
+			case i_IN:
 				{
 					I += 1;
 
@@ -161,7 +161,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::INC_M:
+			case i_INC_M:
 				{
 					uint8_t operand = ins_memory[I+1];
 					I += 2;
@@ -171,7 +171,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::DEC_M:
+			case i_DEC_M:
 				{
 					uint8_t operand = ins_memory[I+1];
 					I += 2;
@@ -181,7 +181,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::INC_H:
+			case i_INC_H:
 				{
 					uint32_t operand = 0;
 					operand = (operand << 8) | ins_memory[I+4];
@@ -195,7 +195,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::DEC_H:
+			case i_DEC_H:
 				{
 					uint32_t operand = 0;
 					operand = (operand << 8) | ins_memory[I+4];
@@ -209,7 +209,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::JZ:
+			case i_JZ:
 				{
 					uint32_t operand = 0;
 					operand = (operand << 8) | ins_memory[I+4];
@@ -223,7 +223,7 @@ namespace VM
 				}
 				break;
 
-			case Instruction::JNZ:
+			case i_JNZ:
 				{
 					uint32_t operand = 0;
 					operand = (operand << 8) | ins_memory[I+4];

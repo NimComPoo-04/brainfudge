@@ -18,32 +18,32 @@ int Compiler::compile(std::string &err)
 	{
 		switch(tok.type)
 		{
-			case Lexer::TokenType::PERIOD:
+			case Lexer::PERIOD:
 				for(size_t i = 0; i < tok.count; i++)
-					instructions.push(static_cast<uint8_t>(VM::Instruction::OUT));
+					instructions.push(static_cast<uint8_t>(VM::i_OUT));
 				current_pos += tok.count;
 				break;
 
-			case Lexer::TokenType::COMMA:
+			case Lexer::COMMA:
 				for(size_t i = 0; i < tok.count; i++)
-					instructions.push(static_cast<uint8_t>(VM::Instruction::IN));
+					instructions.push(static_cast<uint8_t>(VM::i_IN));
 				current_pos += tok.count;
 				break;
 
-			case Lexer::TokenType::PLUS:
-				instructions.push(static_cast<uint8_t>(VM::Instruction::INC_M));
+			case Lexer::PLUS:
+				instructions.push(static_cast<uint8_t>(VM::i_INC_M));
 				instructions.push(static_cast<uint8_t>(tok.count & 0xFF));
 				current_pos += 2;
 				break;
 
-			case Lexer::TokenType::MINUS:
-				instructions.push(static_cast<uint8_t>(VM::Instruction::DEC_M));
+			case Lexer::MINUS:
+				instructions.push(static_cast<uint8_t>(VM::i_DEC_M));
 				instructions.push(static_cast<uint8_t>(tok.count & 0xFF));
 				current_pos += 2;
 				break;
 
-			case Lexer::TokenType::RIGHT:
-				instructions.push(static_cast<uint8_t>(VM::Instruction::INC_H));
+			case Lexer::RIGHT:
+				instructions.push(static_cast<uint8_t>(VM::i_INC_H));
 				instructions.push(static_cast<uint8_t>(tok.count & 0xFF));
 				instructions.push(static_cast<uint8_t>((tok.count >> 8) & 0xFF));
 				instructions.push(static_cast<uint8_t>((tok.count >> 16) & 0xFF));
@@ -51,8 +51,8 @@ int Compiler::compile(std::string &err)
 				current_pos += 5;
 				break;
 
-			case Lexer::TokenType::LEFT:
-				instructions.push(static_cast<uint8_t>(VM::Instruction::DEC_H));
+			case Lexer::LEFT:
+				instructions.push(static_cast<uint8_t>(VM::i_DEC_H));
 				instructions.push(static_cast<uint8_t>(tok.count & 0xFF));
 				instructions.push(static_cast<uint8_t>((tok.count >> 8) & 0xFF));
 				instructions.push(static_cast<uint8_t>((tok.count >> 16) & 0xFF));
@@ -60,11 +60,11 @@ int Compiler::compile(std::string &err)
 				current_pos += 5;
 				break;
 
-			case Lexer::TokenType::LSQBRACKET:
+			case Lexer::LSQBRACKET:
 				for(size_t i = 0; i < tok.count; i++)
 				{
 					jump_address.push(current_pos);
-					instructions.push(static_cast<uint8_t>(VM::Instruction::JZ));
+					instructions.push(static_cast<uint8_t>(VM::i_JZ));
 					instructions.push(0);
 					instructions.push(0);
 					instructions.push(0);
@@ -73,7 +73,7 @@ int Compiler::compile(std::string &err)
 				}
 				break;
 
-			case Lexer::TokenType::RSQBRACKET:
+			case Lexer::RSQBRACKET:
 				for(size_t i = 0; i < tok.count; i++)
 				{
 					size_t prev = 0; 
@@ -88,7 +88,7 @@ int Compiler::compile(std::string &err)
 
 					uint32_t relative = prev - current_pos; 
 
-					instructions.push(static_cast<uint8_t>(VM::Instruction::JNZ));
+					instructions.push(static_cast<uint8_t>(VM::i_JNZ));
 					instructions.push(static_cast<uint8_t>(relative & 0xFF));
 					instructions.push(static_cast<uint8_t>((relative >> 8) & 0xFF));
 					instructions.push(static_cast<uint8_t>((relative >> 16) & 0xFF));
@@ -102,7 +102,7 @@ int Compiler::compile(std::string &err)
 				break;
 
 			default:
-				instructions.push(static_cast<uint8_t>(VM::Instruction::NOP));
+				instructions.push(static_cast<uint8_t>(VM::i_NOP));
 				current_pos += 1;
 		}
 

@@ -4,12 +4,16 @@
 #include <string>
 #include "Vector.hh"
 // #include <vector>
+//
+typedef unsigned char uint8_t;
+typedef unsigned int uint32_t;
+typedef int int32_t;
 
 // Run length encodes the source file
 class Lexer
 {
 public:
-	enum class TokenType : uint8_t
+	enum TokenType
 	{
 		NOB = 0,		// the no token
 		RIGHT = '>',

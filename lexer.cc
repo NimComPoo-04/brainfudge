@@ -22,7 +22,7 @@ void Lexer::enqueue_token(Lexer::Token t)
 		this->capacity = (len < 256 ? 256 : len);
 
 		// Copying the relevant old data into the new buffer
-		auto *octavious = new Lexer::Token[this->capacity];
+		Lexer::Token *octavious = new Lexer::Token[this->capacity];
 		for(size_t i = this->base_ptr, j = 0; i < this->length; i++, j++)
 			octavious[j] = this->tokens[i];
 		delete[] this->tokens;
@@ -71,12 +71,23 @@ bool Lexer::Token::operator!=(const Token &other) const
 	return !(other == *this);
 }
 
+static std::string toNumber(size_t s)
+{
+	std::string k = "";
+	while(s)
+	{
+		k += (s % 10) + '0';
+		s /= 10;
+	}
+	return k;
+}
+
 Lexer::Token::operator std::string() const
 {
 	std::string s = "( ";
 	s += static_cast<char>(this->type);
 	s += " : ";
-	s += std::to_string(this->count);
+	s += toNumber(this->count);
 	s += " )";
 
 	return s;
@@ -105,10 +116,10 @@ Lexer::Token Lexer::next()
 	{
 		switch(static_cast<Lexer::TokenType>(source[current]))
 		{
-			case Lexer::TokenType::RIGHT: case Lexer::TokenType::LEFT:
-			case Lexer::TokenType::PLUS: case Lexer::TokenType::MINUS:
-			case Lexer::TokenType::PERIOD: case Lexer::TokenType::COMMA:
-			case Lexer::TokenType::LSQBRACKET: case Lexer::TokenType::RSQBRACKET:
+			case Lexer::RIGHT: case Lexer::LEFT:
+			case Lexer::PLUS: case Lexer::MINUS:
+			case Lexer::PERIOD: case Lexer::COMMA:
+			case Lexer::LSQBRACKET: case Lexer::RSQBRACKET:
 				{
 					tok.type = static_cast<TokenType>(source[current]);
 					tok.count = current;
@@ -139,6 +150,6 @@ OUT:
 
 Lexer::Token::Token()
 {
-	this->type = Lexer::TokenType::NOB;
+	this->type = Lexer::NOB;
 	this->count = 0;
 }

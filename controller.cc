@@ -35,32 +35,30 @@ namespace Controller
 	{
 		using namespace std;
 
-		const auto& instructions = ins.buffer;
+		const uint8_t *instructions = ins.buffer;
 
 		for(size_t i = start; i < ins.size && count; i++)
 		{
-			using vm = VM::Instruction;
-
 			cerr << setfill(' ') << setw(15) << left << hex << noshowbase << i << dec;
 
-			switch(static_cast<vm>(instructions[i]))
+			switch(static_cast<VM::Instruction>(instructions[i]))
 			{
-				case vm::OUT:
+				case VM::i_OUT:
 					cerr << "OUT";
 					break;
 
-				case vm::IN:
+				case VM::i_IN:
 					cerr << "IN";
 					break;
 
-				case vm::INC_M:
+				case VM::i_INC_M:
 					cerr << "INC *H\t" << hex << noshowbase << (int)instructions[++i];
 					break;
-				case vm::DEC_M:
+				case VM::i_DEC_M:
 					cerr << "DEC *H\t" << hex << noshowbase << (int)instructions[++i];
 					break;
 
-				case vm::INC_H:
+				case VM::i_INC_H:
 					{
 						uint32_t value = 0;
 						value = (value << 8) | instructions[i + 4];
@@ -72,7 +70,7 @@ namespace Controller
 						cerr << "INC  H\t" << hex << noshowbase << value;
 					}
 					break;
-				case vm::DEC_H:
+				case VM::i_DEC_H:
 					{
 						uint32_t value = 0;
 						value = (value << 8) | instructions[i + 4];
@@ -84,7 +82,7 @@ namespace Controller
 						cerr << "DEC  H\t" << hex << noshowbase << value;
 					}
 					break;
-				case vm::JZ:
+				case VM::i_JZ:
 					{
 						uint32_t value = 0;
 						value = (value << 8) | instructions[i + 4];
@@ -96,7 +94,7 @@ namespace Controller
 						cerr << "JZ\t" << hex << noshowbase << (int)(value + i + 1);
 					}
 					break;
-				case vm::JNZ:
+				case VM::i_JNZ:
 					{
 						uint32_t value = 0;
 						value = (value << 8) | instructions[i + 4];

@@ -1,19 +1,23 @@
 #ifndef _VM_HH_
 #define _VM_HH_
 
-#include <cinttypes>
 #include "controller.hh"
+
+typedef unsigned char uint8_t;
+typedef unsigned int uint32_t;
+typedef signed char int8_t;
+typedef signed int int32_t;
 
 namespace VM
 {
-	enum class Instruction : uint8_t
+	enum Instruction
 	{
-		NOP,
-		OUT, IN,
-		INC_H, DEC_H,
-		INC_M, DEC_M,
-		JZ, JNZ,
-		HALT
+		i_NOP,
+		i_OUT, i_IN,
+		i_INC_H, i_DEC_H,
+		i_INC_M, i_DEC_M,
+		i_JZ, i_JNZ,
+		i_HALT
 	};
 
 	// Paged memory nothing weird

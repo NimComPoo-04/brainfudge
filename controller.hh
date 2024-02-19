@@ -1,6 +1,12 @@
 #ifndef _CONTROLLER_HH_
 #define _CONTROLLER_HH_
 
+typedef unsigned char uint8_t;
+typedef unsigned int uint32_t;
+typedef signed char int8_t;
+typedef signed int int32_t;
+typedef unsigned short uint16_t;
+
 namespace VM
 {
 	class DataMemory;
